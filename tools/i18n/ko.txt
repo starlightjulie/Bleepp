@@ -1,0 +1,177 @@
+channel_updates|앱 업데이트
+channel_alerts|알림음 재생 중
+alert_playing|%1$s 알림음
+alert_stop|중지
+back|뒤로
+close|닫기
+delete|삭제
+cancel|취소
+save|저장
+tab_log|기록
+tab_alerts|알림음
+tab_settings|설정
+log_morning|오늘 아침
+log_afternoon|오늘 오후
+log_evening|오늘 저녁
+log_night|오늘 밤
+log_count|기록됨: %1$d
+log_search|기록 검색
+log_all_apps|모든 앱
+log_today|오늘
+log_yesterday|어제
+log_empty_title|바다가 잔잔합니다
+log_empty_body|새 알림이 도착하면 여기에 표시됩니다.
+log_no_results|검색 결과가 없습니다.
+stamp_rang|무음 중에 울림
+stamp_broke|완전 무음을 뚫음
+stamp_blocked|완전 무음에 막힘
+open_failed|그 앱을 열 수 없습니다.
+open_app_only|알림이 사라져서 앱을 대신 열었습니다.
+alerts_title|무음 알림음
+alerts_master|알림음 켜기
+status_ringing|휴대폰이 울릴 수 있어서 앱이 자체 소리를 사용합니다.
+status_silent|휴대폰이 무음입니다. 선택한 앱은 그래도 울립니다.
+status_total|완전 무음이 켜져 있습니다. 뚫도록 허용한 앱만 울립니다.
+status_off|알림음이 꺼져 있습니다.
+status_no_access|Bleepp이 아직 알림을 볼 수 없습니다.
+alerts_chosen|알림음이 있는 앱
+alerts_other|모든 앱
+alerts_search|앱 찾기
+alerts_none|아래에서 앱을 골라 소리를 지정하세요.
+rule_summary|%1$s, %2$d%%
+rule_off|알림음 꺼짐
+rule_custom_sound|내 소리
+rule_enabled|무음일 때 울리기
+rule_sound|소리
+rule_pick_file|파일 선택
+rule_test|테스트 재생
+rule_volume|알림음 음량
+rule_volume_hint|Bleepp이 알림음 동안 음량을 올렸다가 원래대로 되돌립니다.
+rule_vibrate|진동도 함께
+rule_keywords|이 단어일 때만
+rule_keywords_example|긴급, 샘, 서버 다운
+rule_keywords_hint|단어는 쉼표로 구분하세요. 비워 두면 모든 알림에 울립니다.
+rule_repeat|볼 때까지 반복
+rule_repeat_hint|알림을 열거나 지우거나 중지를 누르면 멈춥니다.
+rule_every|%1$d초마다
+rule_max|%1$d회 재생 후 중지
+rule_breakthrough|완전 무음 뚫기
+rule_breakthrough_hint|미디어 음량을 따르는 접근성 오디오를 사용합니다. 정말 중요한 앱에만 쓰세요.
+rule_log|기록에 남기기
+rule_remove|알림음 제거
+snd_bleep|블립
+snd_pager|삐삐
+snd_sonar|소나
+snd_harbour_bell|항구 종소리
+snd_rising|상승음
+snd_foghorn|무적
+snd_drops|물방울
+snd_morse|모스
+set_setup|설정하기
+setup_banner|Bleepp이 작동하려면 알림 접근 권한이 필요합니다.
+setup_access|알림 접근 권한
+setup_access_on|켜짐. Bleepp이 알림을 볼 수 있습니다.
+setup_access_off|알림음과 기록에 필요합니다.
+setup_battery|배터리 제한 없음
+setup_battery_hint|Bleepp을 계속 실행해 알림음을 놓치지 않게 합니다.
+setup_post|알림 표시
+setup_post_hint|중지 버튼과 업데이트 안내에 사용합니다.
+setup_fix|켜기
+setup_done|켜짐
+setup_restricted_title|회색으로 비활성화됐나요?
+setup_restricted_body|Android는 파일로 설치한 앱에서 이 기능을 막습니다. 앱 정보를 열고 점 세 개 메뉴에서 제한된 설정 허용을 선택한 뒤 다시 시도하세요.
+setup_open_info|앱 정보 열기
+set_quiet|조용한 시간
+quiet_on|정해진 시간에는 알림음 끄기
+quiet_from|시작
+quiet_to|종료
+cooldown_value|같은 앱의 알림음 사이에 %1$d초 기다리기
+set_log|기록
+log_private|기록은 이 휴대폰에만 저장됩니다. 백업되거나 어디로도 전송되지 않습니다.
+keep_for|항목 보관 기간
+keep_days|%1$d일
+keep_forever|영구
+log_noise|진행 중 알림과 미디어 알림도 기록
+log_clear|기록 지우기
+log_clear_confirm|모든 기록을 삭제할까요? 되돌릴 수 없습니다.
+set_language|언어
+lang_system|휴대폰 설정 따르기
+set_updates|업데이트
+upd_auto|업데이트 확인
+n_hours|%1$d시간
+upd_check|지금 확인
+upd_checking|확인 중…
+upd_latest|최신 버전입니다.
+upd_none|아직 공개 릴리스가 없습니다.
+upd_http|GitHub가 오류 %1$d을(를) 반환했습니다.
+upd_offline|GitHub에 연결할 수 없습니다.
+upd_notag|최신 릴리스에 버전 번호가 없습니다.
+upd_title|Bleepp %1$s 출시
+upd_now|지금 업데이트
+upd_later|나중에 알림
+upd_notif_title|Bleepp %1$s 출시
+open_release|릴리스 열기
+whats_new|새로운 기능 보기
+whats_new_title|%1$s의 새로운 기능
+note_new|새 기능
+note_fixed|수정됨
+note_improved|개선됨
+set_about|정보
+about_version|버전 %1$s
+about_official|공식 빌드
+about_unofficial|비공식 빌드
+about_credit|제작: StarlightJulie
+about_licence|GPLv3 자유 소프트웨어
+about_kofi|Ko-fi에서 후원하기
+about_github|GitHub 소스 코드
+appearance|모양
+ap_colourway|색 조합
+ap_custom|내 색상 사용
+ap_sea|바다
+ap_swell|카드
+ap_beam|빛줄기
+ap_on_beam|빛줄기 위 글자
+ap_text|글자
+ap_red|빨강
+ap_green|초록
+ap_blue|파랑
+ap_background|배경
+ap_speed|속도
+ap_strength|강도
+ap_interface|인터페이스
+ap_corners|모서리
+ap_serif|세리프 제목
+ap_icon|앱 아이콘
+ap_looks|내 스타일
+ap_save_look|이 스타일 저장
+ap_look_name|이름
+ap_reset|스타일 초기화
+cw_night_sea|밤바다
+cw_harbour|항구
+cw_storm|폭풍
+cw_fjord|피오르
+cw_abyss|심연
+cw_ember|불씨
+cw_plum|자두
+cw_rose_tide|장미 물결
+cw_moss|이끼
+cw_arctic|북극
+cw_sodium|나트륨
+cw_keeper|등대지기
+cw_paper_chart|해도
+cw_sea_fog|바다 안개
+cw_sandbar|모래톱
+cw_first_light|여명
+bg_beam|빛줄기
+bg_tide|조수
+bg_stars|별
+bg_rain|비
+bg_fog|안개
+bg_aurora|오로라
+bg_off|끄기
+icon_amber|호박
+icon_ink|먹색
+icon_harbour|항구
+icon_coral|산호
+icon_mint|민트
+icon_paper|종이

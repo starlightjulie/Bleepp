@@ -1,0 +1,177 @@
+channel_updates|యాప్ అప్‌డేట్‌లు
+channel_alerts|హెచ్చరిక మోగుతోంది
+alert_playing|%1$s హెచ్చరిక
+alert_stop|ఆపు
+back|వెనుకకు
+close|మూసివేయి
+delete|తొలగించు
+cancel|రద్దు
+save|సేవ్ చేయి
+tab_log|లాగ్
+tab_alerts|హెచ్చరికలు
+tab_settings|సెట్టింగ్‌లు
+log_morning|ఈ ఉదయం
+log_afternoon|ఈ మధ్యాహ్నం
+log_evening|ఈ సాయంత్రం
+log_night|ఈ రాత్రి
+log_count|నమోదైనవి: %1$d
+log_search|లాగ్‌లో వెతకండి
+log_all_apps|అన్ని యాప్‌లు
+log_today|ఈ రోజు
+log_yesterday|నిన్న
+log_empty_title|నీళ్లు ప్రశాంతంగా ఉన్నాయి
+log_empty_body|కొత్త నోటిఫికేషన్‌లు రాగానే ఇక్కడ కనిపిస్తాయి.
+log_no_results|ఈ శోధనకు ఏదీ సరిపోలలేదు.
+stamp_rang|సైలెంట్‌లో మోగింది
+stamp_broke|పూర్తి నిశ్శబ్దాన్ని దాటింది
+stamp_blocked|పూర్తి నిశ్శబ్దం ఆపింది
+open_failed|ఆ యాప్ తెరవడం కుదరదు.
+open_app_only|నోటిఫికేషన్ లేదు, కాబట్టి యాప్ తెరవబడింది.
+alerts_title|సైలెంట్ హెచ్చరికలు
+alerts_master|హెచ్చరికలు ఆన్
+status_ringing|మీ ఫోన్ మోగగలదు, కాబట్టి యాప్‌లు తమ సొంత శబ్దాలను వాడతాయి.
+status_silent|మీ ఫోన్ సైలెంట్‌లో ఉంది. ఎంచుకున్న యాప్‌లు అయినా మోగుతాయి.
+status_total|పూర్తి నిశ్శబ్దం ఆన్‌లో ఉంది. అనుమతి ఉన్న యాప్‌లు మాత్రమే మోగుతాయి.
+status_off|హెచ్చరికలు ఆఫ్‌లో ఉన్నాయి.
+status_no_access|Bleepp ఇంకా నోటిఫికేషన్‌లను చూడలేకపోతోంది.
+alerts_chosen|హెచ్చరికలు ఉన్న యాప్‌లు
+alerts_other|అన్ని యాప్‌లు
+alerts_search|యాప్ వెతకండి
+alerts_none|శబ్దం ఇవ్వడానికి కింద ఒక యాప్ ఎంచుకోండి.
+rule_summary|%1$s, %2$d%%
+rule_off|హెచ్చరిక ఆఫ్
+rule_custom_sound|మీ సొంత శబ్దం
+rule_enabled|సైలెంట్‌లో మోగించు
+rule_sound|శబ్దం
+rule_pick_file|ఫైల్ ఎంచుకోండి
+rule_test|పరీక్ష ప్లే చేయి
+rule_volume|హెచ్చరిక వాల్యూమ్
+rule_volume_hint|Bleepp హెచ్చరిక కోసం వాల్యూమ్ పెంచి, తర్వాత మునుపటిలా చేస్తుంది.
+rule_vibrate|వైబ్రేట్ కూడా చేయి
+rule_keywords|ఈ పదాలకు మాత్రమే
+rule_keywords_example|అత్యవసరం, సామ్, సర్వర్ డౌన్
+rule_keywords_hint|పదాలను కామాలతో వేరు చేయండి. ప్రతి నోటిఫికేషన్‌కు మోగాలంటే ఖాళీగా ఉంచండి.
+rule_repeat|చూసే వరకు పునరావృతం
+rule_repeat_hint|నోటిఫికేషన్ తెరిచినప్పుడు లేదా తీసివేసినప్పుడు, లేదా ఆపు నొక్కినప్పుడు ఆగుతుంది.
+rule_every|ప్రతి %1$d సెకన్లకు
+rule_max|%1$d సార్లు తర్వాత ఆపు
+rule_breakthrough|పూర్తి నిశ్శబ్దాన్ని దాటు
+rule_breakthrough_hint|మీడియా వాల్యూమ్‌ను అనుసరించే యాక్సెసిబిలిటీ ఆడియో వాడుతుంది. నిజంగా ముఖ్యమైన యాప్‌లకు మాత్రమే ఉంచండి.
+rule_log|లాగ్‌లో ఉంచు
+rule_remove|హెచ్చరిక తీసివేయి
+snd_bleep|బ్లీప్
+snd_pager|పేజర్
+snd_sonar|సోనార్
+snd_harbour_bell|రేవు గంట
+snd_rising|పెరిగే శబ్దం
+snd_foghorn|పొగమంచు హారన్
+snd_drops|చినుకులు
+snd_morse|మోర్స్
+set_setup|సెటప్
+setup_banner|Bleepp పని చేయడానికి నోటిఫికేషన్ యాక్సెస్ కావాలి.
+setup_access|నోటిఫికేషన్ యాక్సెస్
+setup_access_on|ఆన్. Bleepp మీ నోటిఫికేషన్‌లను చూడగలదు.
+setup_access_off|హెచ్చరికలకు, లాగ్‌కు అవసరం.
+setup_battery|పరిమితి లేని బ్యాటరీ
+setup_battery_hint|హెచ్చరికలు తప్పిపోకుండా Bleepp నడుస్తూ ఉంటుంది.
+setup_post|నోటిఫికేషన్‌లు చూపించు
+setup_post_hint|ఆపు బటన్, అప్‌డేట్ సూచనల కోసం.
+setup_fix|ఆన్ చేయండి
+setup_done|ఆన్
+setup_restricted_title|బూడిద రంగులో ఉందా?
+setup_restricted_body|ఫైల్ నుండి ఇన్‌స్టాల్ చేసిన యాప్‌లకు Android దీన్ని అడ్డుకుంటుంది. యాప్ సమాచారం తెరిచి, మూడు చుక్కల మెనూ నొక్కి, పరిమితం చేసిన సెట్టింగ్‌లను అనుమతించు ఎంచుకుని, మళ్లీ ప్రయత్నించండి.
+setup_open_info|యాప్ సమాచారం తెరవండి
+set_quiet|నిశ్శబ్ద సమయం
+quiet_on|నిర్ణీత సమయంలో హెచ్చరికలు మోగవద్దు
+quiet_from|నుండి
+quiet_to|వరకు
+cooldown_value|ఒక యాప్ హెచ్చరికల మధ్య %1$d సెకన్లు ఆగు
+set_log|లాగ్
+log_private|మీ లాగ్ ఈ ఫోన్‌లోనే ఉంటుంది. దీనికి బ్యాకప్ ఉండదు, ఎక్కడికీ పంపబడదు.
+keep_for|ఎంట్రీలను ఉంచు
+keep_days|%1$d రోజులు
+keep_forever|ఎప్పటికీ
+log_noise|నడుస్తున్న, మీడియా నోటిఫికేషన్‌లనూ నమోదు చేయి
+log_clear|లాగ్ క్లియర్ చేయి
+log_clear_confirm|అన్ని ఎంట్రీలు తొలగించాలా? దీన్ని రద్దు చేయలేరు.
+set_language|భాష
+lang_system|ఫోన్‌ను అనుసరించు
+set_updates|అప్‌డేట్‌లు
+upd_auto|అప్‌డేట్‌ల కోసం చూడు
+n_hours|%1$d గం
+upd_check|ఇప్పుడు చూడు
+upd_checking|చూస్తోంది…
+upd_latest|మీరు తాజా వెర్షన్‌లో ఉన్నారు.
+upd_none|ఇంకా పబ్లిక్ విడుదల లేదు.
+upd_http|GitHub లోపం %1$d ఇచ్చింది.
+upd_offline|GitHub చేరుకోలేకపోయింది.
+upd_notag|తాజా విడుదలకు వెర్షన్ నంబర్ లేదు.
+upd_title|Bleepp %1$s వచ్చింది
+upd_now|ఇప్పుడే అప్‌డేట్ చేయి
+upd_later|తర్వాత గుర్తు చేయి
+upd_notif_title|Bleepp %1$s వచ్చింది
+open_release|విడుదల తెరవండి
+whats_new|కొత్తవి చూడండి
+whats_new_title|%1$s లో కొత్తవి
+note_new|కొత్తవి
+note_fixed|సరిచేసినవి
+note_improved|మెరుగుపరిచినవి
+set_about|గురించి
+about_version|వెర్షన్ %1$s
+about_official|అధికారిక బిల్డ్
+about_unofficial|అనధికారిక బిల్డ్
+about_credit|StarlightJulie రూపొందించారు
+about_licence|GPLv3 కింద ఉచిత సాఫ్ట్‌వేర్
+about_kofi|Ko-fi లో మద్దతు ఇవ్వండి
+about_github|GitHub లో సోర్స్ కోడ్
+appearance|రూపం
+ap_colourway|రంగుల కూర్పు
+ap_custom|నా రంగులు వాడు
+ap_sea|సముద్రం
+ap_swell|కార్డులు
+ap_beam|కిరణం
+ap_on_beam|కిరణంపై వచనం
+ap_text|వచనం
+ap_red|ఎరుపు
+ap_green|ఆకుపచ్చ
+ap_blue|నీలం
+ap_background|నేపథ్యం
+ap_speed|వేగం
+ap_strength|తీవ్రత
+ap_interface|ఇంటర్‌ఫేస్
+ap_corners|మూలలు
+ap_serif|సెరిఫ్ శీర్షికలు
+ap_icon|యాప్ చిహ్నం
+ap_looks|నా లుక్‌లు
+ap_save_look|ఈ లుక్ సేవ్ చేయి
+ap_look_name|పేరు
+ap_reset|లుక్ రీసెట్ చేయి
+cw_night_sea|రాత్రి సముద్రం
+cw_harbour|రేవు
+cw_storm|తుఫాను
+cw_fjord|ఫియోర్డ్
+cw_abyss|అగాధం
+cw_ember|నిప్పు కణిక
+cw_plum|రేగు
+cw_rose_tide|గులాబీ పోటు
+cw_moss|నాచు
+cw_arctic|ఆర్కిటిక్
+cw_sodium|సోడియం
+cw_keeper|దీప రక్షకుడు
+cw_paper_chart|సముద్ర పటం
+cw_sea_fog|సముద్ర పొగమంచు
+cw_sandbar|ఇసుక దిబ్బ
+cw_first_light|తొలి వెలుగు
+bg_beam|కిరణం
+bg_tide|పోటు
+bg_stars|నక్షత్రాలు
+bg_rain|వర్షం
+bg_fog|పొగమంచు
+bg_aurora|ధ్రువ కాంతి
+bg_off|ఆఫ్
+icon_amber|అంబర్
+icon_ink|సిరా
+icon_harbour|రేవు
+icon_coral|పగడం
+icon_mint|పుదీనా
+icon_paper|కాగితం

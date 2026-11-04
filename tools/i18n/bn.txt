@@ -1,0 +1,177 @@
+channel_updates|অ্যাপ আপডেট
+channel_alerts|সতর্কতা বাজছে
+alert_playing|%1$s সতর্কতা
+alert_stop|থামান
+back|পিছনে
+close|বন্ধ করুন
+delete|মুছুন
+cancel|বাতিল
+save|সংরক্ষণ
+tab_log|লগ
+tab_alerts|সতর্কতা
+tab_settings|সেটিংস
+log_morning|আজ সকালে
+log_afternoon|আজ দুপুরে
+log_evening|আজ সন্ধ্যায়
+log_night|আজ রাতে
+log_count|লগ হয়েছে: %1$d
+log_search|লগে খুঁজুন
+log_all_apps|সব অ্যাপ
+log_today|আজ
+log_yesterday|গতকাল
+log_empty_title|জল শান্ত আছে
+log_empty_body|নতুন বিজ্ঞপ্তি এলে এখানে দেখা যাবে।
+log_no_results|এই অনুসন্ধানে কিছু মেলেনি।
+stamp_rang|সাইলেন্টে বেজেছে
+stamp_broke|সম্পূর্ণ নীরবতা ভেদ করেছে
+stamp_blocked|সম্পূর্ণ নীরবতায় আটকে গেছে
+open_failed|ওই অ্যাপটি খোলা যাচ্ছে না।
+open_app_only|বিজ্ঞপ্তিটি আর নেই, তাই অ্যাপটি খোলা হয়েছে।
+alerts_title|সাইলেন্ট সতর্কতা
+alerts_master|সতর্কতা চালু
+status_ringing|আপনার ফোন বাজতে পারে, তাই অ্যাপগুলো নিজেদের শব্দ ব্যবহার করে।
+status_silent|আপনার ফোন সাইলেন্টে আছে। বেছে নেওয়া অ্যাপগুলো তবুও বাজবে।
+status_total|সম্পূর্ণ নীরবতা চালু। শুধু অনুমতি পাওয়া অ্যাপগুলোই বাজবে।
+status_off|সতর্কতা বন্ধ আছে।
+status_no_access|Bleepp এখনও বিজ্ঞপ্তি দেখতে পাচ্ছে না।
+alerts_chosen|সতর্কতা থাকা অ্যাপ
+alerts_other|সব অ্যাপ
+alerts_search|অ্যাপ খুঁজুন
+alerts_none|শব্দ দিতে নিচ থেকে একটি অ্যাপ বেছে নিন।
+rule_summary|%1$s, %2$d%%
+rule_off|সতর্কতা বন্ধ
+rule_custom_sound|আপনার নিজের শব্দ
+rule_enabled|সাইলেন্টে বাজান
+rule_sound|শব্দ
+rule_pick_file|ফাইল বেছে নিন
+rule_test|পরীক্ষা চালান
+rule_volume|সতর্কতার ভলিউম
+rule_volume_hint|Bleepp সতর্কতার জন্য ভলিউম বাড়ায়, তারপর আগের মতো করে দেয়।
+rule_vibrate|কম্পনও হোক
+rule_keywords|শুধু এই শব্দগুলোর জন্য
+rule_keywords_example|জরুরি, স্যাম, সার্ভার বন্ধ
+rule_keywords_hint|কমা দিয়ে শব্দ আলাদা করুন। প্রতিটি বিজ্ঞপ্তিতে বাজাতে খালি রাখুন।
+rule_repeat|না দেখা পর্যন্ত বাজান
+rule_repeat_hint|বিজ্ঞপ্তি খুললে বা মুছলে, অথবা থামান চাপলে বন্ধ হয়।
+rule_every|প্রতি %1$d সেকেন্ডে
+rule_max|%1$d বার বাজার পর থামান
+rule_breakthrough|সম্পূর্ণ নীরবতা ভেদ করুন
+rule_breakthrough_hint|অ্যাক্সেসিবিলিটি অডিও ব্যবহার করে, যা মিডিয়া ভলিউম অনুসরণ করে। সত্যিই গুরুত্বপূর্ণ অ্যাপের জন্য রাখুন।
+rule_log|লগে রাখুন
+rule_remove|সতর্কতা সরান
+snd_bleep|ব্লিপ
+snd_pager|পেজার
+snd_sonar|সোনার
+snd_harbour_bell|বন্দরের ঘণ্টা
+snd_rising|ক্রমবর্ধমান
+snd_foghorn|কুয়াশার ভেঁপু
+snd_drops|ফোঁটা
+snd_morse|মোর্স
+set_setup|সেটআপ
+setup_banner|Bleepp চালাতে বিজ্ঞপ্তি অ্যাক্সেস প্রয়োজন।
+setup_access|বিজ্ঞপ্তি অ্যাক্সেস
+setup_access_on|চালু। Bleepp আপনার বিজ্ঞপ্তি দেখতে পারে।
+setup_access_off|সতর্কতা ও লগের জন্য প্রয়োজন।
+setup_battery|অবাধ ব্যাটারি
+setup_battery_hint|Bleepp চালু রাখে যাতে সতর্কতা ফসকে না যায়।
+setup_post|বিজ্ঞপ্তি দেখান
+setup_post_hint|থামান বোতাম ও আপডেট বার্তার জন্য।
+setup_fix|চালু করুন
+setup_done|চালু
+setup_restricted_title|ধূসর হয়ে আছে?
+setup_restricted_body|ফাইল থেকে ইনস্টল করা অ্যাপের জন্য Android এটি আটকে দেয়। অ্যাপের তথ্য খুলুন, তিন-বিন্দু মেনুতে চাপুন, সীমাবদ্ধ সেটিংসের অনুমতি দিন বেছে নিন, তারপর আবার চেষ্টা করুন।
+setup_open_info|অ্যাপের তথ্য খুলুন
+set_quiet|শান্ত সময়
+quiet_on|নির্দিষ্ট সময়ে সতর্কতা নীরব রাখুন
+quiet_from|শুরু
+quiet_to|শেষ
+cooldown_value|একই অ্যাপের সতর্কতার মধ্যে %1$d সেকেন্ড অপেক্ষা করুন
+set_log|লগ
+log_private|আপনার লগ এই ফোনেই থাকে। এর ব্যাকআপ হয় না, কোথাও পাঠানোও হয় না।
+keep_for|এন্ট্রি রাখুন
+keep_days|%1$d দিন
+keep_forever|চিরকাল
+log_noise|চলমান ও মিডিয়া বিজ্ঞপ্তিও লগ করুন
+log_clear|লগ মুছুন
+log_clear_confirm|সব এন্ট্রি মুছবেন? এটি ফেরানো যাবে না।
+set_language|ভাষা
+lang_system|ফোন অনুযায়ী
+set_updates|আপডেট
+upd_auto|আপডেট দেখুন
+n_hours|%1$d ঘণ্টা
+upd_check|এখনই দেখুন
+upd_checking|দেখা হচ্ছে…
+upd_latest|আপনি সর্বশেষ সংস্করণে আছেন।
+upd_none|এখনও কোনো সর্বজনীন রিলিজ নেই।
+upd_http|GitHub ত্রুটি %1$d দিয়েছে।
+upd_offline|GitHub-এ পৌঁছানো যায়নি।
+upd_notag|সর্বশেষ রিলিজে সংস্করণ নম্বর নেই।
+upd_title|Bleepp %1$s এসেছে
+upd_now|এখনই আপডেট করুন
+upd_later|পরে মনে করান
+upd_notif_title|Bleepp %1$s এসেছে
+open_release|রিলিজ খুলুন
+whats_new|নতুন কী দেখুন
+whats_new_title|%1$s-এ নতুন কী
+note_new|নতুন
+note_fixed|ঠিক করা হয়েছে
+note_improved|উন্নত করা হয়েছে
+set_about|সম্পর্কে
+about_version|সংস্করণ %1$s
+about_official|অফিসিয়াল বিল্ড
+about_unofficial|আনঅফিসিয়াল বিল্ড
+about_credit|StarlightJulie তৈরি করেছেন
+about_licence|GPLv3-এর অধীনে মুক্ত সফটওয়্যার
+about_kofi|Ko-fi-তে সমর্থন করুন
+about_github|GitHub-এ সোর্স কোড
+appearance|চেহারা
+ap_colourway|রঙের বিন্যাস
+ap_custom|আমার রং ব্যবহার করুন
+ap_sea|সমুদ্র
+ap_swell|কার্ড
+ap_beam|আলোকরশ্মি
+ap_on_beam|রশ্মির উপর লেখা
+ap_text|লেখা
+ap_red|লাল
+ap_green|সবুজ
+ap_blue|নীল
+ap_background|পটভূমি
+ap_speed|গতি
+ap_strength|তীব্রতা
+ap_interface|ইন্টারফেস
+ap_corners|কোণ
+ap_serif|সেরিফ শিরোনাম
+ap_icon|অ্যাপ আইকন
+ap_looks|আমার লুক
+ap_save_look|এই লুক সংরক্ষণ করুন
+ap_look_name|নাম
+ap_reset|লুক রিসেট করুন
+cw_night_sea|রাতের সমুদ্র
+cw_harbour|বন্দর
+cw_storm|ঝড়
+cw_fjord|ফিয়র্ড
+cw_abyss|অতল
+cw_ember|অঙ্গার
+cw_plum|বরই
+cw_rose_tide|গোলাপি জোয়ার
+cw_moss|শ্যাওলা
+cw_arctic|আর্কটিক
+cw_sodium|সোডিয়াম
+cw_keeper|প্রহরী
+cw_paper_chart|সমুদ্র মানচিত্র
+cw_sea_fog|সমুদ্রের কুয়াশা
+cw_sandbar|বালুচর
+cw_first_light|প্রথম আলো
+bg_beam|আলোকরশ্মি
+bg_tide|জোয়ার
+bg_stars|তারা
+bg_rain|বৃষ্টি
+bg_fog|কুয়াশা
+bg_aurora|মেরুজ্যোতি
+bg_off|বন্ধ
+icon_amber|অ্যাম্বার
+icon_ink|কালি
+icon_harbour|বন্দর
+icon_coral|প্রবাল
+icon_mint|পুদিনা
+icon_paper|কাগজ

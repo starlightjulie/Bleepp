@@ -1,0 +1,177 @@
+channel_updates|Uygulama güncellemeleri
+channel_alerts|Uyarı çalıyor
+alert_playing|%1$s uyarısı
+alert_stop|Durdur
+back|Geri
+close|Kapat
+delete|Sil
+cancel|İptal
+save|Kaydet
+tab_log|Kayıt
+tab_alerts|Uyarılar
+tab_settings|Ayarlar
+log_morning|Bu sabah
+log_afternoon|Bu öğleden sonra
+log_evening|Bu akşam
+log_night|Bu gece
+log_count|Kaydedilen: %1$d
+log_search|Kayıtta ara
+log_all_apps|Tüm uygulamalar
+log_today|Bugün
+log_yesterday|Dün
+log_empty_title|Sular durgun
+log_empty_body|Yeni bildirimler geldikçe burada görünür.
+log_no_results|Bu aramayla eşleşen bir şey yok.
+stamp_rang|Sessizde çaldı
+stamp_broke|Tam Sessizliği aştı
+stamp_blocked|Tam Sessizlik engelledi
+open_failed|Bu uygulama açılamıyor.
+open_app_only|Bildirim artık yok, bu yüzden uygulama açıldı.
+alerts_title|Sessiz uyarılar
+alerts_master|Uyarılar açık
+status_ringing|Telefonun çalabiliyor, bu yüzden uygulamalar kendi seslerini kullanıyor.
+status_silent|Telefonun sessizde. Seçilen uygulamalar yine de ses çıkarır.
+status_total|Tam Sessizlik açık. Yalnızca aşmasına izin verilen uygulamalar ses çıkarır.
+status_off|Uyarılar kapalı.
+status_no_access|Bleepp henüz bildirimleri göremiyor.
+alerts_chosen|Uyarılı uygulamalar
+alerts_other|Tüm uygulamalar
+alerts_search|Uygulama bul
+alerts_none|Ses vermek için aşağıdan bir uygulama seç.
+rule_summary|%1$s, %%%2$d
+rule_off|Uyarı kapalı
+rule_custom_sound|Kendi sesin
+rule_enabled|Sessizde çal
+rule_sound|Ses
+rule_pick_file|Dosya seç
+rule_test|Test çal
+rule_volume|Uyarı sesi düzeyi
+rule_volume_hint|Bleepp uyarı için sesi açar, sonra eski haline getirir.
+rule_vibrate|Titreşim de olsun
+rule_keywords|Yalnızca bu kelimelerde
+rule_keywords_example|acil, Sam, sunucu çöktü
+rule_keywords_hint|Kelimeleri virgülle ayır. Her bildirimde çalması için boş bırak.
+rule_repeat|Görene kadar tekrarla
+rule_repeat_hint|Bildirimi açtığında, temizlediğinde ya da Durdur'a dokunduğunda durur.
+rule_every|%1$d saniyede bir
+rule_max|%1$d çalmadan sonra durdur
+rule_breakthrough|Tam Sessizliği aş
+rule_breakthrough_hint|Medya ses düzeyini izleyen erişilebilirlik sesini kullanır. Gerçekten önemli uygulamalar için sakla.
+rule_log|Kayıtta tut
+rule_remove|Uyarıyı kaldır
+snd_bleep|Bleep
+snd_pager|Çağrı cihazı
+snd_sonar|Sonar
+snd_harbour_bell|Liman çanı
+snd_rising|Yükselen
+snd_foghorn|Sis düdüğü
+snd_drops|Damlalar
+snd_morse|Mors
+set_setup|Kurulum
+setup_banner|Bleepp'in çalışması için bildirim erişimi gerekiyor.
+setup_access|Bildirim erişimi
+setup_access_on|Açık. Bleepp bildirimlerini görebiliyor.
+setup_access_off|Uyarılar ve kayıt için gerekli.
+setup_battery|Sınırsız pil
+setup_battery_hint|Uyarılar kaçmasın diye Bleepp'i çalışır tutar.
+setup_post|Bildirimleri göster
+setup_post_hint|Durdur düğmesi ve güncelleme bildirimleri için.
+setup_fix|Aç
+setup_done|Açık
+setup_restricted_title|Gri mi görünüyor?
+setup_restricted_body|Android bunu dosyadan yüklenen uygulamalarda engeller. Uygulama bilgisini aç, üç nokta menüsüne dokun, Kısıtlı ayarlara izin ver'i seç, sonra geri dönüp tekrar dene.
+setup_open_info|Uygulama bilgisini aç
+set_quiet|Sessiz saatler
+quiet_on|Belirli saatlerde uyarıları sessiz tut
+quiet_from|Başlangıç
+quiet_to|Bitiş
+cooldown_value|Bir uygulamanın uyarıları arasında %1$d saniye bekle
+set_log|Kayıt
+log_private|Kaydın bu telefonda kalır. Asla yedeklenmez veya bir yere gönderilmez.
+keep_for|Kayıtları sakla
+keep_days|%1$d gün
+keep_forever|Süresiz
+log_noise|Devam eden ve medya bildirimlerini kaydet
+log_clear|Kaydı temizle
+log_clear_confirm|Tüm kayıtlar silinsin mi? Bu işlem geri alınamaz.
+set_language|Dil
+lang_system|Telefonla aynı
+set_updates|Güncellemeler
+upd_auto|Güncellemeleri denetle
+n_hours|%1$d sa
+upd_check|Şimdi denetle
+upd_checking|Denetleniyor…
+upd_latest|En son sürümü kullanıyorsun.
+upd_none|Henüz herkese açık sürüm yok.
+upd_http|GitHub %1$d hatasıyla yanıt verdi.
+upd_offline|GitHub'a ulaşılamadı.
+upd_notag|Son sürümün sürüm numarası yok.
+upd_title|Bleepp %1$s çıktı
+upd_now|Şimdi güncelle
+upd_later|Sonra hatırlat
+upd_notif_title|Bleepp %1$s çıktı
+open_release|Sürümü aç
+whats_new|Yenilikleri gör
+whats_new_title|%1$s yenilikleri
+note_new|Yeni
+note_fixed|Düzeltildi
+note_improved|İyileştirildi
+set_about|Hakkında
+about_version|Sürüm %1$s
+about_official|Resmi derleme
+about_unofficial|Resmi olmayan derleme
+about_credit|StarlightJulie tarafından yapıldı
+about_licence|GPLv3 kapsamında özgür yazılım
+about_kofi|Ko-fi'de destekle
+about_github|GitHub'da kaynak kodu
+appearance|Görünüm
+ap_colourway|Renk düzeni
+ap_custom|Kendi renklerimi kullan
+ap_sea|Deniz
+ap_swell|Kartlar
+ap_beam|Işık huzmesi
+ap_on_beam|Huzme üstündeki metin
+ap_text|Metin
+ap_red|Kırmızı
+ap_green|Yeşil
+ap_blue|Mavi
+ap_background|Arka plan
+ap_speed|Hız
+ap_strength|Yoğunluk
+ap_interface|Arayüz
+ap_corners|Köşeler
+ap_serif|Tırnaklı başlıklar
+ap_icon|Uygulama simgesi
+ap_looks|Görünümlerim
+ap_save_look|Bu görünümü kaydet
+ap_look_name|Ad
+ap_reset|Görünümü sıfırla
+cw_night_sea|Gece Denizi
+cw_harbour|Liman
+cw_storm|Fırtına
+cw_fjord|Fiyort
+cw_abyss|Uçurum
+cw_ember|Köz
+cw_plum|Erik
+cw_rose_tide|Gül Gelgiti
+cw_moss|Yosun
+cw_arctic|Arktik
+cw_sodium|Sodyum
+cw_keeper|Fener Bekçisi
+cw_paper_chart|Deniz Haritası
+cw_sea_fog|Deniz Sisi
+cw_sandbar|Kum Sığlığı
+cw_first_light|İlk Işık
+bg_beam|Huzme
+bg_tide|Gelgit
+bg_stars|Yıldızlar
+bg_rain|Yağmur
+bg_fog|Sis
+bg_aurora|Kutup Işığı
+bg_off|Kapalı
+icon_amber|Kehribar
+icon_ink|Mürekkep
+icon_harbour|Liman
+icon_coral|Mercan
+icon_mint|Nane
+icon_paper|Kâğıt

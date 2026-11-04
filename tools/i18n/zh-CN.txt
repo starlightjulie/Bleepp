@@ -1,0 +1,177 @@
+channel_updates|应用更新
+channel_alerts|提醒播放中
+alert_playing|%1$s 提醒
+alert_stop|停止
+back|返回
+close|关闭
+delete|删除
+cancel|取消
+save|保存
+tab_log|日志
+tab_alerts|提醒
+tab_settings|设置
+log_morning|今天上午
+log_afternoon|今天下午
+log_evening|今天傍晚
+log_night|今晚
+log_count|已记录：%1$d
+log_search|搜索日志
+log_all_apps|全部应用
+log_today|今天
+log_yesterday|昨天
+log_empty_title|海面风平浪静
+log_empty_body|新通知到达后会显示在这里。
+log_no_results|没有匹配的结果。
+stamp_rang|静音时已响铃
+stamp_broke|已穿透完全静音
+stamp_blocked|被完全静音拦下
+open_failed|无法打开该应用。
+open_app_only|通知已不存在，已改为打开应用。
+alerts_title|静音提醒
+alerts_master|开启提醒
+status_ringing|手机可以响铃，应用会使用自己的声音。
+status_silent|手机处于静音状态，所选应用仍会发声。
+status_total|完全静音已开启，只有获准穿透的应用才会发声。
+status_off|提醒已关闭。
+status_no_access|Bleepp 还无法查看通知。
+alerts_chosen|已设提醒的应用
+alerts_other|全部应用
+alerts_search|查找应用
+alerts_none|在下方选择一个应用，为它设置声音。
+rule_summary|%1$s，音量 %2$d%%
+rule_off|提醒已关闭
+rule_custom_sound|你自己的声音
+rule_enabled|静音时发声
+rule_sound|声音
+rule_pick_file|选择文件
+rule_test|播放测试
+rule_volume|提醒音量
+rule_volume_hint|Bleepp 会为提醒调高音量，结束后恢复原样。
+rule_vibrate|同时振动
+rule_keywords|仅限这些词
+rule_keywords_example|紧急, 小明, 服务器宕机
+rule_keywords_hint|用逗号分隔词语。留空则每条通知都会发声。
+rule_repeat|重复直到查看
+rule_repeat_hint|打开或清除通知，或点按“停止”后结束。
+rule_every|每 %1$d 秒
+rule_max|播放 %1$d 次后停止
+rule_breakthrough|穿透完全静音
+rule_breakthrough_hint|使用无障碍音频，音量跟随媒体音量。请只为真正重要的应用开启。
+rule_log|保留在日志中
+rule_remove|移除提醒
+snd_bleep|哔声
+snd_pager|寻呼机
+snd_sonar|声呐
+snd_harbour_bell|港口钟
+snd_rising|渐强
+snd_foghorn|雾笛
+snd_drops|水滴
+snd_morse|摩尔斯
+set_setup|设置向导
+setup_banner|Bleepp 需要通知访问权限才能工作。
+setup_access|通知访问权限
+setup_access_on|已开启。Bleepp 可以查看你的通知。
+setup_access_off|提醒和日志都需要此权限。
+setup_battery|电池不受限制
+setup_battery_hint|让 Bleepp 保持运行，避免错过提醒。
+setup_post|显示通知
+setup_post_hint|用于“停止”按钮和更新通知。
+setup_fix|开启
+setup_done|已开启
+setup_restricted_title|显示为灰色？
+setup_restricted_body|Android 会对通过文件安装的应用屏蔽此项。打开应用信息，点按右上角三点菜单，选择“允许受限制的设置”，然后返回重试。
+setup_open_info|打开应用信息
+set_quiet|安静时段
+quiet_on|在设定时段内保持安静
+quiet_from|开始
+quiet_to|结束
+cooldown_value|同一应用的提醒至少间隔 %1$d 秒
+set_log|日志
+log_private|你的日志只保存在这台手机上，绝不会备份或发送到任何地方。
+keep_for|条目保留时长
+keep_days|%1$d 天
+keep_forever|永久
+log_noise|记录常驻和媒体通知
+log_clear|清空日志
+log_clear_confirm|要删除全部日志条目吗？此操作无法撤销。
+set_language|语言
+lang_system|跟随手机
+set_updates|更新
+upd_auto|检查更新
+n_hours|%1$d 小时
+upd_check|立即检查
+upd_checking|正在检查…
+upd_latest|已是最新版本。
+upd_none|尚无公开版本。
+upd_http|GitHub 返回错误 %1$d。
+upd_offline|无法连接 GitHub。
+upd_notag|最新版本没有版本号。
+upd_title|Bleepp %1$s 已发布
+upd_now|立即更新
+upd_later|稍后提醒
+upd_notif_title|Bleepp %1$s 已发布
+open_release|打开发布页
+whats_new|查看新功能
+whats_new_title|%1$s 新功能
+note_new|新增
+note_fixed|修复
+note_improved|改进
+set_about|关于
+about_version|版本 %1$s
+about_official|官方版本
+about_unofficial|非官方版本
+about_credit|由 StarlightJulie 制作
+about_licence|基于 GPLv3 的自由软件
+about_kofi|在 Ko-fi 上支持
+about_github|GitHub 上的源代码
+appearance|外观
+ap_colourway|配色
+ap_custom|使用我的颜色
+ap_sea|海面
+ap_swell|卡片
+ap_beam|光束
+ap_on_beam|光束上的文字
+ap_text|文字
+ap_red|红
+ap_green|绿
+ap_blue|蓝
+ap_background|背景
+ap_speed|速度
+ap_strength|强度
+ap_interface|界面
+ap_corners|圆角
+ap_serif|衬线标题
+ap_icon|应用图标
+ap_looks|我的外观
+ap_save_look|保存此外观
+ap_look_name|名称
+ap_reset|重置外观
+cw_night_sea|夜海
+cw_harbour|港湾
+cw_storm|风暴
+cw_fjord|峡湾
+cw_abyss|深渊
+cw_ember|余烬
+cw_plum|李紫
+cw_rose_tide|玫瑰潮
+cw_moss|苔藓
+cw_arctic|北极
+cw_sodium|钠光
+cw_keeper|守灯人
+cw_paper_chart|海图
+cw_sea_fog|海雾
+cw_sandbar|沙洲
+cw_first_light|晨曦
+bg_beam|光束
+bg_tide|潮汐
+bg_stars|星空
+bg_rain|雨
+bg_fog|雾
+bg_aurora|极光
+bg_off|关闭
+icon_amber|琥珀
+icon_ink|墨色
+icon_harbour|港湾
+icon_coral|珊瑚
+icon_mint|薄荷
+icon_paper|纸白

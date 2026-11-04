@@ -1,0 +1,177 @@
+channel_updates|تحديثات التطبيق
+channel_alerts|تنبيه قيد التشغيل
+alert_playing|تنبيه %1$s
+alert_stop|إيقاف
+back|رجوع
+close|إغلاق
+delete|حذف
+cancel|إلغاء
+save|حفظ
+tab_log|السجل
+tab_alerts|التنبيهات
+tab_settings|الإعدادات
+log_morning|هذا الصباح
+log_afternoon|بعد ظهر اليوم
+log_evening|هذا المساء
+log_night|الليلة
+log_count|المسجّل: %1$d
+log_search|البحث في السجل
+log_all_apps|كل التطبيقات
+log_today|اليوم
+log_yesterday|أمس
+log_empty_title|البحر هادئ
+log_empty_body|ستظهر الإشعارات الجديدة هنا فور وصولها.
+log_no_results|لا شيء يطابق هذا البحث.
+stamp_rang|رنّ في الوضع الصامت
+stamp_broke|اخترق الصمت التام
+stamp_blocked|أوقفه الصمت التام
+open_failed|تعذّر فتح هذا التطبيق.
+open_app_only|اختفى الإشعار، لذا فُتح التطبيق بدلًا منه.
+alerts_title|تنبيهات الوضع الصامت
+alerts_master|التنبيهات مفعّلة
+status_ringing|يمكن لهاتفك الرنين، لذا تستخدم التطبيقات أصواتها الخاصة.
+status_silent|هاتفك صامت. ستصدر التطبيقات المختارة صوتًا رغم ذلك.
+status_total|الصمت التام مفعّل. لن يصدر صوت إلا من التطبيقات المسموح لها باختراقه.
+status_off|التنبيهات متوقفة.
+status_no_access|لا يستطيع Bleepp رؤية الإشعارات بعد.
+alerts_chosen|تطبيقات لها تنبيه
+alerts_other|كل التطبيقات
+alerts_search|ابحث عن تطبيق
+alerts_none|اختر تطبيقًا من الأسفل لتمنحه صوتًا.
+rule_summary|%1$s بنسبة %2$d%%
+rule_off|التنبيه متوقف
+rule_custom_sound|صوتك الخاص
+rule_enabled|الصوت في الوضع الصامت
+rule_sound|الصوت
+rule_pick_file|اختر ملفًا
+rule_test|تشغيل تجريبي
+rule_volume|مستوى صوت التنبيه
+rule_volume_hint|يرفع Bleepp مستوى الصوت للتنبيه ثم يعيده كما كان.
+rule_vibrate|الاهتزاز أيضًا
+rule_keywords|لهذه الكلمات فقط
+rule_keywords_example|عاجل، سام، تعطل الخادم
+rule_keywords_hint|افصل الكلمات بفواصل. اتركه فارغًا ليصدر صوتًا لكل إشعار.
+rule_repeat|التكرار حتى المشاهدة
+rule_repeat_hint|يتوقف عند فتح الإشعار أو مسحه، أو عند النقر على إيقاف.
+rule_every|كل %1$d ثانية
+rule_max|الإيقاف بعد %1$d مرة
+rule_breakthrough|اختراق الصمت التام
+rule_breakthrough_hint|يستخدم صوت تسهيل الاستخدام الذي يتبع مستوى صوت الوسائط. احتفظ به للتطبيقات المهمة حقًا.
+rule_log|الإبقاء في السجل
+rule_remove|إزالة التنبيه
+snd_bleep|بليب
+snd_pager|جهاز النداء
+snd_sonar|سونار
+snd_harbour_bell|جرس الميناء
+snd_rising|متصاعد
+snd_foghorn|بوق الضباب
+snd_drops|قطرات
+snd_morse|مورس
+set_setup|الإعداد
+setup_banner|يحتاج Bleepp إلى الوصول إلى الإشعارات ليعمل.
+setup_access|الوصول إلى الإشعارات
+setup_access_on|مفعّل. يستطيع Bleepp رؤية إشعاراتك.
+setup_access_off|مطلوب للتنبيهات والسجل.
+setup_battery|بطارية بلا قيود
+setup_battery_hint|يبقي Bleepp قيد التشغيل كي لا تفوتك التنبيهات.
+setup_post|عرض الإشعارات
+setup_post_hint|لزر الإيقاف وإشعارات التحديث.
+setup_fix|تفعيل
+setup_done|مفعّل
+setup_restricted_title|الخيار رمادي؟
+setup_restricted_body|يحظر Android هذا للتطبيقات المثبتة من ملف. افتح معلومات التطبيق، وانقر على قائمة النقاط الثلاث، واختر السماح بالإعدادات المقيّدة، ثم عد وحاول مرة أخرى.
+setup_open_info|فتح معلومات التطبيق
+set_quiet|ساعات الهدوء
+quiet_on|إبقاء التنبيهات صامتة في أوقات محددة
+quiet_from|من
+quiet_to|إلى
+cooldown_value|الانتظار %1$d ثانية بين تنبيهات التطبيق الواحد
+set_log|السجل
+log_private|يبقى سجلك على هذا الهاتف. لا يُنسخ احتياطيًا ولا يُرسل إلى أي مكان أبدًا.
+keep_for|الاحتفاظ بالإدخالات لمدة
+keep_days|%1$d يوم
+keep_forever|للأبد
+log_noise|تسجيل الإشعارات المستمرة وإشعارات الوسائط
+log_clear|مسح السجل
+log_clear_confirm|هل تريد حذف كل الإدخالات؟ لا يمكن التراجع عن ذلك.
+set_language|اللغة
+lang_system|مثل الهاتف
+set_updates|التحديثات
+upd_auto|البحث عن تحديثات
+n_hours|%1$d س
+upd_check|تحقق الآن
+upd_checking|جارٍ التحقق…
+upd_latest|لديك أحدث إصدار.
+upd_none|لا يوجد إصدار عام بعد.
+upd_http|ردّ GitHub بالخطأ %1$d.
+upd_offline|تعذّر الوصول إلى GitHub.
+upd_notag|أحدث إصدار بلا رقم إصدار.
+upd_title|صدر Bleepp %1$s
+upd_now|التحديث الآن
+upd_later|ذكّرني لاحقًا
+upd_notif_title|صدر Bleepp %1$s
+open_release|فتح الإصدار
+whats_new|عرض الجديد
+whats_new_title|الجديد في %1$s
+note_new|جديد
+note_fixed|تم الإصلاح
+note_improved|تم التحسين
+set_about|حول
+about_version|الإصدار %1$s
+about_official|إصدار رسمي
+about_unofficial|إصدار غير رسمي
+about_credit|من صنع StarlightJulie
+about_licence|برنامج حر بموجب GPLv3
+about_kofi|ادعم على Ko-fi
+about_github|الشيفرة المصدرية على GitHub
+appearance|المظهر
+ap_colourway|نظام الألوان
+ap_custom|استخدام ألواني
+ap_sea|البحر
+ap_swell|البطاقات
+ap_beam|الشعاع
+ap_on_beam|النص فوق الشعاع
+ap_text|النص
+ap_red|أحمر
+ap_green|أخضر
+ap_blue|أزرق
+ap_background|الخلفية
+ap_speed|السرعة
+ap_strength|الشدة
+ap_interface|الواجهة
+ap_corners|الزوايا
+ap_serif|عناوين مزخرفة
+ap_icon|أيقونة التطبيق
+ap_looks|مظاهري
+ap_save_look|حفظ هذا المظهر
+ap_look_name|الاسم
+ap_reset|إعادة ضبط المظهر
+cw_night_sea|بحر الليل
+cw_harbour|الميناء
+cw_storm|العاصفة
+cw_fjord|الفيورد
+cw_abyss|الهاوية
+cw_ember|الجمر
+cw_plum|البرقوق
+cw_rose_tide|المد الوردي
+cw_moss|الطحلب
+cw_arctic|القطب الشمالي
+cw_sodium|الصوديوم
+cw_keeper|حارس المنارة
+cw_paper_chart|خريطة بحرية
+cw_sea_fog|ضباب البحر
+cw_sandbar|الحاجز الرملي
+cw_first_light|أول الضوء
+bg_beam|الشعاع
+bg_tide|المد
+bg_stars|النجوم
+bg_rain|المطر
+bg_fog|الضباب
+bg_aurora|الشفق
+bg_off|إيقاف
+icon_amber|كهرماني
+icon_ink|حبر
+icon_harbour|الميناء
+icon_coral|مرجاني
+icon_mint|نعناعي
+icon_paper|ورقي

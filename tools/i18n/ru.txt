@@ -1,0 +1,177 @@
+channel_updates|Обновления приложения
+channel_alerts|Звучит оповещение
+alert_playing|Оповещение: %1$s
+alert_stop|Стоп
+back|Назад
+close|Закрыть
+delete|Удалить
+cancel|Отмена
+save|Сохранить
+tab_log|Журнал
+tab_alerts|Оповещения
+tab_settings|Настройки
+log_morning|Сегодня утром
+log_afternoon|Сегодня днём
+log_evening|Сегодня вечером
+log_night|Этой ночью
+log_count|Записано: %1$d
+log_search|Поиск по журналу
+log_all_apps|Все приложения
+log_today|Сегодня
+log_yesterday|Вчера
+log_empty_title|Вода спокойна
+log_empty_body|Новые уведомления появятся здесь сразу после получения.
+log_no_results|По этому запросу ничего не найдено.
+stamp_rang|Прозвучало в беззвучном режиме
+stamp_broke|Прошло через полную тишину
+stamp_blocked|Заглушено полной тишиной
+open_failed|Не удалось открыть это приложение.
+open_app_only|Уведомления уже нет, поэтому открыто приложение.
+alerts_title|Оповещения в тишине
+alerts_master|Оповещения включены
+status_ringing|Телефон может звонить, поэтому приложения используют свои звуки.
+status_silent|Телефон в беззвучном режиме. Выбранные приложения всё равно прозвучат.
+status_total|Включена полная тишина. Прозвучат только приложения с разрешением её обходить.
+status_off|Оповещения выключены.
+status_no_access|Bleepp пока не видит уведомления.
+alerts_chosen|Приложения с оповещением
+alerts_other|Все приложения
+alerts_search|Найти приложение
+alerts_none|Выберите приложение ниже, чтобы назначить ему звук.
+rule_summary|%1$s, %2$d%%
+rule_off|Оповещение выключено
+rule_custom_sound|Ваш звук
+rule_enabled|Звук в беззвучном режиме
+rule_sound|Звук
+rule_pick_file|Выбрать файл
+rule_test|Проиграть тест
+rule_volume|Громкость оповещения
+rule_volume_hint|Bleepp повышает громкость на время оповещения, а затем возвращает её.
+rule_vibrate|Также вибрировать
+rule_keywords|Только для этих слов
+rule_keywords_example|срочно, Сэм, сервер упал
+rule_keywords_hint|Разделяйте слова запятыми. Оставьте пустым, чтобы звучало при каждом уведомлении.
+rule_repeat|Повторять, пока не увижу
+rule_repeat_hint|Останавливается, когда вы открываете или убираете уведомление либо нажимаете «Стоп».
+rule_every|Каждые %1$d с
+rule_max|Остановить после %1$d повторов
+rule_breakthrough|Обходить полную тишину
+rule_breakthrough_hint|Использует звук специальных возможностей, который зависит от громкости медиа. Только для действительно важных приложений.
+rule_log|Хранить в журнале
+rule_remove|Удалить оповещение
+snd_bleep|Блип
+snd_pager|Пейджер
+snd_sonar|Сонар
+snd_harbour_bell|Портовый колокол
+snd_rising|Нарастание
+snd_foghorn|Туманный горн
+snd_drops|Капли
+snd_morse|Морзе
+set_setup|Настройка
+setup_banner|Для работы Bleepp нужен доступ к уведомлениям.
+setup_access|Доступ к уведомлениям
+setup_access_on|Включён. Bleepp видит ваши уведомления.
+setup_access_off|Нужен для оповещений и журнала.
+setup_battery|Без ограничений батареи
+setup_battery_hint|Bleepp продолжит работать и не пропустит оповещения.
+setup_post|Показывать уведомления
+setup_post_hint|Для кнопки «Стоп» и сообщений об обновлениях.
+setup_fix|Включить
+setup_done|Включено
+setup_restricted_title|Недоступно?
+setup_restricted_body|Android блокирует это для приложений, установленных из файла. Откройте сведения о приложении, нажмите меню с тремя точками, выберите «Разрешить ограниченные настройки» и попробуйте снова.
+setup_open_info|Сведения о приложении
+set_quiet|Тихие часы
+quiet_on|Не звучать в заданные часы
+quiet_from|С
+quiet_to|До
+cooldown_value|Пауза %1$d с между оповещениями одного приложения
+set_log|Журнал
+log_private|Журнал хранится только на этом телефоне. Он не копируется и никуда не отправляется.
+keep_for|Хранить записи
+keep_days|Дней: %1$d
+keep_forever|Всегда
+log_noise|Записывать постоянные и медиа-уведомления
+log_clear|Очистить журнал
+log_clear_confirm|Удалить все записи? Это действие нельзя отменить.
+set_language|Язык
+lang_system|Как на телефоне
+set_updates|Обновления
+upd_auto|Проверять обновления
+n_hours|%1$d ч
+upd_check|Проверить сейчас
+upd_checking|Проверка…
+upd_latest|У вас последняя версия.
+upd_none|Публичного выпуска пока нет.
+upd_http|GitHub ответил ошибкой %1$d.
+upd_offline|Не удалось подключиться к GitHub.
+upd_notag|У последнего выпуска нет номера версии.
+upd_title|Вышел Bleepp %1$s
+upd_now|Обновить
+upd_later|Напомнить позже
+upd_notif_title|Вышел Bleepp %1$s
+open_release|Открыть выпуск
+whats_new|Что нового
+whats_new_title|Что нового в %1$s
+note_new|Новое
+note_fixed|Исправлено
+note_improved|Улучшено
+set_about|О приложении
+about_version|Версия %1$s
+about_official|Официальная сборка
+about_unofficial|Неофициальная сборка
+about_credit|Автор: StarlightJulie
+about_licence|Свободное ПО под лицензией GPLv3
+about_kofi|Поддержать на Ko-fi
+about_github|Исходный код на GitHub
+appearance|Оформление
+ap_colourway|Цветовая схема
+ap_custom|Свои цвета
+ap_sea|Море
+ap_swell|Карточки
+ap_beam|Луч
+ap_on_beam|Текст на луче
+ap_text|Текст
+ap_red|Красный
+ap_green|Зелёный
+ap_blue|Синий
+ap_background|Фон
+ap_speed|Скорость
+ap_strength|Яркость
+ap_interface|Интерфейс
+ap_corners|Углы
+ap_serif|Заголовки с засечками
+ap_icon|Значок приложения
+ap_looks|Мои стили
+ap_save_look|Сохранить этот стиль
+ap_look_name|Название
+ap_reset|Сбросить стиль
+cw_night_sea|Ночное море
+cw_harbour|Гавань
+cw_storm|Шторм
+cw_fjord|Фьорд
+cw_abyss|Бездна
+cw_ember|Угли
+cw_plum|Слива
+cw_rose_tide|Розовый прилив
+cw_moss|Мох
+cw_arctic|Арктика
+cw_sodium|Натрий
+cw_keeper|Смотритель
+cw_paper_chart|Морская карта
+cw_sea_fog|Морской туман
+cw_sandbar|Отмель
+cw_first_light|Рассвет
+bg_beam|Луч
+bg_tide|Прилив
+bg_stars|Звёзды
+bg_rain|Дождь
+bg_fog|Туман
+bg_aurora|Сияние
+bg_off|Выкл.
+icon_amber|Янтарь
+icon_ink|Чернила
+icon_harbour|Гавань
+icon_coral|Коралл
+icon_mint|Мята
+icon_paper|Бумага

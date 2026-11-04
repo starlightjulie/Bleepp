@@ -1,0 +1,177 @@
+channel_updates|Pembaruan aplikasi
+channel_alerts|Peringatan berbunyi
+alert_playing|Peringatan %1$s
+alert_stop|Hentikan
+back|Kembali
+close|Tutup
+delete|Hapus
+cancel|Batal
+save|Simpan
+tab_log|Log
+tab_alerts|Peringatan
+tab_settings|Setelan
+log_morning|Pagi ini
+log_afternoon|Siang ini
+log_evening|Sore ini
+log_night|Malam ini
+log_count|Tercatat: %1$d
+log_search|Cari di log
+log_all_apps|Semua aplikasi
+log_today|Hari ini
+log_yesterday|Kemarin
+log_empty_title|Air sedang tenang
+log_empty_body|Notifikasi baru muncul di sini saat tiba.
+log_no_results|Tidak ada yang cocok dengan pencarian itu.
+stamp_rang|Berbunyi saat senyap
+stamp_broke|Menembus Senyap Total
+stamp_blocked|Ditahan oleh Senyap Total
+open_failed|Aplikasi itu tidak bisa dibuka.
+open_app_only|Notifikasi sudah hilang, jadi aplikasinya yang dibuka.
+alerts_title|Peringatan senyap
+alerts_master|Peringatan aktif
+status_ringing|Ponselmu bisa berdering, jadi aplikasi memakai suaranya sendiri.
+status_silent|Ponselmu senyap. Aplikasi pilihan tetap akan berbunyi.
+status_total|Senyap Total aktif. Hanya aplikasi yang diizinkan menembusnya yang berbunyi.
+status_off|Peringatan nonaktif.
+status_no_access|Bleepp belum bisa melihat notifikasi.
+alerts_chosen|Aplikasi dengan peringatan
+alerts_other|Semua aplikasi
+alerts_search|Cari aplikasi
+alerts_none|Pilih aplikasi di bawah untuk memberinya suara.
+rule_summary|%1$s pada %2$d%%
+rule_off|Peringatan nonaktif
+rule_custom_sound|Suaramu sendiri
+rule_enabled|Bunyi saat senyap
+rule_sound|Suara
+rule_pick_file|Pilih file
+rule_test|Putar uji coba
+rule_volume|Volume peringatan
+rule_volume_hint|Bleepp menaikkan volume untuk peringatan, lalu mengembalikannya.
+rule_vibrate|Sekaligus bergetar
+rule_keywords|Hanya untuk kata-kata ini
+rule_keywords_example|penting, Sam, server mati
+rule_keywords_hint|Pisahkan kata dengan koma. Kosongkan agar berbunyi untuk setiap notifikasi.
+rule_repeat|Ulangi sampai dilihat
+rule_repeat_hint|Berhenti saat kamu membuka atau menghapus notifikasi, atau mengetuk Hentikan.
+rule_every|Setiap %1$d detik
+rule_max|Berhenti setelah %1$d kali
+rule_breakthrough|Tembus Senyap Total
+rule_breakthrough_hint|Memakai audio aksesibilitas yang mengikuti volume media. Simpan untuk aplikasi yang benar-benar penting.
+rule_log|Simpan di log
+rule_remove|Hapus peringatan
+snd_bleep|Bleep
+snd_pager|Pager
+snd_sonar|Sonar
+snd_harbour_bell|Lonceng pelabuhan
+snd_rising|Naik
+snd_foghorn|Klakson kabut
+snd_drops|Tetesan
+snd_morse|Morse
+set_setup|Penyiapan
+setup_banner|Bleepp perlu akses notifikasi agar bisa bekerja.
+setup_access|Akses notifikasi
+setup_access_on|Aktif. Bleepp bisa melihat notifikasimu.
+setup_access_off|Dibutuhkan untuk peringatan dan log.
+setup_battery|Baterai tanpa batasan
+setup_battery_hint|Menjaga Bleepp tetap berjalan agar peringatan tak terlewat.
+setup_post|Tampilkan notifikasi
+setup_post_hint|Untuk tombol Hentikan dan info pembaruan.
+setup_fix|Aktifkan
+setup_done|Aktif
+setup_restricted_title|Berwarna abu-abu?
+setup_restricted_body|Android memblokir ini untuk aplikasi yang dipasang dari file. Buka Info aplikasi, ketuk menu tiga titik, pilih Izinkan setelan terbatas, lalu kembali dan coba lagi.
+setup_open_info|Buka Info aplikasi
+set_quiet|Jam tenang
+quiet_on|Senyapkan peringatan pada jam tertentu
+quiet_from|Dari
+quiet_to|Sampai
+cooldown_value|Tunggu %1$d detik antarperingatan dari satu aplikasi
+set_log|Log
+log_private|Log-mu tetap di ponsel ini. Tidak pernah dicadangkan atau dikirim ke mana pun.
+keep_for|Simpan entri selama
+keep_days|%1$d hari
+keep_forever|Selamanya
+log_noise|Catat notifikasi berjalan dan media
+log_clear|Bersihkan log
+log_clear_confirm|Hapus semua entri log? Tindakan ini tidak bisa dibatalkan.
+set_language|Bahasa
+lang_system|Ikuti ponsel
+set_updates|Pembaruan
+upd_auto|Periksa pembaruan
+n_hours|%1$d jam
+upd_check|Periksa sekarang
+upd_checking|Memeriksa…
+upd_latest|Kamu memakai versi terbaru.
+upd_none|Belum ada rilis publik.
+upd_http|GitHub membalas dengan kesalahan %1$d.
+upd_offline|Tidak bisa menghubungi GitHub.
+upd_notag|Rilis terbaru tidak punya nomor versi.
+upd_title|Bleepp %1$s telah rilis
+upd_now|Perbarui sekarang
+upd_later|Ingatkan nanti
+upd_notif_title|Bleepp %1$s telah rilis
+open_release|Buka rilis
+whats_new|Lihat yang baru
+whats_new_title|Yang baru di %1$s
+note_new|Baru
+note_fixed|Diperbaiki
+note_improved|Ditingkatkan
+set_about|Tentang
+about_version|Versi %1$s
+about_official|Build resmi
+about_unofficial|Build tidak resmi
+about_credit|Dibuat oleh StarlightJulie
+about_licence|Perangkat lunak bebas di bawah GPLv3
+about_kofi|Dukung di Ko-fi
+about_github|Kode sumber di GitHub
+appearance|Tampilan
+ap_colourway|Paduan warna
+ap_custom|Pakai warnaku sendiri
+ap_sea|Laut
+ap_swell|Kartu
+ap_beam|Sorot cahaya
+ap_on_beam|Teks di sorot cahaya
+ap_text|Teks
+ap_red|Merah
+ap_green|Hijau
+ap_blue|Biru
+ap_background|Latar
+ap_speed|Kecepatan
+ap_strength|Kekuatan
+ap_interface|Antarmuka
+ap_corners|Sudut
+ap_serif|Judul berkait
+ap_icon|Ikon aplikasi
+ap_looks|Tampilanku
+ap_save_look|Simpan tampilan ini
+ap_look_name|Nama
+ap_reset|Setel ulang tampilan
+cw_night_sea|Laut Malam
+cw_harbour|Pelabuhan
+cw_storm|Badai
+cw_fjord|Fyord
+cw_abyss|Palung
+cw_ember|Bara
+cw_plum|Prem
+cw_rose_tide|Pasang Mawar
+cw_moss|Lumut
+cw_arctic|Arktik
+cw_sodium|Natrium
+cw_keeper|Penjaga
+cw_paper_chart|Peta Laut
+cw_sea_fog|Kabut Laut
+cw_sandbar|Gosong Pasir
+cw_first_light|Fajar
+bg_beam|Sorot cahaya
+bg_tide|Pasang
+bg_stars|Bintang
+bg_rain|Hujan
+bg_fog|Kabut
+bg_aurora|Aurora
+bg_off|Mati
+icon_amber|Amber
+icon_ink|Tinta
+icon_harbour|Pelabuhan
+icon_coral|Karang
+icon_mint|Mint
+icon_paper|Kertas

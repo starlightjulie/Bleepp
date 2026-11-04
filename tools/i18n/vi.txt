@@ -1,0 +1,177 @@
+channel_updates|Bản cập nhật ứng dụng
+channel_alerts|Đang phát cảnh báo
+alert_playing|Cảnh báo %1$s
+alert_stop|Dừng
+back|Quay lại
+close|Đóng
+delete|Xóa
+cancel|Hủy
+save|Lưu
+tab_log|Nhật ký
+tab_alerts|Cảnh báo
+tab_settings|Cài đặt
+log_morning|Sáng nay
+log_afternoon|Chiều nay
+log_evening|Tối nay
+log_night|Đêm nay
+log_count|Đã ghi: %1$d
+log_search|Tìm trong nhật ký
+log_all_apps|Tất cả ứng dụng
+log_today|Hôm nay
+log_yesterday|Hôm qua
+log_empty_title|Mặt nước đang yên ả
+log_empty_body|Thông báo mới sẽ hiện ở đây khi đến.
+log_no_results|Không có kết quả phù hợp.
+stamp_rang|Đã kêu khi im lặng
+stamp_broke|Đã vượt qua Im lặng hoàn toàn
+stamp_blocked|Bị Im lặng hoàn toàn chặn
+open_failed|Không mở được ứng dụng đó.
+open_app_only|Thông báo không còn nên ứng dụng đã được mở thay thế.
+alerts_title|Cảnh báo khi im lặng
+alerts_master|Bật cảnh báo
+status_ringing|Điện thoại có thể đổ chuông nên các ứng dụng dùng âm thanh riêng.
+status_silent|Điện thoại đang im lặng. Các ứng dụng đã chọn vẫn sẽ kêu.
+status_total|Im lặng hoàn toàn đang bật. Chỉ các ứng dụng được phép vượt qua mới kêu.
+status_off|Cảnh báo đang tắt.
+status_no_access|Bleepp chưa thể xem thông báo.
+alerts_chosen|Ứng dụng có cảnh báo
+alerts_other|Tất cả ứng dụng
+alerts_search|Tìm ứng dụng
+alerts_none|Chọn một ứng dụng bên dưới để gán âm thanh.
+rule_summary|%1$s ở mức %2$d%%
+rule_off|Tắt cảnh báo
+rule_custom_sound|Âm thanh của bạn
+rule_enabled|Kêu khi im lặng
+rule_sound|Âm thanh
+rule_pick_file|Chọn tệp
+rule_test|Phát thử
+rule_volume|Âm lượng cảnh báo
+rule_volume_hint|Bleepp tăng âm lượng cho cảnh báo rồi trả lại như cũ.
+rule_vibrate|Rung cùng lúc
+rule_keywords|Chỉ với những từ này
+rule_keywords_example|khẩn cấp, Sam, máy chủ sập
+rule_keywords_hint|Phân tách các từ bằng dấu phẩy. Để trống để kêu với mọi thông báo.
+rule_repeat|Lặp lại đến khi xem
+rule_repeat_hint|Dừng khi bạn mở hoặc xóa thông báo, hoặc nhấn Dừng.
+rule_every|Mỗi %1$d giây
+rule_max|Dừng sau %1$d lần phát
+rule_breakthrough|Vượt qua Im lặng hoàn toàn
+rule_breakthrough_hint|Dùng âm thanh trợ năng, theo âm lượng phương tiện. Chỉ nên bật cho những ứng dụng thật sự quan trọng.
+rule_log|Giữ trong nhật ký
+rule_remove|Gỡ cảnh báo
+snd_bleep|Bleep
+snd_pager|Máy nhắn tin
+snd_sonar|Sonar
+snd_harbour_bell|Chuông bến cảng
+snd_rising|Tăng dần
+snd_foghorn|Còi sương mù
+snd_drops|Giọt nước
+snd_morse|Morse
+set_setup|Thiết lập
+setup_banner|Bleepp cần quyền truy cập thông báo để hoạt động.
+setup_access|Truy cập thông báo
+setup_access_on|Đang bật. Bleepp xem được thông báo của bạn.
+setup_access_off|Cần cho cảnh báo và nhật ký.
+setup_battery|Pin không hạn chế
+setup_battery_hint|Giữ Bleepp chạy để không bỏ lỡ cảnh báo.
+setup_post|Hiện thông báo
+setup_post_hint|Dành cho nút Dừng và thông báo cập nhật.
+setup_fix|Bật
+setup_done|Đang bật
+setup_restricted_title|Bị mờ đi?
+setup_restricted_body|Android chặn mục này với ứng dụng cài từ tệp. Mở Thông tin ứng dụng, nhấn menu ba chấm, chọn Cho phép cài đặt bị hạn chế, rồi quay lại thử lần nữa.
+setup_open_info|Mở Thông tin ứng dụng
+set_quiet|Giờ yên tĩnh
+quiet_on|Giữ im lặng cho cảnh báo vào giờ đã đặt
+quiet_from|Từ
+quiet_to|Đến
+cooldown_value|Chờ %1$d giây giữa các cảnh báo của một ứng dụng
+set_log|Nhật ký
+log_private|Nhật ký chỉ nằm trên điện thoại này. Không bao giờ được sao lưu hay gửi đi đâu.
+keep_for|Giữ mục trong
+keep_days|%1$d ngày
+keep_forever|Mãi mãi
+log_noise|Ghi thông báo liên tục và phương tiện
+log_clear|Xóa nhật ký
+log_clear_confirm|Xóa mọi mục trong nhật ký? Không thể hoàn tác.
+set_language|Ngôn ngữ
+lang_system|Theo điện thoại
+set_updates|Cập nhật
+upd_auto|Kiểm tra cập nhật
+n_hours|%1$d giờ
+upd_check|Kiểm tra ngay
+upd_checking|Đang kiểm tra…
+upd_latest|Bạn đang dùng phiên bản mới nhất.
+upd_none|Chưa có bản phát hành công khai.
+upd_http|GitHub trả về lỗi %1$d.
+upd_offline|Không kết nối được GitHub.
+upd_notag|Bản phát hành mới nhất không có số phiên bản.
+upd_title|Đã có Bleepp %1$s
+upd_now|Cập nhật ngay
+upd_later|Nhắc tôi sau
+upd_notif_title|Đã có Bleepp %1$s
+open_release|Mở bản phát hành
+whats_new|Xem có gì mới
+whats_new_title|Có gì mới ở %1$s
+note_new|Mới
+note_fixed|Đã sửa
+note_improved|Đã cải thiện
+set_about|Giới thiệu
+about_version|Phiên bản %1$s
+about_official|Bản dựng chính thức
+about_unofficial|Bản dựng không chính thức
+about_credit|Tạo bởi StarlightJulie
+about_licence|Phần mềm tự do theo GPLv3
+about_kofi|Ủng hộ trên Ko-fi
+about_github|Mã nguồn trên GitHub
+appearance|Giao diện
+ap_colourway|Phối màu
+ap_custom|Dùng màu của tôi
+ap_sea|Biển
+ap_swell|Thẻ
+ap_beam|Tia sáng
+ap_on_beam|Chữ trên tia sáng
+ap_text|Chữ
+ap_red|Đỏ
+ap_green|Xanh lá
+ap_blue|Xanh dương
+ap_background|Nền
+ap_speed|Tốc độ
+ap_strength|Độ đậm
+ap_interface|Giao diện
+ap_corners|Góc bo
+ap_serif|Tiêu đề có chân
+ap_icon|Biểu tượng ứng dụng
+ap_looks|Phong cách của tôi
+ap_save_look|Lưu phong cách này
+ap_look_name|Tên
+ap_reset|Đặt lại phong cách
+cw_night_sea|Biển đêm
+cw_harbour|Bến cảng
+cw_storm|Bão
+cw_fjord|Vịnh hẹp
+cw_abyss|Vực thẳm
+cw_ember|Than hồng
+cw_plum|Mận
+cw_rose_tide|Triều hồng
+cw_moss|Rêu
+cw_arctic|Bắc Cực
+cw_sodium|Natri
+cw_keeper|Người gác
+cw_paper_chart|Hải đồ
+cw_sea_fog|Sương biển
+cw_sandbar|Bãi cát
+cw_first_light|Bình minh
+bg_beam|Tia sáng
+bg_tide|Thủy triều
+bg_stars|Sao
+bg_rain|Mưa
+bg_fog|Sương mù
+bg_aurora|Cực quang
+bg_off|Tắt
+icon_amber|Hổ phách
+icon_ink|Mực
+icon_harbour|Bến cảng
+icon_coral|San hô
+icon_mint|Bạc hà
+icon_paper|Giấy

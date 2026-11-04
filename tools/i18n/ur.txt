@@ -1,0 +1,177 @@
+channel_updates|ایپ اپ ڈیٹس
+channel_alerts|الرٹ بج رہا ہے
+alert_playing|%1$s الرٹ
+alert_stop|روکیں
+back|واپس
+close|بند کریں
+delete|حذف کریں
+cancel|منسوخ کریں
+save|محفوظ کریں
+tab_log|لاگ
+tab_alerts|الرٹس
+tab_settings|ترتیبات
+log_morning|آج صبح
+log_afternoon|آج دوپہر
+log_evening|آج شام
+log_night|آج رات
+log_count|درج شدہ: %1$d
+log_search|لاگ میں تلاش کریں
+log_all_apps|تمام ایپس
+log_today|آج
+log_yesterday|کل
+log_empty_title|پانی پرسکون ہے
+log_empty_body|نئی اطلاعات آتے ہی یہاں نظر آئیں گی۔
+log_no_results|اس تلاش سے کچھ نہیں ملا۔
+stamp_rang|سائلنٹ پر بجا
+stamp_broke|مکمل خاموشی کو توڑا
+stamp_blocked|مکمل خاموشی نے روکا
+open_failed|وہ ایپ نہیں کھل سکتی۔
+open_app_only|اطلاع ختم ہو چکی ہے، اس لیے ایپ کھولی گئی۔
+alerts_title|سائلنٹ الرٹس
+alerts_master|الرٹس آن
+status_ringing|آپ کا فون بج سکتا ہے، اس لیے ایپس اپنی آوازیں استعمال کرتی ہیں۔
+status_silent|آپ کا فون سائلنٹ پر ہے۔ منتخب ایپس پھر بھی بجیں گی۔
+status_total|مکمل خاموشی آن ہے۔ صرف اجازت یافتہ ایپس ہی بجیں گی۔
+status_off|الرٹس بند ہیں۔
+status_no_access|Bleepp ابھی اطلاعات نہیں دیکھ سکتا۔
+alerts_chosen|الرٹ والی ایپس
+alerts_other|تمام ایپس
+alerts_search|ایپ تلاش کریں
+alerts_none|آواز دینے کے لیے نیچے سے کوئی ایپ چنیں۔
+rule_summary|%1$s، %2$d%%
+rule_off|الرٹ بند
+rule_custom_sound|آپ کی اپنی آواز
+rule_enabled|سائلنٹ پر بجائیں
+rule_sound|آواز
+rule_pick_file|فائل چنیں
+rule_test|ٹیسٹ چلائیں
+rule_volume|الرٹ والیوم
+rule_volume_hint|Bleepp الرٹ کے لیے والیوم بڑھاتا ہے، پھر پہلے جیسا کر دیتا ہے۔
+rule_vibrate|وائبریٹ بھی کریں
+rule_keywords|صرف ان الفاظ کے لیے
+rule_keywords_example|فوری، سیم، سرور بند
+rule_keywords_hint|الفاظ کو کوما سے الگ کریں۔ ہر اطلاع پر بجانے کے لیے خالی چھوڑیں۔
+rule_repeat|دیکھنے تک دہرائیں
+rule_repeat_hint|اطلاع کھولنے یا ہٹانے، یا روکیں دبانے پر رک جاتا ہے۔
+rule_every|ہر %1$d سیکنڈ بعد
+rule_max|%1$d بار کے بعد روکیں
+rule_breakthrough|مکمل خاموشی توڑیں
+rule_breakthrough_hint|ایکسیسبلٹی آڈیو استعمال کرتا ہے جو میڈیا والیوم کے مطابق چلتا ہے۔ اسے واقعی اہم ایپس کے لیے رکھیں۔
+rule_log|لاگ میں رکھیں
+rule_remove|الرٹ ہٹائیں
+snd_bleep|بلیپ
+snd_pager|پیجر
+snd_sonar|سونار
+snd_harbour_bell|بندرگاہ کی گھنٹی
+snd_rising|بڑھتی آواز
+snd_foghorn|دھند کا بھونپو
+snd_drops|قطرے
+snd_morse|مورس
+set_setup|سیٹ اپ
+setup_banner|Bleepp کو کام کرنے کے لیے اطلاعات تک رسائی چاہیے۔
+setup_access|اطلاعات تک رسائی
+setup_access_on|آن۔ Bleepp آپ کی اطلاعات دیکھ سکتا ہے۔
+setup_access_off|الرٹس اور لاگ کے لیے ضروری۔
+setup_battery|بیٹری پر کوئی پابندی نہیں
+setup_battery_hint|Bleepp چلتا رہتا ہے تاکہ الرٹس نہ چھوٹیں۔
+setup_post|اطلاعات دکھائیں
+setup_post_hint|روکیں بٹن اور اپ ڈیٹ پیغامات کے لیے۔
+setup_fix|آن کریں
+setup_done|آن
+setup_restricted_title|دھندلا نظر آ رہا ہے؟
+setup_restricted_body|Android فائل سے انسٹال کی گئی ایپس کے لیے اسے روکتا ہے۔ ایپ کی معلومات کھولیں، تین نقطوں والا مینو دبائیں، محدود ترتیبات کی اجازت دیں چنیں، پھر دوبارہ کوشش کریں۔
+setup_open_info|ایپ کی معلومات کھولیں
+set_quiet|پرسکون اوقات
+quiet_on|مقررہ اوقات میں الرٹس خاموش رکھیں
+quiet_from|سے
+quiet_to|تک
+cooldown_value|ایک ایپ کے الرٹس کے درمیان %1$d سیکنڈ رکیں
+set_log|لاگ
+log_private|آپ کا لاگ اسی فون پر رہتا ہے۔ اس کا بیک اپ نہیں ہوتا اور یہ کہیں نہیں بھیجا جاتا۔
+keep_for|اندراجات رکھیں
+keep_days|%1$d دن
+keep_forever|ہمیشہ
+log_noise|جاری اور میڈیا اطلاعات بھی درج کریں
+log_clear|لاگ صاف کریں
+log_clear_confirm|تمام اندراجات حذف کریں؟ یہ واپس نہیں ہو سکتا۔
+set_language|زبان
+lang_system|فون کے مطابق
+set_updates|اپ ڈیٹس
+upd_auto|اپ ڈیٹس چیک کریں
+n_hours|%1$d گھنٹے
+upd_check|ابھی چیک کریں
+upd_checking|چیک ہو رہا ہے…
+upd_latest|آپ تازہ ترین ورژن پر ہیں۔
+upd_none|ابھی کوئی عوامی ریلیز نہیں۔
+upd_http|GitHub نے خرابی %1$d دی۔
+upd_offline|GitHub تک رسائی نہیں ہو سکی۔
+upd_notag|تازہ ترین ریلیز میں ورژن نمبر نہیں ہے۔
+upd_title|Bleepp %1$s آ گیا
+upd_now|ابھی اپ ڈیٹ کریں
+upd_later|بعد میں یاد دلائیں
+upd_notif_title|Bleepp %1$s آ گیا
+open_release|ریلیز کھولیں
+whats_new|نیا کیا ہے دیکھیں
+whats_new_title|%1$s میں نیا کیا ہے
+note_new|نیا
+note_fixed|درست کیا گیا
+note_improved|بہتر کیا گیا
+set_about|تعارف
+about_version|ورژن %1$s
+about_official|سرکاری بلڈ
+about_unofficial|غیر سرکاری بلڈ
+about_credit|StarlightJulie کی تخلیق
+about_licence|GPLv3 کے تحت آزاد سافٹ ویئر
+about_kofi|Ko-fi پر تعاون کریں
+about_github|GitHub پر سورس کوڈ
+appearance|ظاہری شکل
+ap_colourway|رنگوں کا مجموعہ
+ap_custom|میرے رنگ استعمال کریں
+ap_sea|سمندر
+ap_swell|کارڈز
+ap_beam|کرن
+ap_on_beam|کرن پر متن
+ap_text|متن
+ap_red|سرخ
+ap_green|سبز
+ap_blue|نیلا
+ap_background|پس منظر
+ap_speed|رفتار
+ap_strength|شدت
+ap_interface|انٹرفیس
+ap_corners|کونے
+ap_serif|سیرف سرخیاں
+ap_icon|ایپ آئیکن
+ap_looks|میرے انداز
+ap_save_look|یہ انداز محفوظ کریں
+ap_look_name|نام
+ap_reset|انداز ری سیٹ کریں
+cw_night_sea|رات کا سمندر
+cw_harbour|بندرگاہ
+cw_storm|طوفان
+cw_fjord|فیورڈ
+cw_abyss|اتھاہ گہرائی
+cw_ember|انگارہ
+cw_plum|آلو بخارا
+cw_rose_tide|گلابی مد
+cw_moss|کائی
+cw_arctic|آرکٹک
+cw_sodium|سوڈیم
+cw_keeper|نگہبان
+cw_paper_chart|سمندری نقشہ
+cw_sea_fog|سمندری دھند
+cw_sandbar|ریتلا ٹیلہ
+cw_first_light|پہلی روشنی
+bg_beam|کرن
+bg_tide|مد و جزر
+bg_stars|ستارے
+bg_rain|بارش
+bg_fog|دھند
+bg_aurora|قطبی روشنی
+bg_off|بند
+icon_amber|عنبر
+icon_ink|سیاہی
+icon_harbour|بندرگاہ
+icon_coral|مرجان
+icon_mint|پودینہ
+icon_paper|کاغذ

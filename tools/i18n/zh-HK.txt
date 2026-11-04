@@ -1,0 +1,177 @@
+channel_updates|App 更新
+channel_alerts|提示播緊
+alert_playing|%1$s 提示
+alert_stop|停
+back|返回
+close|閂
+delete|刪除
+cancel|取消
+save|儲存
+tab_log|記錄
+tab_alerts|提示
+tab_settings|設定
+log_morning|今朝
+log_afternoon|今日下晝
+log_evening|今日夜晚
+log_night|今晚
+log_count|已記錄：%1$d
+log_search|搜尋記錄
+log_all_apps|全部 App
+log_today|今日
+log_yesterday|尋日
+log_empty_title|海面風平浪靜
+log_empty_body|新通知一到就會喺呢度出現。
+log_no_results|搵唔到相符嘅結果。
+stamp_rang|靜音時響咗
+stamp_broke|穿透咗完全靜音
+stamp_blocked|俾完全靜音擋住咗
+open_failed|開唔到嗰個 App。
+open_app_only|通知已經冇咗，所以改為打開 App。
+alerts_title|靜音提示
+alerts_master|開啟提示
+status_ringing|你部手機可以響，所以 App 會用返自己嘅聲。
+status_silent|你部手機靜音緊，揀咗嘅 App 都會照響。
+status_total|完全靜音開緊，得獲准穿透嘅 App 先會響。
+status_off|提示閂咗。
+status_no_access|Bleepp 仲未睇到通知。
+alerts_chosen|有提示嘅 App
+alerts_other|全部 App
+alerts_search|搵 App
+alerts_none|喺下面揀個 App，幫佢設定聲音。
+rule_summary|%1$s，音量 %2$d%%
+rule_off|提示閂咗
+rule_custom_sound|你自己嘅聲音
+rule_enabled|靜音時都響
+rule_sound|聲音
+rule_pick_file|揀檔案
+rule_test|播放測試
+rule_volume|提示音量
+rule_volume_hint|Bleepp 會為提示調高音量，之後還原。
+rule_vibrate|同時震動
+rule_keywords|只限呢啲字
+rule_keywords_example|緊急, 阿明, 伺服器死機
+rule_keywords_hint|用逗號分隔。留空就每個通知都響。
+rule_repeat|重複到睇咗為止
+rule_repeat_hint|打開或者清除通知，或者㩒「停」就會停。
+rule_every|每 %1$d 秒
+rule_max|播 %1$d 次之後停
+rule_breakthrough|穿透完全靜音
+rule_breakthrough_hint|用無障礙音訊，音量跟媒體音量。淨係留俾真係重要嘅 App。
+rule_log|留喺記錄度
+rule_remove|移除提示
+snd_bleep|嗶聲
+snd_pager|傳呼機
+snd_sonar|聲納
+snd_harbour_bell|海港鐘
+snd_rising|漸強
+snd_foghorn|霧笛
+snd_drops|水滴
+snd_morse|摩斯
+set_setup|初始設定
+setup_banner|Bleepp 要有通知存取權先用得。
+setup_access|通知存取權
+setup_access_on|開咗。Bleepp 睇到你嘅通知。
+setup_access_off|提示同記錄都需要。
+setup_battery|電池不受限
+setup_battery_hint|令 Bleepp 保持運作，唔會漏提示。
+setup_post|顯示通知
+setup_post_hint|用嚟顯示「停」掣同更新通知。
+setup_fix|開啟
+setup_done|開咗
+setup_restricted_title|變咗灰色？
+setup_restricted_body|Android 會封鎖由檔案安裝嘅 App。打開 App 資料，㩒三點選單，揀「允許受限設定」，再返嚟試多次。
+setup_open_info|打開 App 資料
+set_quiet|安靜時段
+quiet_on|喺設定時段保持安靜
+quiet_from|由
+quiet_to|至
+cooldown_value|同一個 App 嘅提示最少隔 %1$d 秒
+set_log|記錄
+log_private|你嘅記錄只會留喺呢部手機，永遠唔會備份或者傳去任何地方。
+keep_for|保留項目
+keep_days|%1$d 日
+keep_forever|永遠
+log_noise|記錄常駐同媒體通知
+log_clear|清除記錄
+log_clear_confirm|要刪除全部記錄？呢個動作冇得還原。
+set_language|語言
+lang_system|跟手機
+set_updates|更新
+upd_auto|檢查更新
+n_hours|%1$d 小時
+upd_check|即刻檢查
+upd_checking|檢查緊…
+upd_latest|你用緊最新版本。
+upd_none|暫時未有公開版本。
+upd_http|GitHub 回覆錯誤 %1$d。
+upd_offline|連唔到 GitHub。
+upd_notag|最新版本冇版本號碼。
+upd_title|Bleepp %1$s 出咗
+upd_now|即刻更新
+upd_later|遲啲提我
+upd_notif_title|Bleepp %1$s 出咗
+open_release|打開發佈頁
+whats_new|睇新功能
+whats_new_title|%1$s 新功能
+note_new|新增
+note_fixed|修正
+note_improved|改善
+set_about|關於
+about_version|版本 %1$s
+about_official|官方版本
+about_unofficial|非官方版本
+about_credit|由 StarlightJulie 製作
+about_licence|根據 GPLv3 發佈嘅自由軟件
+about_kofi|喺 Ko-fi 支持
+about_github|GitHub 上嘅原始碼
+appearance|外觀
+ap_colourway|配色
+ap_custom|用我自己嘅顏色
+ap_sea|海面
+ap_swell|卡片
+ap_beam|光束
+ap_on_beam|光束上嘅文字
+ap_text|文字
+ap_red|紅
+ap_green|綠
+ap_blue|藍
+ap_background|背景
+ap_speed|速度
+ap_strength|強度
+ap_interface|介面
+ap_corners|圓角
+ap_serif|襯線標題
+ap_icon|App 圖示
+ap_looks|我嘅外觀
+ap_save_look|儲存呢個外觀
+ap_look_name|名稱
+ap_reset|重設外觀
+cw_night_sea|夜海
+cw_harbour|海港
+cw_storm|風暴
+cw_fjord|峽灣
+cw_abyss|深淵
+cw_ember|餘燼
+cw_plum|梅紫
+cw_rose_tide|玫瑰潮
+cw_moss|青苔
+cw_arctic|北極
+cw_sodium|鈉光
+cw_keeper|守燈人
+cw_paper_chart|海圖
+cw_sea_fog|海霧
+cw_sandbar|沙洲
+cw_first_light|晨光
+bg_beam|光束
+bg_tide|潮汐
+bg_stars|星空
+bg_rain|雨
+bg_fog|霧
+bg_aurora|極光
+bg_off|閂
+icon_amber|琥珀
+icon_ink|墨色
+icon_harbour|海港
+icon_coral|珊瑚
+icon_mint|薄荷
+icon_paper|紙白

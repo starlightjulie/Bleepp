@@ -1,0 +1,177 @@
+channel_updates|ॲप अपडेट
+channel_alerts|अलर्ट वाजत आहे
+alert_playing|%1$s अलर्ट
+alert_stop|थांबवा
+back|मागे
+close|बंद करा
+delete|हटवा
+cancel|रद्द करा
+save|जतन करा
+tab_log|लॉग
+tab_alerts|अलर्ट
+tab_settings|सेटिंग्ज
+log_morning|आज सकाळी
+log_afternoon|आज दुपारी
+log_evening|आज संध्याकाळी
+log_night|आज रात्री
+log_count|नोंदवले: %1$d
+log_search|लॉगमध्ये शोधा
+log_all_apps|सर्व ॲप्स
+log_today|आज
+log_yesterday|काल
+log_empty_title|पाणी शांत आहे
+log_empty_body|नवीन सूचना येताच इथे दिसतील.
+log_no_results|या शोधाशी काहीही जुळत नाही.
+stamp_rang|सायलेंटवर वाजले
+stamp_broke|पूर्ण शांतता भेदली
+stamp_blocked|पूर्ण शांततेने अडवले
+open_failed|ते ॲप उघडता येत नाही.
+open_app_only|सूचना आता नाही, म्हणून ॲप उघडले.
+alerts_title|सायलेंट अलर्ट
+alerts_master|अलर्ट सुरू
+status_ringing|तुमचा फोन वाजू शकतो, त्यामुळे ॲप्स आपापले आवाज वापरतात.
+status_silent|तुमचा फोन सायलेंट आहे. निवडलेली ॲप्स तरीही वाजतील.
+status_total|पूर्ण शांतता सुरू आहे. फक्त परवानगी असलेली ॲप्सच वाजतील.
+status_off|अलर्ट बंद आहेत.
+status_no_access|Bleepp ला अजून सूचना दिसत नाहीत.
+alerts_chosen|अलर्ट असलेली ॲप्स
+alerts_other|सर्व ॲप्स
+alerts_search|ॲप शोधा
+alerts_none|आवाज देण्यासाठी खालून एखादे ॲप निवडा.
+rule_summary|%1$s, %2$d%%
+rule_off|अलर्ट बंद
+rule_custom_sound|तुमचा स्वतःचा आवाज
+rule_enabled|सायलेंटवर वाजवा
+rule_sound|आवाज
+rule_pick_file|फाइल निवडा
+rule_test|चाचणी वाजवा
+rule_volume|अलर्ट आवाज पातळी
+rule_volume_hint|Bleepp अलर्टसाठी आवाज वाढवते आणि नंतर पूर्वीसारखा करते.
+rule_vibrate|व्हायब्रेटही करा
+rule_keywords|फक्त या शब्दांसाठी
+rule_keywords_example|तातडीचे, सॅम, सर्व्हर बंद
+rule_keywords_hint|शब्द स्वल्पविरामाने वेगळे करा. प्रत्येक सूचनेवर वाजवण्यासाठी रिकामे ठेवा.
+rule_repeat|पाहीपर्यंत पुन्हा वाजवा
+rule_repeat_hint|सूचना उघडल्यावर किंवा काढल्यावर, किंवा थांबवा दाबल्यावर थांबते.
+rule_every|दर %1$d सेकंदांनी
+rule_max|%1$d वेळा वाजल्यावर थांबवा
+rule_breakthrough|पूर्ण शांतता भेदा
+rule_breakthrough_hint|ॲक्सेसिबिलिटी ऑडिओ वापरते, जो मीडिया आवाजानुसार चालतो. खरोखर महत्त्वाच्या ॲप्ससाठीच ठेवा.
+rule_log|लॉगमध्ये ठेवा
+rule_remove|अलर्ट काढा
+snd_bleep|ब्लीप
+snd_pager|पेजर
+snd_sonar|सोनार
+snd_harbour_bell|बंदराची घंटा
+snd_rising|चढता
+snd_foghorn|धुक्याचा भोंगा
+snd_drops|थेंब
+snd_morse|मोर्स
+set_setup|सेटअप
+setup_banner|Bleepp ला काम करण्यासाठी सूचना ॲक्सेस हवा.
+setup_access|सूचना ॲक्सेस
+setup_access_on|सुरू. Bleepp तुमच्या सूचना पाहू शकते.
+setup_access_off|अलर्ट आणि लॉगसाठी आवश्यक.
+setup_battery|अनिर्बंध बॅटरी
+setup_battery_hint|Bleepp चालू ठेवते, म्हणजे अलर्ट चुकणार नाहीत.
+setup_post|सूचना दाखवा
+setup_post_hint|थांबवा बटण आणि अपडेट सूचनांसाठी.
+setup_fix|सुरू करा
+setup_done|सुरू
+setup_restricted_title|राखाडी दिसते?
+setup_restricted_body|फाइलमधून इंस्टॉल केलेल्या ॲप्ससाठी Android हे अडवते. ॲप माहिती उघडा, तीन-ठिपक्यांचा मेनू दाबा, प्रतिबंधित सेटिंग्जना अनुमती द्या निवडा, मग पुन्हा प्रयत्न करा.
+setup_open_info|ॲप माहिती उघडा
+set_quiet|शांत वेळ
+quiet_on|ठरलेल्या वेळेत अलर्ट शांत ठेवा
+quiet_from|पासून
+quiet_to|पर्यंत
+cooldown_value|एका ॲपच्या अलर्टमध्ये %1$d सेकंद थांबा
+set_log|लॉग
+log_private|तुमचा लॉग याच फोनवर राहतो. त्याचा बॅकअप होत नाही आणि तो कुठेही पाठवला जात नाही.
+keep_for|नोंदी ठेवा
+keep_days|%1$d दिवस
+keep_forever|कायम
+log_noise|चालू आणि मीडिया सूचनाही नोंदवा
+log_clear|लॉग साफ करा
+log_clear_confirm|सर्व नोंदी हटवायच्या? हे पूर्ववत करता येणार नाही.
+set_language|भाषा
+lang_system|फोनप्रमाणे
+set_updates|अपडेट
+upd_auto|अपडेट तपासा
+n_hours|%1$d तास
+upd_check|आता तपासा
+upd_checking|तपासत आहे…
+upd_latest|तुमच्याकडे नवीनतम आवृत्ती आहे.
+upd_none|अजून सार्वजनिक रिलीज नाही.
+upd_http|GitHub ने त्रुटी %1$d दिली.
+upd_offline|GitHub पर्यंत पोहोचता आले नाही.
+upd_notag|नवीनतम रिलीजला आवृत्ती क्रमांक नाही.
+upd_title|Bleepp %1$s आले
+upd_now|आता अपडेट करा
+upd_later|नंतर आठवण करा
+upd_notif_title|Bleepp %1$s आले
+open_release|रिलीज उघडा
+whats_new|नवीन काय ते पाहा
+whats_new_title|%1$s मध्ये नवीन
+note_new|नवीन
+note_fixed|दुरुस्त केले
+note_improved|सुधारले
+set_about|माहिती
+about_version|आवृत्ती %1$s
+about_official|अधिकृत बिल्ड
+about_unofficial|अनधिकृत बिल्ड
+about_credit|StarlightJulie यांनी बनवले
+about_licence|GPLv3 अंतर्गत मुक्त सॉफ्टवेअर
+about_kofi|Ko-fi वर पाठिंबा द्या
+about_github|GitHub वर सोर्स कोड
+appearance|स्वरूप
+ap_colourway|रंगसंगती
+ap_custom|माझे रंग वापरा
+ap_sea|समुद्र
+ap_swell|कार्ड
+ap_beam|किरण
+ap_on_beam|किरणावरील मजकूर
+ap_text|मजकूर
+ap_red|लाल
+ap_green|हिरवा
+ap_blue|निळा
+ap_background|पार्श्वभूमी
+ap_speed|वेग
+ap_strength|तीव्रता
+ap_interface|इंटरफेस
+ap_corners|कोपरे
+ap_serif|सेरिफ शीर्षके
+ap_icon|ॲप आयकॉन
+ap_looks|माझे लुक
+ap_save_look|हा लुक जतन करा
+ap_look_name|नाव
+ap_reset|लुक रीसेट करा
+cw_night_sea|रात्रीचा समुद्र
+cw_harbour|बंदर
+cw_storm|वादळ
+cw_fjord|फियोर्ड
+cw_abyss|खोल दरी
+cw_ember|निखारा
+cw_plum|आलुबुखार
+cw_rose_tide|गुलाबी भरती
+cw_moss|शेवाळ
+cw_arctic|आर्क्टिक
+cw_sodium|सोडियम
+cw_keeper|दीपरक्षक
+cw_paper_chart|सागरी नकाशा
+cw_sea_fog|सागरी धुके
+cw_sandbar|वाळूचा पट्टा
+cw_first_light|पहिला प्रकाश
+bg_beam|किरण
+bg_tide|भरती
+bg_stars|तारे
+bg_rain|पाऊस
+bg_fog|धुके
+bg_aurora|ध्रुवीय प्रकाश
+bg_off|बंद
+icon_amber|अंबर
+icon_ink|शाई
+icon_harbour|बंदर
+icon_coral|प्रवाळ
+icon_mint|पुदिना
+icon_paper|कागद

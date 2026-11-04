@@ -1,0 +1,177 @@
+channel_updates|Actualizaciones de la app
+channel_alerts|Alerta en curso
+alert_playing|Alerta de %1$s
+alert_stop|Detener
+back|Atrás
+close|Cerrar
+delete|Eliminar
+cancel|Cancelar
+save|Guardar
+tab_log|Registro
+tab_alerts|Alertas
+tab_settings|Ajustes
+log_morning|Esta mañana
+log_afternoon|Esta tarde
+log_evening|Esta noche
+log_night|Esta noche
+log_count|Registradas: %1$d
+log_search|Buscar en el registro
+log_all_apps|Todas las apps
+log_today|Hoy
+log_yesterday|Ayer
+log_empty_title|El agua está en calma
+log_empty_body|Las notificaciones nuevas aparecen aquí cuando llegan.
+log_no_results|Nada coincide con esa búsqueda.
+stamp_rang|Sonó en silencio
+stamp_broke|Atravesó el Silencio total
+stamp_blocked|Retenida por el Silencio total
+open_failed|No se puede abrir esa app.
+open_app_only|La notificación ya no está, así que se abrió la app.
+alerts_title|Alertas en silencio
+alerts_master|Alertas activadas
+status_ringing|Tu teléfono puede sonar, así que las apps usan sus propios sonidos.
+status_silent|Tu teléfono está en silencio. Las apps elegidas sonarán igualmente.
+status_total|El Silencio total está activado. Solo sonarán las apps autorizadas a atravesarlo.
+status_off|Las alertas están desactivadas.
+status_no_access|Bleepp aún no puede ver las notificaciones.
+alerts_chosen|Apps con alerta
+alerts_other|Todas las apps
+alerts_search|Buscar una app
+alerts_none|Elige una app abajo para darle un sonido.
+rule_summary|%1$s al %2$d%%
+rule_off|Alerta desactivada
+rule_custom_sound|Tu propio sonido
+rule_enabled|Sonar en silencio
+rule_sound|Sonido
+rule_pick_file|Elegir archivo
+rule_test|Reproducir prueba
+rule_volume|Volumen de alerta
+rule_volume_hint|Bleepp sube el volumen para la alerta y luego lo restablece.
+rule_vibrate|Vibrar también
+rule_keywords|Solo con estas palabras
+rule_keywords_example|urgente, Sam, servidor caído
+rule_keywords_hint|Separa las palabras con comas. Déjalo vacío para que suene con cada notificación.
+rule_repeat|Repetir hasta verla
+rule_repeat_hint|Se detiene al abrir o borrar la notificación, o al tocar Detener.
+rule_every|Cada %1$d segundos
+rule_max|Detener tras %1$d reproducciones
+rule_breakthrough|Atravesar el Silencio total
+rule_breakthrough_hint|Usa el audio de accesibilidad, que sigue el volumen multimedia. Resérvalo para las apps realmente importantes.
+rule_log|Mantener en el registro
+rule_remove|Quitar alerta
+snd_bleep|Bleep
+snd_pager|Buscapersonas
+snd_sonar|Sonar
+snd_harbour_bell|Campana de puerto
+snd_rising|Ascendente
+snd_foghorn|Sirena de niebla
+snd_drops|Gotas
+snd_morse|Morse
+set_setup|Configuración
+setup_banner|Bleepp necesita acceso a las notificaciones para funcionar.
+setup_access|Acceso a notificaciones
+setup_access_on|Activado. Bleepp puede ver tus notificaciones.
+setup_access_off|Necesario para las alertas y el registro.
+setup_battery|Batería sin restricciones
+setup_battery_hint|Mantiene Bleepp activo para no perder alertas.
+setup_post|Mostrar notificaciones
+setup_post_hint|Para el botón Detener y los avisos de actualización.
+setup_fix|Activar
+setup_done|Activado
+setup_restricted_title|¿Aparece en gris?
+setup_restricted_body|Android bloquea esto en apps instaladas desde un archivo. Abre Info de la app, toca el menú de tres puntos, elige Permitir ajustes restringidos, vuelve e inténtalo de nuevo.
+setup_open_info|Abrir Info de la app
+set_quiet|Horas de silencio
+quiet_on|Silenciar alertas en un horario
+quiet_from|Desde
+quiet_to|Hasta
+cooldown_value|Esperar %1$d segundos entre alertas de una misma app
+set_log|Registro
+log_private|Tu registro se queda en este teléfono. Nunca se copia ni se envía a ningún sitio.
+keep_for|Conservar entradas durante
+keep_days|%1$d días
+keep_forever|Siempre
+log_noise|Registrar notificaciones continuas y multimedia
+log_clear|Vaciar el registro
+log_clear_confirm|¿Eliminar todas las entradas? No se puede deshacer.
+set_language|Idioma
+lang_system|Igual que el teléfono
+set_updates|Actualizaciones
+upd_auto|Buscar actualizaciones
+n_hours|%1$d h
+upd_check|Comprobar ahora
+upd_checking|Comprobando…
+upd_latest|Tienes la última versión.
+upd_none|Aún no hay versión pública.
+upd_http|GitHub respondió con el error %1$d.
+upd_offline|No se pudo conectar con GitHub.
+upd_notag|La última versión no tiene número.
+upd_title|Ya está aquí Bleepp %1$s
+upd_now|Actualizar ahora
+upd_later|Recordármelo luego
+upd_notif_title|Ya está aquí Bleepp %1$s
+open_release|Abrir versión
+whats_new|Ver novedades
+whats_new_title|Novedades de %1$s
+note_new|Nuevo
+note_fixed|Corregido
+note_improved|Mejorado
+set_about|Acerca de
+about_version|Versión %1$s
+about_official|Compilación oficial
+about_unofficial|Compilación no oficial
+about_credit|Hecho por StarlightJulie
+about_licence|Software libre bajo la GPLv3
+about_kofi|Apoyar en Ko-fi
+about_github|Código fuente en GitHub
+appearance|Apariencia
+ap_colourway|Combinación de colores
+ap_custom|Usar mis colores
+ap_sea|Mar
+ap_swell|Tarjetas
+ap_beam|Haz de luz
+ap_on_beam|Texto sobre el haz
+ap_text|Texto
+ap_red|Rojo
+ap_green|Verde
+ap_blue|Azul
+ap_background|Fondo
+ap_speed|Velocidad
+ap_strength|Intensidad
+ap_interface|Interfaz
+ap_corners|Esquinas
+ap_serif|Títulos con serifa
+ap_icon|Icono de la app
+ap_looks|Mis estilos
+ap_save_look|Guardar este estilo
+ap_look_name|Nombre
+ap_reset|Restablecer estilo
+cw_night_sea|Mar nocturno
+cw_harbour|Puerto
+cw_storm|Tormenta
+cw_fjord|Fiordo
+cw_abyss|Abismo
+cw_ember|Ascua
+cw_plum|Ciruela
+cw_rose_tide|Marea rosa
+cw_moss|Musgo
+cw_arctic|Ártico
+cw_sodium|Sodio
+cw_keeper|Farero
+cw_paper_chart|Carta náutica
+cw_sea_fog|Niebla marina
+cw_sandbar|Banco de arena
+cw_first_light|Primera luz
+bg_beam|Haz de luz
+bg_tide|Marea
+bg_stars|Estrellas
+bg_rain|Lluvia
+bg_fog|Niebla
+bg_aurora|Aurora
+bg_off|Desactivado
+icon_amber|Ámbar
+icon_ink|Tinta
+icon_harbour|Puerto
+icon_coral|Coral
+icon_mint|Menta
+icon_paper|Papel

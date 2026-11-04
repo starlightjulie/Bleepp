@@ -1,0 +1,177 @@
+channel_updates|تحديثات التطبيق
+channel_alerts|التنبيه شغال
+alert_playing|تنبيه %1$s
+alert_stop|وقّف
+back|رجوع
+close|اقفل
+delete|امسح
+cancel|إلغاء
+save|احفظ
+tab_log|السجل
+tab_alerts|التنبيهات
+tab_settings|الإعدادات
+log_morning|النهارده الصبح
+log_afternoon|النهارده بعد الضهر
+log_evening|النهارده بالليل
+log_night|الليلة دي
+log_count|المتسجل: %1$d
+log_search|دوّر في السجل
+log_all_apps|كل التطبيقات
+log_today|النهارده
+log_yesterday|إمبارح
+log_empty_title|البحر هادي
+log_empty_body|الإشعارات الجديدة هتظهر هنا أول ما توصل.
+log_no_results|مفيش حاجة مطابقة للبحث ده.
+stamp_rang|رنّ وهو صامت
+stamp_broke|عدّى الصمت التام
+stamp_blocked|الصمت التام وقّفه
+open_failed|مش عارف أفتح التطبيق ده.
+open_app_only|الإشعار راح، فاتفتح التطبيق بدله.
+alerts_title|تنبيهات الصامت
+alerts_master|التنبيهات شغالة
+status_ringing|موبايلك يقدر يرن، فالتطبيقات بتستخدم أصواتها.
+status_silent|موبايلك صامت. التطبيقات اللي اخترتها هترن برضه.
+status_total|الصمت التام شغال. هترن بس التطبيقات المسموح لها تعدّيه.
+status_off|التنبيهات مقفولة.
+status_no_access|Bleepp لسه مش شايف الإشعارات.
+alerts_chosen|تطبيقات ليها تنبيه
+alerts_other|كل التطبيقات
+alerts_search|دوّر على تطبيق
+alerts_none|اختار تطبيق من تحت عشان تديله صوت.
+rule_summary|%1$s بنسبة %2$d%%
+rule_off|التنبيه مقفول
+rule_custom_sound|صوتك إنت
+rule_enabled|صوت وهو صامت
+rule_sound|الصوت
+rule_pick_file|اختار ملف
+rule_test|شغّل تجربة
+rule_volume|صوت التنبيه
+rule_volume_hint|Bleepp بيعلّي الصوت للتنبيه وبعدين يرجّعه زي ما كان.
+rule_vibrate|يهز كمان
+rule_keywords|للكلمات دي بس
+rule_keywords_example|مستعجل، سام، السيرفر وقع
+rule_keywords_hint|افصل الكلمات بفواصل. سيبها فاضية عشان يرن لكل إشعار.
+rule_repeat|كرر لحد ما تشوفه
+rule_repeat_hint|بيقف لما تفتح الإشعار أو تمسحه، أو تدوس وقّف.
+rule_every|كل %1$d ثانية
+rule_max|وقّف بعد %1$d مرة
+rule_breakthrough|عدّي الصمت التام
+rule_breakthrough_hint|بيستخدم صوت تسهيل الاستخدام اللي ماشي مع صوت الوسائط. خليه للتطبيقات المهمة بجد.
+rule_log|سيبه في السجل
+rule_remove|شيل التنبيه
+snd_bleep|بليب
+snd_pager|بيجر
+snd_sonar|سونار
+snd_harbour_bell|جرس الميناء
+snd_rising|طالع
+snd_foghorn|بوق الشبورة
+snd_drops|نقط
+snd_morse|مورس
+set_setup|الإعداد
+setup_banner|Bleepp محتاج يوصل للإشعارات عشان يشتغل.
+setup_access|الوصول للإشعارات
+setup_access_on|شغال. Bleepp شايف إشعاراتك.
+setup_access_off|لازم للتنبيهات والسجل.
+setup_battery|بطارية من غير قيود
+setup_battery_hint|بيخلي Bleepp شغال عشان التنبيهات ما تفوتكش.
+setup_post|اعرض الإشعارات
+setup_post_hint|لزرار وقّف وإشعارات التحديث.
+setup_fix|شغّل
+setup_done|شغال
+setup_restricted_title|الاختيار رمادي؟
+setup_restricted_body|Android بيمنع ده للتطبيقات اللي اتثبتت من ملف. افتح معلومات التطبيق، دوس على قايمة النقط التلاتة، اختار السماح بالإعدادات المقيّدة، وبعدين جرب تاني.
+setup_open_info|افتح معلومات التطبيق
+set_quiet|ساعات الهدوء
+quiet_on|خلّي التنبيهات ساكتة في أوقات محددة
+quiet_from|من
+quiet_to|إلى
+cooldown_value|استنى %1$d ثانية بين تنبيهات التطبيق الواحد
+set_log|السجل
+log_private|سجلك بيفضل على الموبايل ده. مابيتعملوش نسخة احتياطية ومابيتبعتش لأي مكان.
+keep_for|احتفظ بالسجلات لمدة
+keep_days|%1$d يوم
+keep_forever|على طول
+log_noise|سجّل الإشعارات المستمرة وإشعارات الوسائط
+log_clear|امسح السجل
+log_clear_confirm|تمسح كل السجلات؟ مش هينفع ترجّعها.
+set_language|اللغة
+lang_system|زي الموبايل
+set_updates|التحديثات
+upd_auto|دوّر على تحديثات
+n_hours|%1$d س
+upd_check|افحص دلوقتي
+upd_checking|بيفحص…
+upd_latest|عندك أحدث نسخة.
+upd_none|لسه مفيش إصدار عام.
+upd_http|GitHub رد بالخطأ %1$d.
+upd_offline|مش قادر أوصل لـ GitHub.
+upd_notag|أحدث إصدار مالوش رقم نسخة.
+upd_title|نزل Bleepp %1$s
+upd_now|حدّث دلوقتي
+upd_later|فكّرني بعدين
+upd_notif_title|نزل Bleepp %1$s
+open_release|افتح الإصدار
+whats_new|شوف الجديد
+whats_new_title|الجديد في %1$s
+note_new|جديد
+note_fixed|اتصلّح
+note_improved|اتحسّن
+set_about|عن التطبيق
+about_version|النسخة %1$s
+about_official|نسخة رسمية
+about_unofficial|نسخة مش رسمية
+about_credit|من عمل StarlightJulie
+about_licence|برنامج حر بموجب GPLv3
+about_kofi|ادعم على Ko-fi
+about_github|الكود المصدري على GitHub
+appearance|الشكل
+ap_colourway|الألوان
+ap_custom|استخدم ألواني
+ap_sea|البحر
+ap_swell|الكروت
+ap_beam|الشعاع
+ap_on_beam|الكلام فوق الشعاع
+ap_text|الكلام
+ap_red|أحمر
+ap_green|أخضر
+ap_blue|أزرق
+ap_background|الخلفية
+ap_speed|السرعة
+ap_strength|القوة
+ap_interface|الواجهة
+ap_corners|الزوايا
+ap_serif|عناوين مزخرفة
+ap_icon|أيقونة التطبيق
+ap_looks|أشكالي
+ap_save_look|احفظ الشكل ده
+ap_look_name|الاسم
+ap_reset|رجّع الشكل
+cw_night_sea|بحر الليل
+cw_harbour|الميناء
+cw_storm|العاصفة
+cw_fjord|الفيورد
+cw_abyss|الهاوية
+cw_ember|الجمر
+cw_plum|البرقوق
+cw_rose_tide|المد الوردي
+cw_moss|الطحلب
+cw_arctic|القطب الشمالي
+cw_sodium|الصوديوم
+cw_keeper|حارس الفنار
+cw_paper_chart|خريطة بحرية
+cw_sea_fog|شبورة البحر
+cw_sandbar|الحاجز الرملي
+cw_first_light|أول النور
+bg_beam|الشعاع
+bg_tide|المد
+bg_stars|النجوم
+bg_rain|المطر
+bg_fog|الشبورة
+bg_aurora|الشفق
+bg_off|مقفول
+icon_amber|كهرماني
+icon_ink|حبر
+icon_harbour|الميناء
+icon_coral|مرجاني
+icon_mint|نعناعي
+icon_paper|ورقي

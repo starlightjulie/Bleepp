@@ -1,0 +1,177 @@
+channel_updates|App-Updates
+channel_alerts|Alarm wird abgespielt
+alert_playing|Alarm von %1$s
+alert_stop|Stopp
+back|Zurück
+close|Schließen
+delete|Löschen
+cancel|Abbrechen
+save|Speichern
+tab_log|Protokoll
+tab_alerts|Alarme
+tab_settings|Einstellungen
+log_morning|Heute Morgen
+log_afternoon|Heute Nachmittag
+log_evening|Heute Abend
+log_night|Heute Nacht
+log_count|Protokolliert: %1$d
+log_search|Protokoll durchsuchen
+log_all_apps|Alle Apps
+log_today|Heute
+log_yesterday|Gestern
+log_empty_title|Das Wasser ist ruhig
+log_empty_body|Neue Benachrichtigungen erscheinen hier, sobald sie eintreffen.
+log_no_results|Nichts passt zu dieser Suche.
+stamp_rang|Im Lautlos-Modus geklingelt
+stamp_broke|Hat „Keine Unterbrechungen“ durchbrochen
+stamp_blocked|Von „Keine Unterbrechungen“ zurückgehalten
+open_failed|Diese App lässt sich nicht öffnen.
+open_app_only|Die Benachrichtigung ist weg, deshalb wurde die App geöffnet.
+alerts_title|Lautlos-Alarme
+alerts_master|Alarme an
+status_ringing|Dein Handy kann klingeln, also nutzen Apps ihre eigenen Töne.
+status_silent|Dein Handy ist lautlos. Ausgewählte Apps sind trotzdem zu hören.
+status_total|„Keine Unterbrechungen“ ist an. Nur Apps mit Durchbruch-Erlaubnis sind zu hören.
+status_off|Alarme sind aus.
+status_no_access|Bleepp kann noch keine Benachrichtigungen sehen.
+alerts_chosen|Apps mit Alarm
+alerts_other|Alle Apps
+alerts_search|App suchen
+alerts_none|Wähle unten eine App aus, um ihr einen Ton zu geben.
+rule_summary|%1$s mit %2$d%%
+rule_off|Alarm aus
+rule_custom_sound|Dein eigener Ton
+rule_enabled|Ton bei Lautlos
+rule_sound|Ton
+rule_pick_file|Datei wählen
+rule_test|Test abspielen
+rule_volume|Alarmlautstärke
+rule_volume_hint|Bleepp erhöht die Lautstärke für den Alarm und stellt sie danach zurück.
+rule_vibrate|Auch vibrieren
+rule_keywords|Nur bei diesen Wörtern
+rule_keywords_example|dringend, Sam, Server ausgefallen
+rule_keywords_hint|Trenne Wörter mit Kommas. Lass das Feld leer, damit jede Benachrichtigung klingelt.
+rule_repeat|Wiederholen, bis gesehen
+rule_repeat_hint|Endet, wenn du die Benachrichtigung öffnest oder entfernst oder auf Stopp tippst.
+rule_every|Alle %1$d Sekunden
+rule_max|Nach %1$d Wiedergaben stoppen
+rule_breakthrough|„Keine Unterbrechungen“ durchbrechen
+rule_breakthrough_hint|Nutzt Bedienungshilfen-Audio, das deiner Medienlautstärke folgt. Nur für wirklich wichtige Apps.
+rule_log|Im Protokoll behalten
+rule_remove|Alarm entfernen
+snd_bleep|Bleep
+snd_pager|Pager
+snd_sonar|Sonar
+snd_harbour_bell|Hafenglocke
+snd_rising|Aufsteigend
+snd_foghorn|Nebelhorn
+snd_drops|Tropfen
+snd_morse|Morse
+set_setup|Einrichtung
+setup_banner|Bleepp braucht Zugriff auf Benachrichtigungen.
+setup_access|Benachrichtigungszugriff
+setup_access_on|An. Bleepp kann deine Benachrichtigungen sehen.
+setup_access_off|Nötig für Alarme und das Protokoll.
+setup_battery|Akku ohne Einschränkung
+setup_battery_hint|Hält Bleepp aktiv, damit keine Alarme verloren gehen.
+setup_post|Benachrichtigungen anzeigen
+setup_post_hint|Für die Stopp-Taste und Update-Hinweise.
+setup_fix|Einschalten
+setup_done|An
+setup_restricted_title|Ausgegraut?
+setup_restricted_body|Android sperrt das für Apps, die aus einer Datei installiert wurden. Öffne die App-Info, tippe auf das Drei-Punkte-Menü, wähle „Eingeschränkte Einstellungen zulassen“ und versuche es dann erneut.
+setup_open_info|App-Info öffnen
+set_quiet|Ruhezeiten
+quiet_on|Alarme zu festen Zeiten stumm lassen
+quiet_from|Von
+quiet_to|Bis
+cooldown_value|%1$d Sekunden zwischen Alarmen einer App warten
+set_log|Protokoll
+log_private|Dein Protokoll bleibt auf diesem Handy. Es wird nie gesichert oder irgendwohin gesendet.
+keep_for|Einträge behalten für
+keep_days|%1$d Tage
+keep_forever|Für immer
+log_noise|Laufende und Medien-Benachrichtigungen protokollieren
+log_clear|Protokoll leeren
+log_clear_confirm|Alle Einträge löschen? Das lässt sich nicht rückgängig machen.
+set_language|Sprache
+lang_system|Wie das Handy
+set_updates|Updates
+upd_auto|Nach Updates suchen
+n_hours|%1$d Std.
+upd_check|Jetzt prüfen
+upd_checking|Wird geprüft…
+upd_latest|Du hast die neueste Version.
+upd_none|Noch keine öffentliche Version.
+upd_http|GitHub antwortete mit Fehler %1$d.
+upd_offline|GitHub ist nicht erreichbar.
+upd_notag|Die neueste Version hat keine Versionsnummer.
+upd_title|Bleepp %1$s ist da
+upd_now|Jetzt aktualisieren
+upd_later|Später erinnern
+upd_notif_title|Bleepp %1$s ist da
+open_release|Release öffnen
+whats_new|Neuigkeiten ansehen
+whats_new_title|Neu in %1$s
+note_new|Neu
+note_fixed|Behoben
+note_improved|Verbessert
+set_about|Über
+about_version|Version %1$s
+about_official|Offizieller Build
+about_unofficial|Inoffizieller Build
+about_credit|Von StarlightJulie
+about_licence|Freie Software unter der GPLv3
+about_kofi|Auf Ko-fi unterstützen
+about_github|Quellcode auf GitHub
+appearance|Aussehen
+ap_colourway|Farbschema
+ap_custom|Eigene Farben verwenden
+ap_sea|Meer
+ap_swell|Karten
+ap_beam|Lichtstrahl
+ap_on_beam|Text auf Lichtstrahl
+ap_text|Text
+ap_red|Rot
+ap_green|Grün
+ap_blue|Blau
+ap_background|Hintergrund
+ap_speed|Tempo
+ap_strength|Stärke
+ap_interface|Oberfläche
+ap_corners|Ecken
+ap_serif|Serifen-Überschriften
+ap_icon|App-Symbol
+ap_looks|Meine Looks
+ap_save_look|Diesen Look speichern
+ap_look_name|Name
+ap_reset|Look zurücksetzen
+cw_night_sea|Nachtmeer
+cw_harbour|Hafen
+cw_storm|Sturm
+cw_fjord|Fjord
+cw_abyss|Abgrund
+cw_ember|Glut
+cw_plum|Pflaume
+cw_rose_tide|Rosenflut
+cw_moss|Moos
+cw_arctic|Arktis
+cw_sodium|Natrium
+cw_keeper|Wärter
+cw_paper_chart|Seekarte
+cw_sea_fog|Seenebel
+cw_sandbar|Sandbank
+cw_first_light|Morgenlicht
+bg_beam|Lichtstrahl
+bg_tide|Gezeiten
+bg_stars|Sterne
+bg_rain|Regen
+bg_fog|Nebel
+bg_aurora|Polarlicht
+bg_off|Aus
+icon_amber|Bernstein
+icon_ink|Tinte
+icon_harbour|Hafen
+icon_coral|Koralle
+icon_mint|Minze
+icon_paper|Papier
