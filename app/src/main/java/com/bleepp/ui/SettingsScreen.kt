@@ -63,6 +63,7 @@ import java.util.Calendar
 
 private const val KOFI_URL = "https://ko-fi.com/vvanadium"
 private const val AUTHOR_URL = "https://github.com/starlightjulie"
+private const val LICENSE_URL = "${UpdateChecker.REPO_URL}/blob/main/ADDITIONAL-TERMS.md"
 
 private fun open(context: Context, url: String) {
     runCatching { context.startActivity(Intent(Intent.ACTION_VIEW, url.toUri())) }
@@ -251,6 +252,15 @@ fun SettingsScreen(vm: MainViewModel, onAppearance: () -> Unit, onAskPost: () ->
             SettingRow(stringResource(R.string.about_github), onClick = { open(context, UpdateChecker.REPO_URL) }) {
                 Icon(Icons.AutoMirrored.Outlined.OpenInNew, null, tint = Sea.palette.muted)
             }
+            Text(
+                stringResource(R.string.license_notice),
+                style = MaterialTheme.typography.bodySmall,
+                color = Sea.palette.muted,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clickable { open(context, LICENSE_URL) }
+                    .padding(16.dp),
+            )
         }
         Gap(24.dp)
     }

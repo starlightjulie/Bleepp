@@ -12,7 +12,7 @@ RES = os.path.join(HERE, "..", "..", "app", "src", "main", "res")
 BASE = [
     ("app_name", "Bleepp"),
 ]
-UNTRANSLATABLE = {"app_name"}
+UNTRANSLATABLE = {"app_name", "license_notice"}
 
 LANGS = {
     "zh-CN": "zh-rCN", "hi": "hi", "es": "es", "fr": "fr", "ar": "ar", "bn": "bn", "pt-BR": "pt-rBR",

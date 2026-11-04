@@ -125,6 +125,7 @@
     <string name="about_unofficial">Unofficial build</string>
     <string name="about_credit">Made by StarlightJulie</string>
     <string name="about_licence">Free software under the GPLv3</string>
+    <string name="license_notice" translatable="false">© 2026 StarlightJulie. Free software under the GNU GPL v3 with additional terms, and comes with no warranty. Tap to read the license.</string>
     <string name="about_kofi">Support on Ko-fi</string>
     <string name="about_github">Source code on GitHub</string>
     <string name="appearance">Appearance</string>

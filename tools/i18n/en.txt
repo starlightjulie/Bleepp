@@ -123,6 +123,7 @@ about_official|Official build
 about_unofficial|Unofficial build
 about_credit|Made by StarlightJulie
 about_licence|Free software under the GPLv3
+license_notice|© 2026 StarlightJulie. Free software under the GNU GPL v3 with additional terms, and comes with no warranty. Tap to read the license.
 about_kofi|Support on Ko-fi
 about_github|Source code on GitHub
 appearance|Appearance
