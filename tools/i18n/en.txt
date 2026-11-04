@@ -1,0 +1,178 @@
+# English source. key|text. See README.md.
+channel_updates|App updates
+channel_alerts|Alert playing
+alert_playing|%1$s alert
+alert_stop|Stop
+back|Back
+close|Close
+delete|Delete
+cancel|Cancel
+save|Save
+tab_log|Log
+tab_alerts|Alerts
+tab_settings|Settings
+log_morning|This morning
+log_afternoon|This afternoon
+log_evening|This evening
+log_night|Tonight
+log_count|Logged: %1$d
+log_search|Search the log
+log_all_apps|All apps
+log_today|Today
+log_yesterday|Yesterday
+log_empty_title|The water's calm
+log_empty_body|New notifications appear here as they arrive.
+log_no_results|Nothing matches that search.
+stamp_rang|Rang on silent
+stamp_broke|Broke through Total Silence
+stamp_blocked|Held back by Total Silence
+open_failed|That app can't be opened.
+open_app_only|The notification is gone, so the app was opened instead.
+alerts_title|Silent alerts
+alerts_master|Alerts on
+status_ringing|Your phone can ring, so apps use their own sounds.
+status_silent|Your phone is silent. Chosen apps will still sound.
+status_total|Total Silence is on. Only apps allowed to break through will sound.
+status_off|Alerts are off.
+status_no_access|Bleepp can't see notifications yet.
+alerts_chosen|Apps with alerts
+alerts_other|All apps
+alerts_search|Find an app
+alerts_none|Pick an app below to give it a sound.
+rule_summary|%1$s at %2$d%%
+rule_off|Alert off
+rule_custom_sound|Your own sound
+rule_enabled|Sound on silent
+rule_sound|Sound
+rule_pick_file|Choose a file
+rule_test|Play test
+rule_volume|Alert volume
+rule_volume_hint|Bleepp raises the volume for the alert, then puts it back.
+rule_vibrate|Vibrate too
+rule_keywords|Only for these words
+rule_keywords_example|urgent, Sam, server down
+rule_keywords_hint|Separate words with commas. Leave this empty to sound for every notification.
+rule_repeat|Repeat until seen
+rule_repeat_hint|Stops when you open or clear the notification, or tap Stop.
+rule_every|Every %1$d seconds
+rule_max|Stop after %1$d plays
+rule_breakthrough|Break through Total Silence
+rule_breakthrough_hint|Uses accessibility audio, which follows your media volume. Keep this for the apps that really matter.
+rule_log|Keep in the log
+rule_remove|Remove alert
+snd_bleep|Bleep
+snd_pager|Pager
+snd_sonar|Sonar
+snd_harbour_bell|Harbour bell
+snd_rising|Rising
+snd_foghorn|Foghorn
+snd_drops|Drops
+snd_morse|Morse
+set_setup|Setup
+setup_banner|Bleepp needs notification access to work.
+setup_access|Notification access
+setup_access_on|On. Bleepp can see your notifications.
+setup_access_off|Needed for alerts and the log.
+setup_battery|Unrestricted battery
+setup_battery_hint|Keeps Bleepp running so alerts aren't missed.
+setup_post|Show notifications
+setup_post_hint|For the Stop button and update notices.
+setup_fix|Turn on
+setup_done|On
+setup_restricted_title|Greyed out?
+setup_restricted_body|Android blocks this for apps installed from a file. Open App info, tap the three-dot menu, choose Allow restricted settings, then come back and try again.
+setup_open_info|Open App info
+set_quiet|Quiet hours
+quiet_on|Keep alerts quiet during set hours
+quiet_from|From
+quiet_to|To
+cooldown_value|Wait %1$d seconds between alerts from one app
+set_log|Log
+log_private|Your log stays on this phone. It's never backed up or sent anywhere.
+keep_for|Keep entries for
+keep_days|%1$d days
+keep_forever|Forever
+log_noise|Log ongoing and media notifications
+log_clear|Clear the log
+log_clear_confirm|Delete every log entry? This can't be undone.
+set_language|Language
+lang_system|Follow the phone
+set_updates|Updates
+upd_auto|Check for updates
+n_hours|%1$d h
+upd_check|Check now
+upd_checking|Checking…
+upd_latest|You're on the latest version.
+upd_none|No public release yet.
+upd_http|GitHub replied with error %1$d.
+upd_offline|Couldn't reach GitHub.
+upd_notag|The latest release has no version number.
+upd_title|Bleepp %1$s is out
+upd_now|Update now
+upd_later|Remind me later
+upd_notif_title|Bleepp %1$s is out
+open_release|Open release
+whats_new|See what's new
+whats_new_title|What's new in %1$s
+note_new|New
+note_fixed|Fixed
+note_improved|Improved
+set_about|About
+about_version|Version %1$s
+about_official|Official build
+about_unofficial|Unofficial build
+about_credit|Made by StarlightJulie
+about_licence|Free software under the GPLv3
+about_kofi|Support on Ko-fi
+about_github|Source code on GitHub
+appearance|Appearance
+ap_colourway|Colourway
+ap_custom|Use my own colours
+ap_sea|Sea
+ap_swell|Cards
+ap_beam|Beam
+ap_on_beam|Text on beam
+ap_text|Text
+ap_red|Red
+ap_green|Green
+ap_blue|Blue
+ap_background|Background
+ap_speed|Speed
+ap_strength|Strength
+ap_interface|Interface
+ap_corners|Corners
+ap_serif|Serif headings
+ap_icon|App icon
+ap_looks|My looks
+ap_save_look|Save this look
+ap_look_name|Name
+ap_reset|Reset look
+cw_night_sea|Night Sea
+cw_harbour|Harbour
+cw_storm|Storm
+cw_fjord|Fjord
+cw_abyss|Abyss
+cw_ember|Ember
+cw_plum|Plum
+cw_rose_tide|Rose Tide
+cw_moss|Moss
+cw_arctic|Arctic
+cw_sodium|Sodium
+cw_keeper|Keeper
+cw_paper_chart|Paper Chart
+cw_sea_fog|Sea Fog
+cw_sandbar|Sandbar
+cw_first_light|First Light
+bg_beam|Beam
+bg_tide|Tide
+bg_stars|Stars
+bg_rain|Rain
+bg_fog|Fog
+bg_aurora|Aurora
+bg_off|Off
+icon_amber|Amber
+icon_ink|Ink
+icon_harbour|Harbour
+icon_coral|Coral
+icon_mint|Mint
+icon_paper|Paper
