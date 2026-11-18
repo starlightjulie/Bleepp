@@ -7,6 +7,8 @@ import android.content.Intent
 import android.net.Uri
 import android.provider.Settings as SystemSettings
 import android.text.format.DateFormat
+import androidx.activity.compose.rememberLauncherForActivityResult
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -22,7 +24,9 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.OpenInNew
+import androidx.compose.material.icons.outlined.Backup
 import androidx.compose.material.icons.outlined.BatteryFull
+import androidx.compose.material.icons.outlined.Restore
 import androidx.compose.material.icons.outlined.Bedtime
 import androidx.compose.material.icons.outlined.CheckCircle
 import androidx.compose.material.icons.outlined.Favorite
@@ -109,11 +113,14 @@ fun SettingsScreen(vm: MainViewModel, onAppearance: () -> Unit, onAskPost: () ->
     var quietStart by remember { mutableIntStateOf(s.quietStart) }
     var quietEnd by remember { mutableIntStateOf(s.quietEnd) }
     var cooldown by remember { mutableFloatStateOf(s.cooldownSeconds.toFloat()) }
-    var retention by remember { mutableIntStateOf(s.retentionDays) }
-    var logNoise by remember { mutableStateOf(s.logNoise) }
     var autoCheck by remember { mutableStateOf(s.checkUpdates) }
     var hours by remember { mutableIntStateOf(s.updateIntervalHours) }
-    var confirmClear by remember { mutableStateOf(false) }
+    val backupSaver = rememberLauncherForActivityResult(ActivityResultContracts.CreateDocument("application/json")) { uri ->
+        if (uri != null) vm.backup(uri)
+    }
+    val backupOpener = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
+        if (uri != null) vm.restore(uri)
+    }
     var pickLanguage by remember { mutableStateOf(false) }
     var showNotes by remember { mutableStateOf(false) }
     var showRestricted by remember { mutableStateOf(false) }
@@ -168,34 +175,14 @@ fun SettingsScreen(vm: MainViewModel, onAppearance: () -> Unit, onAskPost: () ->
             )
         }
 
-        SectionLabel(stringResource(R.string.set_log))
+        SectionLabel(stringResource(R.string.backup))
         SeaCard {
-            Text(
-                stringResource(R.string.log_private),
-                style = MaterialTheme.typography.bodySmall,
-                color = Sea.palette.muted,
-                modifier = Modifier.padding(start = 16.dp, end = 16.dp, top = 12.dp),
-            )
-            Text(
-                stringResource(R.string.keep_for),
-                style = MaterialTheme.typography.titleSmall,
-                color = Sea.palette.text,
-                modifier = Modifier.padding(start = 16.dp, end = 16.dp, top = 12.dp, bottom = 8.dp),
-            )
-            FlowRow(Modifier.padding(horizontal = 16.dp), horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                listOf(7, 30, 90, 365, 0).forEach { days ->
-                    Chip(if (days == 0) stringResource(R.string.keep_forever) else stringResource(R.string.keep_days, days), retention == days) {
-                        retention = days
-                        s.retentionDays = days
-                    }
-                }
-            }
-            Gap(6.dp)
-            SwitchRow(stringResource(R.string.log_noise), logNoise, {
-                logNoise = it
-                s.logNoise = it
+            SettingRow(stringResource(R.string.backup_make), stringResource(R.string.backup_make_hint), Icons.Outlined.Backup, onClick = {
+                backupSaver.launch("bleepp-backup.json")
             })
-            SettingRow(stringResource(R.string.log_clear), onClick = { confirmClear = true })
+            SettingRow(stringResource(R.string.backup_restore), stringResource(R.string.backup_restore_hint), Icons.Outlined.Restore, onClick = {
+                backupOpener.launch(arrayOf("application/json", "application/octet-stream", "text/plain"))
+            })
         }
 
         SectionLabel(stringResource(R.string.set_language))
@@ -265,19 +252,6 @@ fun SettingsScreen(vm: MainViewModel, onAppearance: () -> Unit, onAskPost: () ->
         Gap(24.dp)
     }
 
-    if (confirmClear) {
-        AlertDialog(
-            onDismissRequest = { confirmClear = false },
-            text = { Text(stringResource(R.string.log_clear_confirm)) },
-            confirmButton = {
-                TextButton(onClick = {
-                    vm.clearLog()
-                    confirmClear = false
-                }) { Text(stringResource(R.string.delete)) }
-            },
-            dismissButton = { TextButton(onClick = { confirmClear = false }) { Text(stringResource(R.string.cancel)) } },
-        )
-    }
     if (pickLanguage) LanguageDialog { pickLanguage = false }
     if (showRestricted) RestrictedDialog { showRestricted = false }
     if (showNotes) {
