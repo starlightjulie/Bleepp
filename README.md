@@ -39,6 +39,8 @@ Putting your phone on silent is all or nothing. I wanted my phone quiet except f
 - Set a volume per app. Bleepp raises the volume for the alert, then puts it back.
 - Only sound for certain words, like a name or "urgent".
 - Repeat until seen, stopping when you open or clear the notification.
+- Calls ring like calls: when an app like Google Voice is ringing, Bleepp keeps ringing until you answer, decline or miss it, with its own call sound per app.
+- Pause everything for an hour, until morning or until you're ready, from the app, a Quick Settings tile or the alert itself.
 - Quiet hours, and a minimum gap between alerts so a busy group chat can't spam you.
 - Break through Total Silence Do Not Disturb, for the apps you choose.
 
@@ -46,14 +48,19 @@ Putting your phone on silent is all or nothing. I wanted my phone quiet except f
 - Keeps the app, time, title and message of everything that arrives.
 - Search it, or filter by app.
 - Tap an entry to jump to where the notification pointed.
-- Skips music players and progress bars unless you want them, and you can leave any app out.
-- Stamps each entry with what happened, like "Rang on silent".
+- Skips music players and progress bars unless you want them, and collapses things like charging updates into one entry.
+- Block a whole app, or just one of its features (like Charging), and hide notifications with certain words.
+- Bookmark apps to pin them first, or bookmark single notifications to keep them forever.
+- Swipe to delete (with Undo) or bookmark, long-press to select several, and open a details sheet with the full text.
+- Export it as a spreadsheet file, and lock it behind your fingerprint if you like.
+- Stamps each entry with what happened, like "Rang on silent" or "Rang as a call".
 
 **Make it yours**
 - 16 colourways, or build your own and save it.
 - Animated backgrounds: Beam, Tide, Stars, Rain, Fog and Aurora.
 - Adjust animation speed and strength, corner roundness and heading style.
 - 6 app icons.
+- Back up your alerts, filters, settings and look to a file, and restore them on a new phone.
 - 23 languages, with right-to-left layouts.
 
 ## Install
@@ -83,6 +90,7 @@ These were tested by ear on a Galaxy S25 Ultra (Android 16) and a Moto G 5G 2024
 ### Good to know
 
 - Tapping a log entry opens the exact place while the notification is showing or until Bleepp restarts. After that it opens the app, because Android can't save tap actions.
+- Calls are spotted by the ringtone on the app's incoming call channel, or Android's call style. An app that rings with an ordinary notification sound won't be treated as a call.
 - Android 15 and newer can hide one-time codes from notification apps, so those may appear in the log without the code.
 - Android 17 has new rules for background audio. Bleepp is built to follow them, but it hasn't been tested on Android 17 yet.
 
@@ -100,6 +108,7 @@ Notification access is a lot of trust, so here's the short version:
 | Notification access | Seeing notifications, for alerts and the log |
 | Show notifications | The Stop button and update notices |
 | Foreground service | Android requires one while a sound plays |
+| Biometrics | The optional fingerprint lock on the log |
 | Modify audio settings | Raising the volume for an alert, then restoring it |
 | Exact alarm | Lets alerts start reliably from the background |
 | See installed apps | App names and icons, and opening apps from the log |

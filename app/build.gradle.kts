@@ -26,8 +26,8 @@ android {
         applicationId = "com.bleepp"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0.0"
+        versionCode = 2
+        versionName = "1.1.0"
     }
 
     // Release key: keystore.properties next to the project, in ~/.bleepp-signing/, or BLEEPP_KEYSTORE_* env vars.
@@ -112,6 +112,8 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.9.4")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.9.4")
     implementation("androidx.work:work-runtime-ktx:2.10.5")
+    // Fingerprint or screen lock for the log
+    implementation("androidx.biometric:biometric:1.1.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
 
