@@ -27,15 +27,23 @@ import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.outlined.FilterList
 import androidx.compose.material.icons.outlined.History
 import androidx.compose.material.icons.outlined.NotificationsActive
 import androidx.compose.material.icons.outlined.Tune
 import androidx.compose.material3.Icon
+import androidx.compose.material3.Snackbar
+import androidx.compose.material3.SnackbarDuration
+import androidx.compose.material3.SnackbarHost
+import androidx.compose.material3.SnackbarHostState
+import androidx.compose.material3.SnackbarResult
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.remember
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
@@ -48,6 +56,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.compose.LocalLifecycleOwner
+import androidx.lifecycle.repeatOnLifecycle
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.Role
@@ -66,11 +77,12 @@ import com.bleepp.ui.theme.SeaScene
 enum class Tab(val label: Int, val icon: ImageVector) {
     LOG(R.string.tab_log, Icons.Outlined.History),
     ALERTS(R.string.tab_alerts, Icons.Outlined.NotificationsActive),
+    FILTERS(R.string.tab_filters, Icons.Outlined.FilterList),
     SETTINGS(R.string.tab_settings, Icons.Outlined.Tune),
 }
 
 @Composable
-fun BleeppRoot(vm: MainViewModel, onAskPost: () -> Unit) {
+fun BleeppRoot(vm: MainViewModel, onAskPost: () -> Unit, onUnlock: () -> Unit) {
     val look by vm.look.collectAsStateWithLifecycle()
     val status by vm.status.collectAsStateWithLifecycle()
     val update by vm.update.collectAsStateWithLifecycle()
@@ -81,6 +93,24 @@ fun BleeppRoot(vm: MainViewModel, onAskPost: () -> Unit) {
     var setupHidden by rememberSaveable { mutableStateOf(vm.settings.setupDismissed) }
     var restricted by rememberSaveable { mutableStateOf(false) }
     val context = LocalContext.current
+    val snackbar = remember { SnackbarHostState() }
+    val undoLabel = stringResource(R.string.undo)
+    val lifecycle = LocalLifecycleOwner.current.lifecycle
+    LaunchedEffect(Unit) {
+        // Only while on screen: a message sent while a file picker is closing waits instead of vanishing
+        lifecycle.repeatOnLifecycle(Lifecycle.State.RESUMED) {
+            vm.snacks.collect { snack ->
+            snackbar.currentSnackbarData?.dismiss()
+            val result = snackbar.showSnackbar(
+                snack.text.get(context),
+                actionLabel = if (snack.undo != null) undoLabel else null,
+                // Undo needs time to reach for; plain notices go quickly
+                duration = if (snack.undo != null) SnackbarDuration.Long else SnackbarDuration.Short,
+            )
+            if (result == SnackbarResult.ActionPerformed) snack.undo?.invoke()
+            }
+        }
+    }
 
     BackHandler(enabled = rulePkg != null || appearance || tab != Tab.LOG) {
         when {
@@ -115,14 +145,30 @@ fun BleeppRoot(vm: MainViewModel, onAskPost: () -> Unit) {
                         ruleName = name
                         rulePkg = pkg
                     }, inner)
+                    shown == Tab.FILTERS.name -> FiltersScreen(vm, inner)
                     shown == Tab.SETTINGS.name -> SettingsScreen(vm, { appearance = true }, onAskPost, inner)
-                    else -> LogScreen(vm, { appearance = true }, inner)
+                    else -> LogScreen(vm, { appearance = true }, onUnlock, inner)
                 }
             }
         }
         BottomFade(Modifier.align(Alignment.BottomCenter))
         if (rulePkg == null && !appearance) {
             BeamBar(tab, { tab = it }, Modifier.align(Alignment.BottomCenter))
+        }
+        SnackbarHost(
+            snackbar,
+            Modifier
+                .align(Alignment.BottomCenter)
+                .navigationBarsPadding()
+                .padding(bottom = 88.dp),
+        ) { data ->
+            Snackbar(
+                data,
+                shape = Sea.shape,
+                containerColor = Sea.palette.text,
+                contentColor = Sea.palette.sea,
+                actionColor = Sea.palette.beam.takeIf { !Sea.palette.isLight } ?: Sea.palette.sea,
+            )
         }
     }
 

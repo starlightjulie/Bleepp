@@ -22,7 +22,9 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
+import androidx.compose.material.icons.outlined.Call
 import androidx.compose.material.icons.outlined.NotificationsActive
+import androidx.compose.material.icons.outlined.PauseCircle
 import androidx.compose.material.icons.outlined.PlayArrow
 import androidx.compose.material.icons.outlined.Search
 import androidx.compose.material3.MaterialTheme
@@ -41,7 +43,11 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.bleepp.R
+import android.text.format.DateFormat
+import com.bleepp.alert.Pause
 import com.bleepp.alert.Sounds
+import com.bleepp.data.PHONE_RINGTONE
+import java.util.Date
 import com.bleepp.data.AppRule
 import com.bleepp.ui.theme.Sea
 
@@ -55,6 +61,8 @@ fun AlertsScreen(vm: MainViewModel, onOpenRule: (String, String) -> Unit, bottom
     val rules by vm.rules.collectAsStateWithLifecycle()
     val status by vm.status.collectAsStateWithLifecycle()
     val alertsOn by vm.alertsOn.collectAsStateWithLifecycle()
+    val pausedUntil by vm.pausedUntil.collectAsStateWithLifecycle()
+    val paused = pausedUntil > System.currentTimeMillis()
     var search by remember { mutableStateOf("") }
     val matching = apps.filter { search.isBlank() || it.name.contains(search.trim(), ignoreCase = true) }
     val chosen = matching.filter { it.pkg in rules }
@@ -63,6 +71,7 @@ fun AlertsScreen(vm: MainViewModel, onOpenRule: (String, String) -> Unit, bottom
         when {
             !status.hasAccess -> R.string.status_no_access
             !alertsOn -> R.string.status_off
+            paused -> R.string.status_paused
             status.totalSilence -> R.string.status_total
             status.canRing -> R.string.status_ringing
             else -> R.string.status_silent
@@ -74,6 +83,7 @@ fun AlertsScreen(vm: MainViewModel, onOpenRule: (String, String) -> Unit, bottom
         item {
             SeaCard {
                 SwitchRow(stringResource(R.string.alerts_master), alertsOn, vm::setAlertsOn, icon = Icons.Outlined.NotificationsActive)
+                if (alertsOn) PauseControls(vm, pausedUntil)
             }
         }
         item {
@@ -100,6 +110,39 @@ fun AlertsScreen(vm: MainViewModel, onOpenRule: (String, String) -> Unit, bottom
         }
         item { SectionLabel(stringResource(R.string.alerts_other)) }
         items(others, key = { it.pkg }) { app -> AppRow(app, null) { onOpenRule(app.pkg, app.name) } }
+    }
+}
+
+@OptIn(ExperimentalLayoutApi::class)
+@Composable
+private fun PauseControls(vm: MainViewModel, pausedUntil: Long) {
+    val context = LocalContext.current
+    if (pausedUntil > System.currentTimeMillis()) {
+        val text = if (pausedUntil == Long.MAX_VALUE) {
+            stringResource(R.string.paused_until_resume)
+        } else {
+            stringResource(R.string.paused_until, DateFormat.getTimeFormat(context).format(Date(pausedUntil)))
+        }
+        SettingRow(text, icon = Icons.Outlined.PauseCircle) {
+            QuietButton(stringResource(R.string.resume), vm::resume)
+        }
+    } else {
+        val morning = DateFormat.getTimeFormat(context).format(Date(Pause.nextTime(System.currentTimeMillis(), 8)))
+        Text(
+            stringResource(R.string.pause_title),
+            style = MaterialTheme.typography.titleSmall,
+            color = Sea.palette.text,
+            modifier = Modifier.padding(start = 16.dp, end = 16.dp, bottom = 8.dp),
+        )
+        FlowRow(
+            Modifier.padding(start = 16.dp, end = 16.dp, bottom = 14.dp),
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            verticalArrangement = Arrangement.spacedBy(8.dp),
+        ) {
+            Chip(stringResource(R.string.pause_hour), false) { vm.pauseFor(60) }
+            Chip(stringResource(R.string.pause_morning, morning), false, vm::pauseUntilMorning)
+            Chip(stringResource(R.string.pause_forever), false, vm::pauseIndefinitely)
+        }
     }
 }
 
@@ -133,6 +176,12 @@ fun RuleScreen(vm: MainViewModel, pkg: String, name: String, onBack: () -> Unit,
         if (uri != null) {
             runCatching { context.contentResolver.takePersistableUriPermission(uri, Intent.FLAG_GRANT_READ_URI_PERMISSION) }
             vm.saveRule(rule.copy(sound = uri.toString(), enabled = true))
+        }
+    }
+    val callPicker = rememberLauncherForActivityResult(ActivityResultContracts.OpenDocument()) { uri ->
+        if (uri != null) {
+            runCatching { context.contentResolver.takePersistableUriPermission(uri, Intent.FLAG_GRANT_READ_URI_PERMISSION) }
+            vm.saveRule(rule.copy(callSound = uri.toString(), enabled = true))
         }
     }
     var volume by remember(rule.volume) { mutableFloatStateOf(rule.volume.toFloat()) }
@@ -178,6 +227,34 @@ fun RuleScreen(vm: MainViewModel, pkg: String, name: String, onBack: () -> Unit,
                 modifier = Modifier.padding(start = 16.dp, end = 16.dp, bottom = 12.dp),
             )
             SwitchRow(stringResource(R.string.rule_vibrate), rule.vibrate, { vm.saveRule(rule.copy(vibrate = it)) })
+        }
+        SectionLabel(stringResource(R.string.rule_calls))
+        SeaCard {
+            SwitchRow(stringResource(R.string.rule_ring_calls), rule.ringForCalls, { vm.saveRule(rule.copy(ringForCalls = it)) }, stringResource(R.string.rule_ring_calls_hint))
+            if (rule.ringForCalls) {
+                Text(
+                    stringResource(R.string.rule_call_sound),
+                    style = MaterialTheme.typography.titleSmall,
+                    color = Sea.palette.text,
+                    modifier = Modifier.padding(start = 16.dp, end = 16.dp, bottom = 8.dp),
+                )
+                FlowRow(
+                    Modifier.padding(horizontal = 16.dp),
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    verticalArrangement = Arrangement.spacedBy(8.dp),
+                ) {
+                    Chip(stringResource(R.string.phone_ringtone), rule.callSound == PHONE_RINGTONE) {
+                        vm.saveRule(rule.copy(callSound = PHONE_RINGTONE))
+                    }
+                    Sounds.builtIn.forEach { sound ->
+                        Chip(stringResource(sound.label), rule.callSound == sound.id) { vm.saveRule(rule.copy(callSound = sound.id)) }
+                    }
+                    Chip(stringResource(R.string.rule_pick_file), Sounds.isCustom(rule.callSound)) { callPicker.launch(arrayOf("audio/*")) }
+                }
+                Row(Modifier.padding(16.dp)) {
+                    BeamButton(stringResource(R.string.rule_test_ring), { vm.testRule(rule, name, call = true) }, icon = Icons.Outlined.Call)
+                }
+            }
         }
         SectionLabel(stringResource(R.string.rule_keywords))
         SeaField(
