@@ -31,7 +31,7 @@ class AlertService : Service() {
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
         val request = intent?.toRequest()
-        val shown = notification(request?.label.orEmpty())
+        val shown = notification(request?.label.orEmpty(), request?.isCall == true)
         if (Build.VERSION.SDK_INT >= 29) {
             startForeground(NOTIFICATION_ID, shown, ServiceInfo.FOREGROUND_SERVICE_TYPE_MEDIA_PLAYBACK)
         } else {
@@ -41,17 +41,22 @@ class AlertService : Service() {
         return START_NOT_STICKY
     }
 
-    private fun notification(label: String): Notification {
+    private fun notification(label: String, call: Boolean): Notification {
         val stop = PendingIntent.getBroadcast(
             this, 0, Intent(this, StopAlertReceiver::class.java),
             PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT,
         )
+        val pause = PendingIntent.getBroadcast(
+            this, 1, Intent(this, StopAlertReceiver::class.java).putExtra(StopAlertReceiver.PAUSE_MINUTES, 60),
+            PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT,
+        )
         return NotificationCompat.Builder(this, CHANNEL)
             .setSmallIcon(R.drawable.ic_stat_bleepp)
-            .setContentTitle(getString(R.string.alert_playing, label))
+            .setContentTitle(getString(if (call) R.string.alert_calling else R.string.alert_playing, label))
             .setSilent(true)
             .setOngoing(true)
             .addAction(0, getString(R.string.alert_stop), stop)
+            .addAction(0, getString(R.string.pause_hour_action), pause)
             .setForegroundServiceBehavior(NotificationCompat.FOREGROUND_SERVICE_IMMEDIATE)
             .build()
     }
@@ -68,6 +73,7 @@ class AlertService : Service() {
             repeatEverySeconds = getIntExtra("every", 30),
             repeatMax = getIntExtra("max", 1),
             vibrate = getBooleanExtra("vibrate", false),
+            ringMillis = getLongExtra("ring", 0L),
         )
     }
 
@@ -96,6 +102,7 @@ class AlertService : Service() {
                 .putExtra("every", request.repeatEverySeconds)
                 .putExtra("max", request.repeatMax)
                 .putExtra("vibrate", request.vibrate)
+                .putExtra("ring", request.ringMillis)
             runCatching { ContextCompat.startForegroundService(context, intent) }
                 .onFailure { AlertPlayer.start(context, request) {} }
         }
@@ -103,5 +110,13 @@ class AlertService : Service() {
 }
 
 class StopAlertReceiver : BroadcastReceiver() {
-    override fun onReceive(context: Context, intent: Intent) = AlertPlayer.stop(context)
+    override fun onReceive(context: Context, intent: Intent) {
+        val minutes = intent.getIntExtra(PAUSE_MINUTES, 0)
+        if (minutes > 0) Pause.pauseFor(context, minutes * 60_000L)
+        AlertPlayer.stop(context)
+    }
+
+    companion object {
+        const val PAUSE_MINUTES = "pause_minutes"
+    }
 }

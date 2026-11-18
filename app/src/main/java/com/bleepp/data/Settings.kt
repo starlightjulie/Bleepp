@@ -69,6 +69,28 @@ class Settings(context: Context) {
         get() = prefs.getString("saved_looks", null)
         set(v) = prefs.edit { putString("saved_looks", v) }
 
+    /** Alerts stay quiet until this time. [Long.MAX_VALUE] means until turned back on, 0 means not paused. */
+    var pausedUntil: Long
+        get() = prefs.getLong("paused_until", 0L)
+        set(v) = prefs.edit { putLong("paused_until", v) }
+
+    val isPaused get() = System.currentTimeMillis() < pausedUntil
+
+    /** Silent updates (charging, downloads, timers) replace their previous log entry instead of adding one. */
+    var keepLatestUpdate: Boolean
+        get() = prefs.getBoolean("keep_latest_update", true)
+        set(v) = prefs.edit { putBoolean("keep_latest_update", v) }
+
+    /** Notifications containing any of these words (comma or line separated) aren't logged. */
+    var hiddenWords: String
+        get() = prefs.getString("hidden_words", "").orEmpty()
+        set(v) = prefs.edit { putString("hidden_words", v) }
+
+    /** Ask for a fingerprint or the screen lock before showing the log. */
+    var lockLog: Boolean
+        get() = prefs.getBoolean("lock_log", false)
+        set(v) = prefs.edit { putBoolean("lock_log", v) }
+
     /**
      * The volume to put back if the process dies mid-alert, as "stream:index". Written before the
      * volume changes, so a crash can't leave someone's alarm stuck loud.
