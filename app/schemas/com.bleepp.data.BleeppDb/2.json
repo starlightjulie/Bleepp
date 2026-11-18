@@ -1,0 +1,273 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "fc638603471e84ddc550ae0d6cfb116b",
+    "entities": [
+      {
+        "tableName": "log",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `sbnKey` TEXT NOT NULL, `pkg` TEXT NOT NULL, `appName` TEXT NOT NULL, `title` TEXT NOT NULL, `text` TEXT NOT NULL, `postedAt` INTEGER NOT NULL, `outcome` INTEGER NOT NULL, `channelId` TEXT NOT NULL DEFAULT '', `channelName` TEXT NOT NULL DEFAULT '', `bookmarked` INTEGER NOT NULL DEFAULT 0)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sbnKey",
+            "columnName": "sbnKey",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "pkg",
+            "columnName": "pkg",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "appName",
+            "columnName": "appName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "text",
+            "columnName": "text",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "postedAt",
+            "columnName": "postedAt",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "outcome",
+            "columnName": "outcome",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "channelId",
+            "columnName": "channelId",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "''"
+          },
+          {
+            "fieldPath": "channelName",
+            "columnName": "channelName",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "''"
+          },
+          {
+            "fieldPath": "bookmarked",
+            "columnName": "bookmarked",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "0"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [
+          {
+            "name": "index_log_postedAt",
+            "unique": false,
+            "columnNames": [
+              "postedAt"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_log_postedAt` ON `${TABLE_NAME}` (`postedAt`)"
+          },
+          {
+            "name": "index_log_pkg",
+            "unique": false,
+            "columnNames": [
+              "pkg"
+            ],
+            "orders": [],
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_log_pkg` ON `${TABLE_NAME}` (`pkg`)"
+          }
+        ]
+      },
+      {
+        "tableName": "rules",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`pkg` TEXT NOT NULL, `enabled` INTEGER NOT NULL, `sound` TEXT NOT NULL, `volume` INTEGER NOT NULL, `keywords` TEXT NOT NULL, `breakthrough` INTEGER NOT NULL, `repeat` INTEGER NOT NULL, `repeatEverySeconds` INTEGER NOT NULL, `repeatMax` INTEGER NOT NULL, `vibrate` INTEGER NOT NULL, `ringForCalls` INTEGER NOT NULL DEFAULT 1, `callSound` TEXT NOT NULL DEFAULT 'ringtone', PRIMARY KEY(`pkg`))",
+        "fields": [
+          {
+            "fieldPath": "pkg",
+            "columnName": "pkg",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "enabled",
+            "columnName": "enabled",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sound",
+            "columnName": "sound",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "volume",
+            "columnName": "volume",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "keywords",
+            "columnName": "keywords",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "breakthrough",
+            "columnName": "breakthrough",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "repeat",
+            "columnName": "repeat",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "repeatEverySeconds",
+            "columnName": "repeatEverySeconds",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "repeatMax",
+            "columnName": "repeatMax",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "vibrate",
+            "columnName": "vibrate",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "ringForCalls",
+            "columnName": "ringForCalls",
+            "affinity": "INTEGER",
+            "notNull": true,
+            "defaultValue": "1"
+          },
+          {
+            "fieldPath": "callSound",
+            "columnName": "callSound",
+            "affinity": "TEXT",
+            "notNull": true,
+            "defaultValue": "'ringtone'"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "pkg"
+          ]
+        }
+      },
+      {
+        "tableName": "excluded",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`pkg` TEXT NOT NULL, PRIMARY KEY(`pkg`))",
+        "fields": [
+          {
+            "fieldPath": "pkg",
+            "columnName": "pkg",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "pkg"
+          ]
+        }
+      },
+      {
+        "tableName": "blocked_features",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`pkg` TEXT NOT NULL, `channelId` TEXT NOT NULL, `channelName` TEXT NOT NULL, `appName` TEXT NOT NULL, PRIMARY KEY(`pkg`, `channelId`))",
+        "fields": [
+          {
+            "fieldPath": "pkg",
+            "columnName": "pkg",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "channelId",
+            "columnName": "channelId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "channelName",
+            "columnName": "channelName",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "appName",
+            "columnName": "appName",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "pkg",
+            "channelId"
+          ]
+        }
+      },
+      {
+        "tableName": "bookmarked_apps",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`pkg` TEXT NOT NULL, PRIMARY KEY(`pkg`))",
+        "fields": [
+          {
+            "fieldPath": "pkg",
+            "columnName": "pkg",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "pkg"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'fc638603471e84ddc550ae0d6cfb116b')"
+    ]
+  }
+}
