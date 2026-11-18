@@ -93,7 +93,6 @@ keep_days|%1$d 日
 keep_forever|永遠
 log_noise|記錄常駐同媒體通知
 log_clear|清除記錄
-log_clear_confirm|要刪除全部記錄？呢個動作冇得還原。
 set_language|語言
 lang_system|跟手機
 set_updates|更新
@@ -175,3 +174,83 @@ icon_harbour|海港
 icon_coral|珊瑚
 icon_mint|薄荷
 icon_paper|紙白
+alert_calling|%1$s 來電
+pause_hour_action|暫停 1 個鐘
+tile_label|Bleepp 提示
+tile_on|開咗
+tile_off|閂咗
+tile_paused|暫停緊
+paused_until|暫停到 %1$s
+paused_until_resume|暫停到你恢復為止
+status_paused|提示暫停緊。
+pause_title|暫停提示
+pause_hour|1 個鐘
+pause_morning|直到 %1$s
+pause_forever|直到我恢復
+resume|恢復
+snd_ring|鈴聲
+rule_calls|來電
+rule_ring_calls|來電時響鈴
+rule_ring_calls_hint|呢個 App 有來電時，會一直響到你接聽、拒接或者錯過為止，最多一分鐘。
+rule_call_sound|來電聲音
+phone_ringtone|手機鈴聲
+rule_test_ring|試響
+stamp_call|似來電咁響咗
+tab_filters|篩選
+filters_subtitle|揀記錄要保留乜嘢。
+keep_latest|淨係保留最新嘅更新
+keep_latest_hint|充電、下載同計時器會不停更新同一個通知。淨係顯示最新嗰個。
+blocked_features|已封鎖嘅功能
+blocked_features_hint|唔再記錄某個 App 嘅一類通知，例如「充電」，而唔使封鎖成個 App。
+block_a_feature|封鎖一個功能
+blocked_apps|已封鎖嘅 App
+block_an_app|封鎖一個 App
+bookmarked_apps|已收藏嘅 App
+bookmarked_apps_hint|收藏咗嘅 App 會排喺記錄篩選最前面。
+bookmark_an_app|收藏一個 App
+hidden_words|隱藏字詞
+hidden_words_example|驗證碼, 充電
+hidden_words_hint|有呢啲字嘅通知唔會記錄。用逗號分隔。
+bookmarks_kept|收藏咗嘅通知會一直保留。
+export_csv|匯出記錄
+export_csv_hint|儲存做試算表檔案。
+privacy|私隱
+lock_log|鎖定記錄
+lock_log_hint|顯示通知之前要指紋或者螢幕鎖。
+lock_unavailable|請先喺手機設定螢幕鎖或者指紋。
+lock_title|記錄鎖咗
+lock_body|解鎖就睇到你嘅通知。
+lock_unlock|解鎖
+lock_prompt|解鎖你嘅 Bleepp 記錄
+feature_search|搵 App 或者功能
+features_empty|功能嘅通知記錄咗之後，就會喺度出現。
+feature_count|%1$s · 記錄咗 %2$d 個
+feature_blocked|以後唔會再記錄「%1$s」。
+block_feature|唔再記錄 %2$s 嘅「%1$s」
+remove|移除
+done|完成
+undo|復原
+deleted_n|已刪除：%1$d
+bookmarked_n|已收藏：%1$d
+unbookmarked_n|已取消收藏：%1$d
+selected_n|已揀：%1$d
+details|詳情
+bookmark|收藏
+unbookmark|取消收藏
+bookmarked|已收藏
+log_saved|收藏 (%1$d)
+open_it|打開
+copy_text|複製文字
+copied|複製咗
+log_swipe_hint|向左掃刪除，向右掃收藏。長㩒就可以揀多個。
+exported_n|匯出咗 %1$d 個通知。
+file_failed|儲存唔到檔案。
+backup|備份
+backup_make|備份規則同設定
+backup_make_hint|將提示、篩選、設定同外觀存入一個檔案，唔包括記錄。
+backup_restore|由備份還原
+backup_restore_hint|取代你而家嘅提示、篩選同設定。
+backup_saved|備份儲存咗。
+restore_done|備份還原咗。
+restore_failed|呢個檔案唔係 Bleepp 備份。
+log_clear_confirm|要刪除收藏以外嘅所有記錄？呢個動作冇得還原。

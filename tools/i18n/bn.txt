@@ -93,7 +93,6 @@ keep_days|%1$d দিন
 keep_forever|চিরকাল
 log_noise|চলমান ও মিডিয়া বিজ্ঞপ্তিও লগ করুন
 log_clear|লগ মুছুন
-log_clear_confirm|সব এন্ট্রি মুছবেন? এটি ফেরানো যাবে না।
 set_language|ভাষা
 lang_system|ফোন অনুযায়ী
 set_updates|আপডেট
@@ -175,3 +174,83 @@ icon_harbour|বন্দর
 icon_coral|প্রবাল
 icon_mint|পুদিনা
 icon_paper|কাগজ
+alert_calling|%1$s কল করছে
+pause_hour_action|১ ঘণ্টা থামান
+tile_label|Bleepp সতর্কতা
+tile_on|চালু
+tile_off|বন্ধ
+tile_paused|থামানো
+paused_until|%1$s পর্যন্ত থামানো
+paused_until_resume|আবার চালু না করা পর্যন্ত থামানো
+status_paused|সতর্কতা থামানো আছে।
+pause_title|সতর্কতা থামান
+pause_hour|১ ঘণ্টা
+pause_morning|%1$s পর্যন্ত
+pause_forever|আমি আবার চালু না করা পর্যন্ত
+resume|আবার চালু করুন
+snd_ring|রিং
+rule_calls|কল
+rule_ring_calls|কলে রিং দিন
+rule_ring_calls_hint|এই অ্যাপে কল এলে ধরা, কেটে দেওয়া বা মিস না হওয়া পর্যন্ত সর্বোচ্চ এক মিনিট রিং হতে থাকবে।
+rule_call_sound|কলের শব্দ
+phone_ringtone|ফোনের রিংটোন
+rule_test_ring|রিং পরীক্ষা করুন
+stamp_call|কলের মতো বেজেছে
+tab_filters|ফিল্টার
+filters_subtitle|লগ কী রাখবে তা বেছে নিন।
+keep_latest|শুধু সর্বশেষ আপডেট রাখুন
+keep_latest_hint|চার্জিং, ডাউনলোড ও টাইমার একই বিজ্ঞপ্তি বারবার আপডেট করে। শুধু নতুনটি দেখান।
+blocked_features|ব্লক করা ফিচার
+blocked_features_hint|পুরো অ্যাপ ব্লক না করে অ্যাপের এক ধরনের বিজ্ঞপ্তি, যেমন চার্জিং, লগ করা বন্ধ করুন।
+block_a_feature|ফিচার ব্লক করুন
+blocked_apps|ব্লক করা অ্যাপ
+block_an_app|অ্যাপ ব্লক করুন
+bookmarked_apps|বুকমার্ক করা অ্যাপ
+bookmarked_apps_hint|তারকাচিহ্নিত অ্যাপ লগের ফিল্টারে আগে আসে।
+bookmark_an_app|অ্যাপ বুকমার্ক করুন
+hidden_words|লুকানো শব্দ
+hidden_words_example|যাচাইকরণ কোড, চার্জিং
+hidden_words_hint|এই শব্দগুলোর কোনোটি থাকলে বিজ্ঞপ্তি লগ হবে না। কমা দিয়ে আলাদা করুন।
+bookmarks_kept|বুকমার্ক করা বিজ্ঞপ্তি সবসময় রাখা হয়।
+export_csv|লগ রপ্তানি করুন
+export_csv_hint|স্প্রেডশিট ফাইল হিসেবে সংরক্ষণ করুন।
+privacy|গোপনীয়তা
+lock_log|লগ লক করুন
+lock_log_hint|বিজ্ঞপ্তি দেখানোর আগে ফিঙ্গারপ্রিন্ট বা স্ক্রিন লক চাইবে।
+lock_unavailable|আগে ফোনে স্ক্রিন লক বা ফিঙ্গারপ্রিন্ট সেট করুন।
+lock_title|লগ লক করা আছে
+lock_body|আপনার বিজ্ঞপ্তি দেখতে আনলক করুন।
+lock_unlock|আনলক করুন
+lock_prompt|আপনার Bleepp লগ আনলক করুন
+feature_search|অ্যাপ বা ফিচার খুঁজুন
+features_empty|বিজ্ঞপ্তি লগ হলে ফিচারগুলো এখানে দেখা যাবে।
+feature_count|%1$s · %2$dটি লগ হয়েছে
+feature_blocked|%1$s আর লগ হবে না।
+block_feature|%2$s-এর "%1$s" লগ করা বন্ধ করুন
+remove|সরান
+done|হয়ে গেছে
+undo|আগের মতো করুন
+deleted_n|মুছেছে: %1$d
+bookmarked_n|বুকমার্ক হয়েছে: %1$d
+unbookmarked_n|বুকমার্ক সরানো হয়েছে: %1$d
+selected_n|বেছে নেওয়া: %1$d
+details|বিস্তারিত
+bookmark|বুকমার্ক করুন
+unbookmark|বুকমার্ক সরান
+bookmarked|বুকমার্ক করা
+log_saved|সংরক্ষিত (%1$d)
+open_it|খুলুন
+copy_text|লেখা কপি করুন
+copied|কপি হয়েছে
+log_swipe_hint|মুছতে বাঁয়ে, বুকমার্ক করতে ডানে সোয়াইপ করুন। বেছে নিতে চেপে ধরুন।
+exported_n|%1$dটি বিজ্ঞপ্তি রপ্তানি হয়েছে।
+file_failed|ফাইল সংরক্ষণ করা যায়নি।
+backup|ব্যাকআপ
+backup_make|নিয়ম ও সেটিংস ব্যাকআপ করুন
+backup_make_hint|আপনার সতর্কতা, ফিল্টার, সেটিংস ও চেহারা একটি ফাইলে রাখে। লগ এতে থাকে না।
+backup_restore|ব্যাকআপ থেকে ফেরান
+backup_restore_hint|আপনার বর্তমান সতর্কতা, ফিল্টার ও সেটিংস বদলে দেয়।
+backup_saved|ব্যাকআপ সংরক্ষিত হয়েছে।
+restore_done|ব্যাকআপ ফেরানো হয়েছে।
+restore_failed|এই ফাইলটি Bleepp ব্যাকআপ নয়।
+log_clear_confirm|বুকমার্ক করা ছাড়া সব এন্ট্রি মুছবেন? এটি ফেরানো যাবে না।

@@ -93,7 +93,6 @@ keep_days|Дней: %1$d
 keep_forever|Всегда
 log_noise|Записывать постоянные и медиа-уведомления
 log_clear|Очистить журнал
-log_clear_confirm|Удалить все записи? Это действие нельзя отменить.
 set_language|Язык
 lang_system|Как на телефоне
 set_updates|Обновления
@@ -175,3 +174,83 @@ icon_harbour|Гавань
 icon_coral|Коралл
 icon_mint|Мята
 icon_paper|Бумага
+alert_calling|%1$s звонит
+pause_hour_action|Пауза на 1 час
+tile_label|Оповещения Bleepp
+tile_on|Вкл.
+tile_off|Выкл.
+tile_paused|На паузе
+paused_until|На паузе до %1$s
+paused_until_resume|На паузе, пока не возобновите
+status_paused|Оповещения на паузе.
+pause_title|Пауза оповещений
+pause_hour|1 час
+pause_morning|До %1$s
+pause_forever|Пока не возобновлю
+resume|Возобновить
+snd_ring|Звонок
+rule_calls|Звонки
+rule_ring_calls|Звонить при вызовах
+rule_ring_calls_hint|Когда приложению звонят, сигнал звучит, пока вы не ответите, не отклоните или не пропустите вызов, но не дольше минуты.
+rule_call_sound|Звук вызова
+phone_ringtone|Мелодия телефона
+rule_test_ring|Проверить звонок
+stamp_call|Прозвучало как звонок
+tab_filters|Фильтры
+filters_subtitle|Выберите, что хранит журнал.
+keep_latest|Хранить только последнее обновление
+keep_latest_hint|Зарядка, загрузки и таймеры снова и снова обновляют одно уведомление. Показывать только самое новое.
+blocked_features|Заблокированные функции
+blocked_features_hint|Не записывать один вид уведомлений приложения, например «Зарядка», не блокируя всё приложение.
+block_a_feature|Заблокировать функцию
+blocked_apps|Заблокированные приложения
+block_an_app|Заблокировать приложение
+bookmarked_apps|Избранные приложения
+bookmarked_apps_hint|Избранные приложения идут первыми в фильтрах журнала.
+bookmark_an_app|Добавить приложение в избранное
+hidden_words|Скрытые слова
+hidden_words_example|код подтверждения, зарядка
+hidden_words_hint|Уведомления с любым из этих слов не записываются. Разделяйте слова запятыми.
+bookmarks_kept|Избранные уведомления хранятся всегда.
+export_csv|Экспортировать журнал
+export_csv_hint|Сохранить как таблицу.
+privacy|Конфиденциальность
+lock_log|Блокировать журнал
+lock_log_hint|Запрашивать отпечаток или блокировку экрана перед показом уведомлений.
+lock_unavailable|Сначала настройте блокировку экрана или отпечаток на телефоне.
+lock_title|Журнал заблокирован
+lock_body|Разблокируйте, чтобы увидеть уведомления.
+lock_unlock|Разблокировать
+lock_prompt|Разблокируйте журнал Bleepp
+feature_search|Найти приложение или функцию
+features_empty|Функции появятся здесь, когда их уведомления попадут в журнал.
+feature_count|%1$s · записано: %2$d
+feature_blocked|%1$s больше не будет записываться.
+block_feature|Не записывать «%1$s» из %2$s
+remove|Убрать
+done|Готово
+undo|Отменить
+deleted_n|Удалено: %1$d
+bookmarked_n|В избранном: %1$d
+unbookmarked_n|Убрано из избранного: %1$d
+selected_n|Выбрано: %1$d
+details|Подробности
+bookmark|В избранное
+unbookmark|Убрать из избранного
+bookmarked|В избранном
+log_saved|Избранное (%1$d)
+open_it|Открыть
+copy_text|Копировать текст
+copied|Скопировано
+log_swipe_hint|Смахните влево, чтобы удалить, вправо — чтобы добавить в избранное. Удерживайте для выбора.
+exported_n|Экспортировано уведомлений: %1$d.
+file_failed|Не удалось сохранить файл.
+backup|Резервная копия
+backup_make|Сохранить правила и настройки
+backup_make_hint|Сохраняет оповещения, фильтры, настройки и оформление в файл. Журнал не включается.
+backup_restore|Восстановить из копии
+backup_restore_hint|Заменяет текущие оповещения, фильтры и настройки.
+backup_saved|Копия сохранена.
+restore_done|Копия восстановлена.
+restore_failed|Этот файл не является копией Bleepp.
+log_clear_confirm|Удалить все записи, кроме избранных? Это действие нельзя отменить.

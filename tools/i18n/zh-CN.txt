@@ -93,7 +93,6 @@ keep_days|%1$d 天
 keep_forever|永久
 log_noise|记录常驻和媒体通知
 log_clear|清空日志
-log_clear_confirm|要删除全部日志条目吗？此操作无法撤销。
 set_language|语言
 lang_system|跟随手机
 set_updates|更新
@@ -175,3 +174,83 @@ icon_harbour|港湾
 icon_coral|珊瑚
 icon_mint|薄荷
 icon_paper|纸白
+alert_calling|%1$s 来电
+pause_hour_action|暂停 1 小时
+tile_label|Bleepp 提醒
+tile_on|已开启
+tile_off|已关闭
+tile_paused|已暂停
+paused_until|暂停至 %1$s
+paused_until_resume|暂停至你手动恢复
+status_paused|提醒已暂停。
+pause_title|暂停提醒
+pause_hour|1 小时
+pause_morning|直到 %1$s
+pause_forever|直到我恢复
+resume|恢复
+snd_ring|铃声
+rule_calls|来电
+rule_ring_calls|来电时响铃
+rule_ring_calls_hint|当这个应用有来电时，持续响铃直到你接听、拒接或错过，最长一分钟。
+rule_call_sound|来电声音
+phone_ringtone|手机铃声
+rule_test_ring|测试铃声
+stamp_call|已像来电一样响铃
+tab_filters|过滤
+filters_subtitle|选择日志要保留什么。
+keep_latest|只保留最新的更新
+keep_latest_hint|充电、下载和计时器会反复更新同一条通知。只显示最新那条。
+blocked_features|已屏蔽的功能
+blocked_features_hint|不再记录某个应用的一类通知，比如“充电”，而不用屏蔽整个应用。
+block_a_feature|屏蔽一个功能
+blocked_apps|已屏蔽的应用
+block_an_app|屏蔽一个应用
+bookmarked_apps|已收藏的应用
+bookmarked_apps_hint|收藏的应用会排在日志筛选的最前面。
+bookmark_an_app|收藏一个应用
+hidden_words|隐藏词
+hidden_words_example|验证码, 充电
+hidden_words_hint|包含这些词的通知不会被记录。用逗号分隔。
+bookmarks_kept|收藏的通知会一直保留。
+export_csv|导出日志
+export_csv_hint|保存为表格文件。
+privacy|隐私
+lock_log|锁定日志
+lock_log_hint|显示通知前要求指纹或屏幕锁。
+lock_unavailable|请先在手机上设置屏幕锁或指纹。
+lock_title|日志已锁定
+lock_body|解锁后查看你的通知。
+lock_unlock|解锁
+lock_prompt|解锁你的 Bleepp 日志
+feature_search|查找应用或功能
+features_empty|功能的通知被记录后，会显示在这里。
+feature_count|%1$s · 已记录 %2$d 条
+feature_blocked|将不再记录“%1$s”。
+block_feature|不再记录 %2$s 的“%1$s”
+remove|移除
+done|完成
+undo|撤销
+deleted_n|已删除：%1$d
+bookmarked_n|已收藏：%1$d
+unbookmarked_n|已取消收藏：%1$d
+selected_n|已选择：%1$d
+details|详情
+bookmark|收藏
+unbookmark|取消收藏
+bookmarked|已收藏
+log_saved|收藏 (%1$d)
+open_it|打开
+copy_text|复制文字
+copied|已复制
+log_swipe_hint|向左滑动删除，向右滑动收藏。长按可多选。
+exported_n|已导出 %1$d 条通知。
+file_failed|无法保存文件。
+backup|备份
+backup_make|备份规则和设置
+backup_make_hint|把提醒、过滤、设置和外观保存到一个文件中，不包括日志。
+backup_restore|从备份恢复
+backup_restore_hint|替换你当前的提醒、过滤和设置。
+backup_saved|备份已保存。
+restore_done|备份已恢复。
+restore_failed|这个文件不是 Bleepp 备份。
+log_clear_confirm|要删除除收藏外的所有日志条目吗？此操作无法撤销。

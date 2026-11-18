@@ -93,7 +93,6 @@ keep_days|%1$d días
 keep_forever|Siempre
 log_noise|Registrar notificaciones continuas y multimedia
 log_clear|Vaciar el registro
-log_clear_confirm|¿Eliminar todas las entradas? No se puede deshacer.
 set_language|Idioma
 lang_system|Igual que el teléfono
 set_updates|Actualizaciones
@@ -175,3 +174,83 @@ icon_harbour|Puerto
 icon_coral|Coral
 icon_mint|Menta
 icon_paper|Papel
+alert_calling|%1$s está llamando
+pause_hour_action|Pausar 1 hora
+tile_label|Alertas de Bleepp
+tile_on|Activadas
+tile_off|Desactivadas
+tile_paused|En pausa
+paused_until|En pausa hasta las %1$s
+paused_until_resume|En pausa hasta que la reanudes
+status_paused|Las alertas están en pausa.
+pause_title|Pausar alertas
+pause_hour|1 hora
+pause_morning|Hasta las %1$s
+pause_forever|Hasta que las reanude
+resume|Reanudar
+snd_ring|Timbre
+rule_calls|Llamadas
+rule_ring_calls|Sonar con las llamadas
+rule_ring_calls_hint|Cuando esta app esté recibiendo una llamada, sigue sonando hasta que contestes, rechaces o la pierdas, durante un minuto como máximo.
+rule_call_sound|Sonido de llamada
+phone_ringtone|Tono del teléfono
+rule_test_ring|Probar timbre
+stamp_call|Sonó como una llamada
+tab_filters|Filtros
+filters_subtitle|Elige qué guarda el registro.
+keep_latest|Guardar solo la última actualización
+keep_latest_hint|La carga, las descargas y los temporizadores actualizan la misma notificación una y otra vez. Muestra solo la más reciente.
+blocked_features|Funciones bloqueadas
+blocked_features_hint|Deja de registrar un tipo de notificación de una app, como Carga, sin bloquear toda la app.
+block_a_feature|Bloquear una función
+blocked_apps|Apps bloqueadas
+block_an_app|Bloquear una app
+bookmarked_apps|Apps marcadas
+bookmarked_apps_hint|Las apps marcadas salen primero en los filtros del registro.
+bookmark_an_app|Marcar una app
+hidden_words|Palabras ocultas
+hidden_words_example|código de verificación, cargando
+hidden_words_hint|Las notificaciones con alguna de estas palabras no se registran. Sepáralas con comas.
+bookmarks_kept|Las notificaciones marcadas se conservan siempre.
+export_csv|Exportar el registro
+export_csv_hint|Guárdalo como hoja de cálculo.
+privacy|Privacidad
+lock_log|Bloquear el registro
+lock_log_hint|Pide tu huella o el bloqueo de pantalla antes de mostrar las notificaciones.
+lock_unavailable|Primero configura un bloqueo de pantalla o una huella en el teléfono.
+lock_title|El registro está bloqueado
+lock_body|Desbloquéalo para ver tus notificaciones.
+lock_unlock|Desbloquear
+lock_prompt|Desbloquea tu registro de Bleepp
+feature_search|Buscar una app o función
+features_empty|Las funciones aparecen aquí cuando se han registrado sus notificaciones.
+feature_count|%1$s · %2$d registradas
+feature_blocked|%1$s ya no se registrará.
+block_feature|Dejar de registrar "%1$s" de %2$s
+remove|Quitar
+done|Listo
+undo|Deshacer
+deleted_n|Eliminadas: %1$d
+bookmarked_n|Marcadas: %1$d
+unbookmarked_n|Marcas quitadas: %1$d
+selected_n|Seleccionadas: %1$d
+details|Detalles
+bookmark|Marcar
+unbookmark|Quitar marca
+bookmarked|Marcada
+log_saved|Guardadas (%1$d)
+open_it|Abrir
+copy_text|Copiar texto
+copied|Copiado
+log_swipe_hint|Desliza a la izquierda para eliminar y a la derecha para marcar. Mantén pulsado para seleccionar.
+exported_n|Se exportaron %1$d notificaciones.
+file_failed|No se pudo guardar el archivo.
+backup|Copia de seguridad
+backup_make|Copiar reglas y ajustes
+backup_make_hint|Guarda tus alertas, filtros, ajustes y estilo en un archivo. No incluye el registro.
+backup_restore|Restaurar una copia
+backup_restore_hint|Sustituye tus alertas, filtros y ajustes actuales.
+backup_saved|Copia guardada.
+restore_done|Copia restaurada.
+restore_failed|Ese archivo no es una copia de Bleepp.
+log_clear_confirm|¿Eliminar todas las entradas excepto las marcadas? No se puede deshacer.

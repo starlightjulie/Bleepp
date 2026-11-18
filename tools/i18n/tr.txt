@@ -93,7 +93,6 @@ keep_days|%1$d gün
 keep_forever|Süresiz
 log_noise|Devam eden ve medya bildirimlerini kaydet
 log_clear|Kaydı temizle
-log_clear_confirm|Tüm kayıtlar silinsin mi? Bu işlem geri alınamaz.
 set_language|Dil
 lang_system|Telefonla aynı
 set_updates|Güncellemeler
@@ -175,3 +174,83 @@ icon_harbour|Liman
 icon_coral|Mercan
 icon_mint|Nane
 icon_paper|Kâğıt
+alert_calling|%1$s arıyor
+pause_hour_action|1 saat duraklat
+tile_label|Bleepp uyarıları
+tile_on|Açık
+tile_off|Kapalı
+tile_paused|Duraklatıldı
+paused_until|%1$s saatine kadar duraklatıldı
+paused_until_resume|Sen devam ettirene kadar duraklatıldı
+status_paused|Uyarılar duraklatıldı.
+pause_title|Uyarıları duraklat
+pause_hour|1 saat
+pause_morning|%1$s saatine kadar
+pause_forever|Ben devam ettirene kadar
+resume|Devam ettir
+snd_ring|Zil
+rule_calls|Aramalar
+rule_ring_calls|Aramalarda çal
+rule_ring_calls_hint|Bu uygulamaya arama geldiğinde, cevaplayana, reddedene ya da kaçırana kadar en fazla bir dakika çalmaya devam eder.
+rule_call_sound|Arama sesi
+phone_ringtone|Telefonun zil sesi
+rule_test_ring|Zili dene
+stamp_call|Arama gibi çaldı
+tab_filters|Filtreler
+filters_subtitle|Kaydın neyi tutacağını seç.
+keep_latest|Yalnızca en son güncellemeyi tut
+keep_latest_hint|Şarj, indirmeler ve zamanlayıcılar aynı bildirimi sürekli günceller. Yalnızca en yenisini göster.
+blocked_features|Engellenen özellikler
+blocked_features_hint|Bir uygulamanın tek bir bildirim türünü, örneğin Şarj'ı, uygulamanın tamamını engellemeden kaydetmeyi durdur.
+block_a_feature|Bir özelliği engelle
+blocked_apps|Engellenen uygulamalar
+block_an_app|Bir uygulamayı engelle
+bookmarked_apps|Yer işaretli uygulamalar
+bookmarked_apps_hint|Yıldızlı uygulamalar kayıt filtrelerinde önce gelir.
+bookmark_an_app|Uygulamaya yer işareti koy
+hidden_words|Gizli kelimeler
+hidden_words_example|doğrulama kodu, şarj
+hidden_words_hint|Bu kelimelerden birini içeren bildirimler kaydedilmez. Virgülle ayır.
+bookmarks_kept|Yer işaretli bildirimler her zaman saklanır.
+export_csv|Kaydı dışa aktar
+export_csv_hint|Tablo dosyası olarak kaydet.
+privacy|Gizlilik
+lock_log|Kaydı kilitle
+lock_log_hint|Bildirimleri göstermeden önce parmak izi ya da ekran kilidi iste.
+lock_unavailable|Önce telefonunda bir ekran kilidi ya da parmak izi ayarla.
+lock_title|Kayıt kilitli
+lock_body|Bildirimlerini görmek için kilidi aç.
+lock_unlock|Kilidi aç
+lock_prompt|Bleepp kaydının kilidini aç
+feature_search|Uygulama ya da özellik bul
+features_empty|Özellikler, bildirimleri kaydedildikten sonra burada görünür.
+feature_count|%1$s · %2$d kayıt
+feature_blocked|%1$s artık kaydedilmeyecek.
+block_feature|%2$s içindeki "%1$s" kaydedilmesin
+remove|Kaldır
+done|Bitti
+undo|Geri al
+deleted_n|Silinen: %1$d
+bookmarked_n|Yer işareti konan: %1$d
+unbookmarked_n|Yer işareti kaldırılan: %1$d
+selected_n|Seçilen: %1$d
+details|Ayrıntılar
+bookmark|Yer işareti koy
+unbookmark|Yer işaretini kaldır
+bookmarked|Yer işaretli
+log_saved|Kaydedilenler (%1$d)
+open_it|Aç
+copy_text|Metni kopyala
+copied|Kopyalandı
+log_swipe_hint|Silmek için sola, yer işareti için sağa kaydır. Seçmek için basılı tut.
+exported_n|%1$d bildirim dışa aktarıldı.
+file_failed|Dosya kaydedilemedi.
+backup|Yedek
+backup_make|Kuralları ve ayarları yedekle
+backup_make_hint|Uyarılarını, filtrelerini, ayarlarını ve görünümünü bir dosyaya kaydeder. Kayıt dahil değildir.
+backup_restore|Yedekten geri yükle
+backup_restore_hint|Mevcut uyarıların, filtrelerin ve ayarların yerine geçer.
+backup_saved|Yedek kaydedildi.
+restore_done|Yedek geri yüklendi.
+restore_failed|Bu dosya bir Bleepp yedeği değil.
+log_clear_confirm|Yer işaretliler dışındaki tüm kayıtlar silinsin mi? Bu işlem geri alınamaz.

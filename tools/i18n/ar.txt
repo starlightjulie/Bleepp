@@ -93,7 +93,6 @@ keep_days|%1$d يوم
 keep_forever|للأبد
 log_noise|تسجيل الإشعارات المستمرة وإشعارات الوسائط
 log_clear|مسح السجل
-log_clear_confirm|هل تريد حذف كل الإدخالات؟ لا يمكن التراجع عن ذلك.
 set_language|اللغة
 lang_system|مثل الهاتف
 set_updates|التحديثات
@@ -175,3 +174,83 @@ icon_harbour|الميناء
 icon_coral|مرجاني
 icon_mint|نعناعي
 icon_paper|ورقي
+alert_calling|%1$s يتصل بك
+pause_hour_action|إيقاف مؤقت لساعة
+tile_label|تنبيهات Bleepp
+tile_on|مفعّلة
+tile_off|متوقفة
+tile_paused|متوقفة مؤقتًا
+paused_until|متوقفة حتى %1$s
+paused_until_resume|متوقفة حتى تستأنفها
+status_paused|التنبيهات متوقفة مؤقتًا.
+pause_title|إيقاف التنبيهات مؤقتًا
+pause_hour|ساعة واحدة
+pause_morning|حتى %1$s
+pause_forever|حتى أستأنفها
+resume|استئناف
+snd_ring|رنين
+rule_calls|المكالمات
+rule_ring_calls|الرنين عند المكالمات
+rule_ring_calls_hint|عندما يرن هذا التطبيق لمكالمة، يستمر الرنين حتى تجيب أو ترفض أو تفوتك، لمدة دقيقة كحد أقصى.
+rule_call_sound|صوت المكالمة
+phone_ringtone|نغمة الهاتف
+rule_test_ring|تجربة الرنين
+stamp_call|رنّ كمكالمة
+tab_filters|الفلاتر
+filters_subtitle|اختر ما يحتفظ به السجل.
+keep_latest|الاحتفاظ بآخر تحديث فقط
+keep_latest_hint|الشحن والتنزيلات والمؤقتات تحدّث الإشعار نفسه مرارًا. اعرض الأحدث فقط.
+blocked_features|الميزات المحظورة
+blocked_features_hint|أوقف تسجيل نوع واحد من إشعارات تطبيق، مثل الشحن، دون حظر التطبيق كله.
+block_a_feature|حظر ميزة
+blocked_apps|التطبيقات المحظورة
+block_an_app|حظر تطبيق
+bookmarked_apps|التطبيقات المميزة
+bookmarked_apps_hint|التطبيقات المميزة بنجمة تأتي أولًا في فلاتر السجل.
+bookmark_an_app|تمييز تطبيق
+hidden_words|كلمات مخفية
+hidden_words_example|رمز التحقق، الشحن
+hidden_words_hint|لا تُسجَّل الإشعارات التي تحتوي على أي من هذه الكلمات. افصل بينها بفواصل.
+bookmarks_kept|الإشعارات المميزة تُحفظ دائمًا.
+export_csv|تصدير السجل
+export_csv_hint|احفظه كملف جدول بيانات.
+privacy|الخصوصية
+lock_log|قفل السجل
+lock_log_hint|اطلب بصمتك أو قفل الشاشة قبل عرض الإشعارات.
+lock_unavailable|أعِدّ قفل شاشة أو بصمة على هاتفك أولًا.
+lock_title|السجل مقفل
+lock_body|افتح القفل لرؤية إشعاراتك.
+lock_unlock|فتح القفل
+lock_prompt|افتح قفل سجل Bleepp
+feature_search|ابحث عن تطبيق أو ميزة
+features_empty|تظهر الميزات هنا بعد تسجيل إشعاراتها.
+feature_count|%1$s · %2$d مسجّل
+feature_blocked|لن يُسجَّل %1$s بعد الآن.
+block_feature|إيقاف تسجيل "%1$s" من %2$s
+remove|إزالة
+done|تم
+undo|تراجع
+deleted_n|المحذوف: %1$d
+bookmarked_n|المميز: %1$d
+unbookmarked_n|أزيل التمييز: %1$d
+selected_n|المحدد: %1$d
+details|التفاصيل
+bookmark|تمييز
+unbookmark|إزالة التمييز
+bookmarked|مميز
+log_saved|المحفوظ (%1$d)
+open_it|فتح
+copy_text|نسخ النص
+copied|تم النسخ
+log_swipe_hint|اسحب لليسار للحذف ولليمين للتمييز. اضغط مطولًا للتحديد.
+exported_n|تم تصدير %1$d إشعار.
+file_failed|تعذّر حفظ الملف.
+backup|النسخ الاحتياطي
+backup_make|نسخ القواعد والإعدادات احتياطيًا
+backup_make_hint|يحفظ تنبيهاتك وفلاترك وإعداداتك ومظهرك في ملف. لا يشمل السجل.
+backup_restore|الاستعادة من نسخة احتياطية
+backup_restore_hint|يستبدل تنبيهاتك وفلاترك وإعداداتك الحالية.
+backup_saved|تم حفظ النسخة الاحتياطية.
+restore_done|تمت استعادة النسخة الاحتياطية.
+restore_failed|هذا الملف ليس نسخة احتياطية من Bleepp.
+log_clear_confirm|هل تريد حذف كل الإدخالات ما عدا المميزة؟ لا يمكن التراجع عن ذلك.

@@ -93,7 +93,6 @@ keep_days|%1$d يوم
 keep_forever|على طول
 log_noise|سجّل الإشعارات المستمرة وإشعارات الوسائط
 log_clear|امسح السجل
-log_clear_confirm|تمسح كل السجلات؟ مش هينفع ترجّعها.
 set_language|اللغة
 lang_system|زي الموبايل
 set_updates|التحديثات
@@ -175,3 +174,83 @@ icon_harbour|الميناء
 icon_coral|مرجاني
 icon_mint|نعناعي
 icon_paper|ورقي
+alert_calling|%1$s بيتصل بيك
+pause_hour_action|وقّف ساعة
+tile_label|تنبيهات Bleepp
+tile_on|شغالة
+tile_off|مقفولة
+tile_paused|متوقفة
+paused_until|متوقفة لحد %1$s
+paused_until_resume|متوقفة لحد ما ترجّعها
+status_paused|التنبيهات متوقفة.
+pause_title|وقّف التنبيهات شوية
+pause_hour|ساعة
+pause_morning|لحد %1$s
+pause_forever|لحد ما أرجّعها
+resume|رجّعها
+snd_ring|رنّة
+rule_calls|المكالمات
+rule_ring_calls|رنّ في المكالمات
+rule_ring_calls_hint|لما التطبيق ده يرن لمكالمة، هيفضل يرن لحد ما ترد أو ترفض أو تفوتك، لحد دقيقة.
+rule_call_sound|صوت المكالمة
+phone_ringtone|رنة الموبايل
+rule_test_ring|جرّب الرنة
+stamp_call|رنّ زي المكالمة
+tab_filters|الفلاتر
+filters_subtitle|اختار السجل يحتفظ بإيه.
+keep_latest|خلّي آخر تحديث بس
+keep_latest_hint|الشحن والتنزيلات والتايمرات بيحدّثوا نفس الإشعار كل شوية. اعرض الأجدد بس.
+blocked_features|ميزات محظورة
+blocked_features_hint|بطّل تسجّل نوع واحد من إشعارات تطبيق، زي الشحن، من غير ما تحظر التطبيق كله.
+block_a_feature|احظر ميزة
+blocked_apps|تطبيقات محظورة
+block_an_app|احظر تطبيق
+bookmarked_apps|تطبيقات متعلّم عليها
+bookmarked_apps_hint|التطبيقات اللي عليها نجمة بتيجي الأول في فلاتر السجل.
+bookmark_an_app|علّم على تطبيق
+hidden_words|كلمات مخفية
+hidden_words_example|كود التأكيد، الشحن
+hidden_words_hint|الإشعارات اللي فيها أي كلمة من دول مش هتتسجل. افصل بفواصل.
+bookmarks_kept|الإشعارات المتعلّم عليها بتفضل دايمًا.
+export_csv|صدّر السجل
+export_csv_hint|احفظه كملف جدول.
+privacy|الخصوصية
+lock_log|اقفل السجل
+lock_log_hint|اطلب البصمة أو قفل الشاشة قبل ما تعرض الإشعارات.
+lock_unavailable|اعمل قفل شاشة أو بصمة على موبايلك الأول.
+lock_title|السجل مقفول
+lock_body|افتح القفل عشان تشوف إشعاراتك.
+lock_unlock|افتح القفل
+lock_prompt|افتح قفل سجل Bleepp
+feature_search|دوّر على تطبيق أو ميزة
+features_empty|الميزات هتظهر هنا لما إشعاراتها تتسجل.
+feature_count|%1$s · %2$d متسجل
+feature_blocked|%1$s مش هيتسجل تاني.
+block_feature|بطّل تسجّل "%1$s" من %2$s
+remove|شيل
+done|تمام
+undo|تراجع
+deleted_n|اتمسح: %1$d
+bookmarked_n|اتعلّم عليه: %1$d
+unbookmarked_n|اتشال التعليم: %1$d
+selected_n|المختار: %1$d
+details|التفاصيل
+bookmark|علّم عليه
+unbookmark|شيل العلامة
+bookmarked|متعلّم عليه
+log_saved|المحفوظ (%1$d)
+open_it|افتح
+copy_text|انسخ الكلام
+copied|اتنسخ
+log_swipe_hint|اسحب شمال للمسح ويمين للتعليم. دوس مطوّل عشان تختار.
+exported_n|اتصدّر %1$d إشعار.
+file_failed|مش قادر أحفظ الملف.
+backup|نسخة احتياطية
+backup_make|اعمل نسخة من القواعد والإعدادات
+backup_make_hint|بيحفظ تنبيهاتك وفلاترك وإعداداتك وشكلك في ملف. السجل مش جواه.
+backup_restore|رجّع من نسخة احتياطية
+backup_restore_hint|بيبدّل تنبيهاتك وفلاترك وإعداداتك الحالية.
+backup_saved|النسخة اتحفظت.
+restore_done|النسخة رجعت.
+restore_failed|الملف ده مش نسخة Bleepp.
+log_clear_confirm|تمسح كل السجلات إلا المتعلّم عليها؟ مش هينفع ترجّعها.

@@ -93,7 +93,6 @@ keep_days|%1$d दिन
 keep_forever|हमेशा
 log_noise|चालू और मीडिया सूचनाएँ भी दर्ज करें
 log_clear|लॉग साफ़ करें
-log_clear_confirm|सभी प्रविष्टियाँ हटाएँ? इसे वापस नहीं किया जा सकता।
 set_language|भाषा
 lang_system|फ़ोन के अनुसार
 set_updates|अपडेट
@@ -175,3 +174,83 @@ icon_harbour|बंदरगाह
 icon_coral|मूँगा
 icon_mint|पुदीना
 icon_paper|काग़ज़
+alert_calling|%1$s कॉल कर रहा है
+pause_hour_action|1 घंटे रोकें
+tile_label|Bleepp अलर्ट
+tile_on|चालू
+tile_off|बंद
+tile_paused|रुका हुआ
+paused_until|%1$s तक रुका
+paused_until_resume|फिर शुरू करने तक रुका
+status_paused|अलर्ट रुके हुए हैं।
+pause_title|अलर्ट रोकें
+pause_hour|1 घंटा
+pause_morning|%1$s तक
+pause_forever|जब तक मैं फिर शुरू न करूँ
+resume|फिर शुरू करें
+snd_ring|घंटी
+rule_calls|कॉल
+rule_ring_calls|कॉल पर घंटी बजाएँ
+rule_ring_calls_hint|जब इस ऐप पर कॉल आए, तो उठाने, काटने या छूट जाने तक, ज़्यादा से ज़्यादा एक मिनट तक घंटी बजती रहे।
+rule_call_sound|कॉल की आवाज़
+phone_ringtone|फ़ोन की रिंगटोन
+rule_test_ring|घंटी जाँचें
+stamp_call|कॉल की तरह बजा
+tab_filters|फ़िल्टर
+filters_subtitle|चुनें कि लॉग क्या रखे।
+keep_latest|सिर्फ़ नया अपडेट रखें
+keep_latest_hint|चार्जिंग, डाउनलोड और टाइमर एक ही सूचना बार-बार अपडेट करते हैं। सिर्फ़ सबसे नई दिखाएँ।
+blocked_features|ब्लॉक की गई सुविधाएँ
+blocked_features_hint|किसी ऐप की एक तरह की सूचना, जैसे चार्जिंग, दर्ज करना बंद करें, पूरे ऐप को ब्लॉक किए बिना।
+block_a_feature|सुविधा ब्लॉक करें
+blocked_apps|ब्लॉक किए गए ऐप
+block_an_app|ऐप ब्लॉक करें
+bookmarked_apps|बुकमार्क किए गए ऐप
+bookmarked_apps_hint|तारांकित ऐप लॉग के फ़िल्टर में सबसे पहले आते हैं।
+bookmark_an_app|ऐप बुकमार्क करें
+hidden_words|छिपे शब्द
+hidden_words_example|सत्यापन कोड, चार्जिंग
+hidden_words_hint|इनमें से कोई भी शब्द वाली सूचनाएँ दर्ज नहीं होंगी। शब्दों को कॉमा से अलग करें।
+bookmarks_kept|बुकमार्क की गई सूचनाएँ हमेशा रखी जाती हैं।
+export_csv|लॉग निर्यात करें
+export_csv_hint|स्प्रेडशीट फ़ाइल के रूप में सहेजें।
+privacy|गोपनीयता
+lock_log|लॉग लॉक करें
+lock_log_hint|सूचनाएँ दिखाने से पहले फ़िंगरप्रिंट या स्क्रीन लॉक माँगें।
+lock_unavailable|पहले फ़ोन पर स्क्रीन लॉक या फ़िंगरप्रिंट सेट करें।
+lock_title|लॉग लॉक है
+lock_body|अपनी सूचनाएँ देखने के लिए अनलॉक करें।
+lock_unlock|अनलॉक करें
+lock_prompt|अपना Bleepp लॉग अनलॉक करें
+feature_search|ऐप या सुविधा खोजें
+features_empty|सूचनाएँ दर्ज होने के बाद सुविधाएँ यहाँ दिखेंगी।
+feature_count|%1$s · %2$d दर्ज
+feature_blocked|%1$s अब दर्ज नहीं होगा।
+block_feature|%2$s का "%1$s" दर्ज करना बंद करें
+remove|हटाएँ
+done|हो गया
+undo|पहले जैसा करें
+deleted_n|हटाई गईं: %1$d
+bookmarked_n|बुकमार्क की गईं: %1$d
+unbookmarked_n|बुकमार्क हटाए गए: %1$d
+selected_n|चुनी गईं: %1$d
+details|विवरण
+bookmark|बुकमार्क करें
+unbookmark|बुकमार्क हटाएँ
+bookmarked|बुकमार्क की गई
+log_saved|सहेजी गईं (%1$d)
+open_it|खोलें
+copy_text|टेक्स्ट कॉपी करें
+copied|कॉपी हो गया
+log_swipe_hint|हटाने के लिए बाएँ, बुकमार्क के लिए दाएँ स्वाइप करें। चुनने के लिए दबाकर रखें।
+exported_n|%1$d सूचनाएँ निर्यात की गईं।
+file_failed|फ़ाइल सहेजी नहीं जा सकी।
+backup|बैकअप
+backup_make|नियम और सेटिंग्स का बैकअप लें
+backup_make_hint|आपके अलर्ट, फ़िल्टर, सेटिंग्स और लुक एक फ़ाइल में सहेजता है। लॉग शामिल नहीं है।
+backup_restore|बैकअप से वापस लाएँ
+backup_restore_hint|आपके मौजूदा अलर्ट, फ़िल्टर और सेटिंग्स बदल देता है।
+backup_saved|बैकअप सहेजा गया।
+restore_done|बैकअप वापस लाया गया।
+restore_failed|यह फ़ाइल Bleepp बैकअप नहीं है।
+log_clear_confirm|बुकमार्क वाली को छोड़कर सभी प्रविष्टियाँ हटाएँ? इसे वापस नहीं किया जा सकता।

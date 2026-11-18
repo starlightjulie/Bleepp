@@ -94,7 +94,7 @@ keep_days|%1$d days
 keep_forever|Forever
 log_noise|Log ongoing and media notifications
 log_clear|Clear the log
-log_clear_confirm|Delete every log entry? This can't be undone.
+log_clear_confirm|Delete every log entry except bookmarked ones? This can't be undone.
 set_language|Language
 lang_system|Follow the phone
 set_updates|Updates
@@ -177,3 +177,82 @@ icon_harbour|Harbour
 icon_coral|Coral
 icon_mint|Mint
 icon_paper|Paper
+alert_calling|%1$s is calling
+pause_hour_action|Pause 1 hour
+tile_label|Bleepp alerts
+tile_on|On
+tile_off|Off
+tile_paused|Paused
+paused_until|Paused until %1$s
+paused_until_resume|Paused until you resume
+status_paused|Alerts are paused.
+pause_title|Pause alerts
+pause_hour|1 hour
+pause_morning|Until %1$s
+pause_forever|Until I resume
+resume|Resume
+snd_ring|Ring
+rule_calls|Calls
+rule_ring_calls|Ring for calls
+rule_ring_calls_hint|When this app is ringing for a call, keep ringing until you answer, decline or miss it, for up to a minute.
+rule_call_sound|Call sound
+phone_ringtone|Phone's ringtone
+rule_test_ring|Test ring
+stamp_call|Rang as a call
+tab_filters|Filters
+filters_subtitle|Choose what the log keeps.
+keep_latest|Keep only the latest update
+keep_latest_hint|Charging, downloads and timers update the same notification over and over. Show just the newest one.
+blocked_features|Blocked features
+blocked_features_hint|Stop logging one kind of notification from an app, like Charging, without blocking the whole app.
+block_a_feature|Block a feature
+blocked_apps|Blocked apps
+block_an_app|Block an app
+bookmarked_apps|Bookmarked apps
+bookmarked_apps_hint|Starred apps come first in the log's filters.
+bookmark_an_app|Bookmark an app
+hidden_words|Hidden words
+hidden_words_example|verification code, charging
+hidden_words_hint|Notifications containing any of these words aren't logged. Separate them with commas.
+bookmarks_kept|Bookmarked notifications are always kept.
+export_csv|Export the log
+export_csv_hint|Save it as a spreadsheet file.
+privacy|Privacy
+lock_log|Lock the log
+lock_log_hint|Ask for your fingerprint or screen lock before showing notifications.
+lock_unavailable|Set up a screen lock or fingerprint on your phone first.
+lock_title|The log is locked
+lock_body|Unlock to see your notifications.
+lock_unlock|Unlock
+lock_prompt|Unlock your Bleepp log
+feature_search|Find an app or feature
+features_empty|Features show up here once their notifications have been logged.
+feature_count|%1$s · %2$d logged
+feature_blocked|%1$s won't be logged any more.
+block_feature|Stop logging "%1$s" from %2$s
+remove|Remove
+done|Done
+undo|Undo
+deleted_n|Deleted: %1$d
+bookmarked_n|Bookmarked: %1$d
+unbookmarked_n|Bookmarks removed: %1$d
+selected_n|Selected: %1$d
+details|Details
+bookmark|Bookmark
+unbookmark|Remove bookmark
+bookmarked|Bookmarked
+log_saved|Saved (%1$d)
+open_it|Open
+copy_text|Copy text
+copied|Copied
+log_swipe_hint|Swipe left to delete, right to bookmark. Long-press to select.
+exported_n|Exported %1$d notifications.
+file_failed|Couldn't save the file.
+backup|Backup
+backup_make|Back up rules and settings
+backup_make_hint|Saves your alerts, filters, settings and look to a file. The log isn't included.
+backup_restore|Restore from a backup
+backup_restore_hint|Replaces your current alerts, filters and settings.
+backup_saved|Backup saved.
+restore_done|Backup restored.
+restore_failed|That file isn't a Bleepp backup.

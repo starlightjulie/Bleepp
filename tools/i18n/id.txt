@@ -93,7 +93,6 @@ keep_days|%1$d hari
 keep_forever|Selamanya
 log_noise|Catat notifikasi berjalan dan media
 log_clear|Bersihkan log
-log_clear_confirm|Hapus semua entri log? Tindakan ini tidak bisa dibatalkan.
 set_language|Bahasa
 lang_system|Ikuti ponsel
 set_updates|Pembaruan
@@ -175,3 +174,83 @@ icon_harbour|Pelabuhan
 icon_coral|Karang
 icon_mint|Mint
 icon_paper|Kertas
+alert_calling|%1$s sedang menelepon
+pause_hour_action|Jeda 1 jam
+tile_label|Peringatan Bleepp
+tile_on|Aktif
+tile_off|Nonaktif
+tile_paused|Dijeda
+paused_until|Dijeda sampai %1$s
+paused_until_resume|Dijeda sampai kamu lanjutkan
+status_paused|Peringatan sedang dijeda.
+pause_title|Jeda peringatan
+pause_hour|1 jam
+pause_morning|Sampai %1$s
+pause_forever|Sampai saya lanjutkan
+resume|Lanjutkan
+snd_ring|Dering
+rule_calls|Panggilan
+rule_ring_calls|Berdering untuk panggilan
+rule_ring_calls_hint|Saat aplikasi ini sedang menerima panggilan, terus berdering sampai kamu menjawab, menolak, atau melewatkannya, paling lama satu menit.
+rule_call_sound|Suara panggilan
+phone_ringtone|Nada dering ponsel
+rule_test_ring|Uji dering
+stamp_call|Berdering seperti panggilan
+tab_filters|Filter
+filters_subtitle|Pilih apa yang disimpan log.
+keep_latest|Simpan hanya pembaruan terbaru
+keep_latest_hint|Pengisian daya, unduhan, dan timer memperbarui notifikasi yang sama berulang kali. Tampilkan yang terbaru saja.
+blocked_features|Fitur yang diblokir
+blocked_features_hint|Berhenti mencatat satu jenis notifikasi dari aplikasi, seperti Mengisi daya, tanpa memblokir seluruh aplikasi.
+block_a_feature|Blokir fitur
+blocked_apps|Aplikasi yang diblokir
+block_an_app|Blokir aplikasi
+bookmarked_apps|Aplikasi yang ditandai
+bookmarked_apps_hint|Aplikasi berbintang tampil pertama di filter log.
+bookmark_an_app|Tandai aplikasi
+hidden_words|Kata tersembunyi
+hidden_words_example|kode verifikasi, mengisi daya
+hidden_words_hint|Notifikasi yang memuat salah satu kata ini tidak dicatat. Pisahkan dengan koma.
+bookmarks_kept|Notifikasi yang ditandai selalu disimpan.
+export_csv|Ekspor log
+export_csv_hint|Simpan sebagai file spreadsheet.
+privacy|Privasi
+lock_log|Kunci log
+lock_log_hint|Minta sidik jari atau kunci layar sebelum menampilkan notifikasi.
+lock_unavailable|Siapkan dulu kunci layar atau sidik jari di ponselmu.
+lock_title|Log terkunci
+lock_body|Buka kunci untuk melihat notifikasimu.
+lock_unlock|Buka kunci
+lock_prompt|Buka kunci log Bleepp-mu
+feature_search|Cari aplikasi atau fitur
+features_empty|Fitur muncul di sini setelah notifikasinya tercatat.
+feature_count|%1$s · %2$d tercatat
+feature_blocked|%1$s tidak akan dicatat lagi.
+block_feature|Berhenti mencatat "%1$s" dari %2$s
+remove|Hapus
+done|Selesai
+undo|Urungkan
+deleted_n|Dihapus: %1$d
+bookmarked_n|Ditandai: %1$d
+unbookmarked_n|Tanda dihapus: %1$d
+selected_n|Dipilih: %1$d
+details|Detail
+bookmark|Tandai
+unbookmark|Hapus tanda
+bookmarked|Ditandai
+log_saved|Tersimpan (%1$d)
+open_it|Buka
+copy_text|Salin teks
+copied|Disalin
+log_swipe_hint|Geser ke kiri untuk menghapus, ke kanan untuk menandai. Tekan lama untuk memilih.
+exported_n|%1$d notifikasi diekspor.
+file_failed|File tidak bisa disimpan.
+backup|Cadangan
+backup_make|Cadangkan aturan dan setelan
+backup_make_hint|Menyimpan peringatan, filter, setelan, dan tampilanmu ke file. Log tidak termasuk.
+backup_restore|Pulihkan dari cadangan
+backup_restore_hint|Mengganti peringatan, filter, dan setelanmu saat ini.
+backup_saved|Cadangan disimpan.
+restore_done|Cadangan dipulihkan.
+restore_failed|File itu bukan cadangan Bleepp.
+log_clear_confirm|Hapus semua entri kecuali yang ditandai? Tindakan ini tidak bisa dibatalkan.

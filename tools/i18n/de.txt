@@ -93,7 +93,6 @@ keep_days|%1$d Tage
 keep_forever|Für immer
 log_noise|Laufende und Medien-Benachrichtigungen protokollieren
 log_clear|Protokoll leeren
-log_clear_confirm|Alle Einträge löschen? Das lässt sich nicht rückgängig machen.
 set_language|Sprache
 lang_system|Wie das Handy
 set_updates|Updates
@@ -175,3 +174,83 @@ icon_harbour|Hafen
 icon_coral|Koralle
 icon_mint|Minze
 icon_paper|Papier
+alert_calling|%1$s ruft an
+pause_hour_action|1 Std. pausieren
+tile_label|Bleepp-Alarme
+tile_on|An
+tile_off|Aus
+tile_paused|Pausiert
+paused_until|Pausiert bis %1$s
+paused_until_resume|Pausiert, bis du fortsetzt
+status_paused|Alarme sind pausiert.
+pause_title|Alarme pausieren
+pause_hour|1 Stunde
+pause_morning|Bis %1$s
+pause_forever|Bis ich fortsetze
+resume|Fortsetzen
+snd_ring|Klingeln
+rule_calls|Anrufe
+rule_ring_calls|Bei Anrufen klingeln
+rule_ring_calls_hint|Wenn diese App einen Anruf meldet, klingelt es weiter, bis du annimmst, ablehnst oder ihn verpasst, höchstens eine Minute.
+rule_call_sound|Anrufton
+phone_ringtone|Klingelton des Handys
+rule_test_ring|Klingeln testen
+stamp_call|Wie ein Anruf geklingelt
+tab_filters|Filter
+filters_subtitle|Bestimme, was das Protokoll behält.
+keep_latest|Nur die neueste Aktualisierung behalten
+keep_latest_hint|Laden, Downloads und Timer aktualisieren dieselbe Benachrichtigung immer wieder. Zeig nur die neueste.
+blocked_features|Blockierte Funktionen
+blocked_features_hint|Eine Art von Benachrichtigung einer App nicht mehr protokollieren, etwa Laden, ohne die ganze App zu blockieren.
+block_a_feature|Funktion blockieren
+blocked_apps|Blockierte Apps
+block_an_app|App blockieren
+bookmarked_apps|Lesezeichen-Apps
+bookmarked_apps_hint|Markierte Apps stehen bei den Filtern im Protokoll vorne.
+bookmark_an_app|App markieren
+hidden_words|Ausgeblendete Wörter
+hidden_words_example|Bestätigungscode, Laden
+hidden_words_hint|Benachrichtigungen mit einem dieser Wörter werden nicht protokolliert. Trenne sie mit Kommas.
+bookmarks_kept|Benachrichtigungen mit Lesezeichen bleiben immer erhalten.
+export_csv|Protokoll exportieren
+export_csv_hint|Als Tabellendatei speichern.
+privacy|Datenschutz
+lock_log|Protokoll sperren
+lock_log_hint|Vor dem Anzeigen nach Fingerabdruck oder Displaysperre fragen.
+lock_unavailable|Richte zuerst eine Displaysperre oder einen Fingerabdruck ein.
+lock_title|Das Protokoll ist gesperrt
+lock_body|Entsperre es, um deine Benachrichtigungen zu sehen.
+lock_unlock|Entsperren
+lock_prompt|Bleepp-Protokoll entsperren
+feature_search|App oder Funktion suchen
+features_empty|Funktionen erscheinen hier, sobald ihre Benachrichtigungen protokolliert wurden.
+feature_count|%1$s · %2$d protokolliert
+feature_blocked|%1$s wird nicht mehr protokolliert.
+block_feature|„%1$s“ von %2$s nicht mehr protokollieren
+remove|Entfernen
+done|Fertig
+undo|Rückgängig
+deleted_n|Gelöscht: %1$d
+bookmarked_n|Mit Lesezeichen: %1$d
+unbookmarked_n|Lesezeichen entfernt: %1$d
+selected_n|Ausgewählt: %1$d
+details|Details
+bookmark|Lesezeichen setzen
+unbookmark|Lesezeichen entfernen
+bookmarked|Mit Lesezeichen
+log_saved|Gespeichert (%1$d)
+open_it|Öffnen
+copy_text|Text kopieren
+copied|Kopiert
+log_swipe_hint|Nach links wischen zum Löschen, nach rechts für ein Lesezeichen. Lange drücken zum Auswählen.
+exported_n|%1$d Benachrichtigungen exportiert.
+file_failed|Die Datei konnte nicht gespeichert werden.
+backup|Sicherung
+backup_make|Regeln und Einstellungen sichern
+backup_make_hint|Speichert Alarme, Filter, Einstellungen und Look in einer Datei. Das Protokoll ist nicht enthalten.
+backup_restore|Aus Sicherung wiederherstellen
+backup_restore_hint|Ersetzt deine aktuellen Alarme, Filter und Einstellungen.
+backup_saved|Sicherung gespeichert.
+restore_done|Sicherung wiederhergestellt.
+restore_failed|Diese Datei ist keine Bleepp-Sicherung.
+log_clear_confirm|Alle Einträge außer denen mit Lesezeichen löschen? Das lässt sich nicht rückgängig machen.

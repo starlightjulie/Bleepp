@@ -93,7 +93,6 @@ keep_days|%1$d jours
 keep_forever|Toujours
 log_noise|Enregistrer les notifications continues et multimédia
 log_clear|Vider le journal
-log_clear_confirm|Supprimer toutes les entrées ? Cette action est définitive.
 set_language|Langue
 lang_system|Comme le téléphone
 set_updates|Mises à jour
@@ -175,3 +174,83 @@ icon_harbour|Port
 icon_coral|Corail
 icon_mint|Menthe
 icon_paper|Papier
+alert_calling|%1$s vous appelle
+pause_hour_action|Pause 1 h
+tile_label|Alertes Bleepp
+tile_on|Activées
+tile_off|Désactivées
+tile_paused|En pause
+paused_until|En pause jusqu'à %1$s
+paused_until_resume|En pause jusqu'à reprise
+status_paused|Les alertes sont en pause.
+pause_title|Mettre les alertes en pause
+pause_hour|1 heure
+pause_morning|Jusqu'à %1$s
+pause_forever|Jusqu'à ce que je reprenne
+resume|Reprendre
+snd_ring|Sonnerie
+rule_calls|Appels
+rule_ring_calls|Sonner pour les appels
+rule_ring_calls_hint|Quand cette appli reçoit un appel, continue de sonner jusqu'à ce que vous répondiez, refusiez ou le manquiez, pendant une minute au plus.
+rule_call_sound|Son d'appel
+phone_ringtone|Sonnerie du téléphone
+rule_test_ring|Tester la sonnerie
+stamp_call|A sonné comme un appel
+tab_filters|Filtres
+filters_subtitle|Choisissez ce que garde le journal.
+keep_latest|Ne garder que la dernière mise à jour
+keep_latest_hint|La recharge, les téléchargements et les minuteurs mettent sans cesse à jour la même notification. N'affichez que la plus récente.
+blocked_features|Fonctions bloquées
+blocked_features_hint|Arrêtez d'enregistrer un type de notification d'une appli, comme Recharge, sans bloquer toute l'appli.
+block_a_feature|Bloquer une fonction
+blocked_apps|Applis bloquées
+block_an_app|Bloquer une appli
+bookmarked_apps|Applis favorites
+bookmarked_apps_hint|Les applis favorites passent en premier dans les filtres du journal.
+bookmark_an_app|Ajouter une appli favorite
+hidden_words|Mots masqués
+hidden_words_example|code de vérification, recharge
+hidden_words_hint|Les notifications contenant l'un de ces mots ne sont pas enregistrées. Séparez-les par des virgules.
+bookmarks_kept|Les notifications en favori sont toujours conservées.
+export_csv|Exporter le journal
+export_csv_hint|L'enregistrer comme tableur.
+privacy|Confidentialité
+lock_log|Verrouiller le journal
+lock_log_hint|Demander votre empreinte ou le verrouillage de l'écran avant d'afficher les notifications.
+lock_unavailable|Configurez d'abord un verrouillage de l'écran ou une empreinte.
+lock_title|Le journal est verrouillé
+lock_body|Déverrouillez-le pour voir vos notifications.
+lock_unlock|Déverrouiller
+lock_prompt|Déverrouiller votre journal Bleepp
+feature_search|Trouver une appli ou une fonction
+features_empty|Les fonctions apparaissent ici dès que leurs notifications ont été enregistrées.
+feature_count|%1$s · %2$d enregistrées
+feature_blocked|%1$s ne sera plus enregistré.
+block_feature|Ne plus enregistrer « %1$s » de %2$s
+remove|Retirer
+done|Terminé
+undo|Annuler
+deleted_n|Supprimées : %1$d
+bookmarked_n|En favori : %1$d
+unbookmarked_n|Favoris retirés : %1$d
+selected_n|Sélectionnées : %1$d
+details|Détails
+bookmark|Mettre en favori
+unbookmark|Retirer des favoris
+bookmarked|En favori
+log_saved|Favoris (%1$d)
+open_it|Ouvrir
+copy_text|Copier le texte
+copied|Copié
+log_swipe_hint|Balayez à gauche pour supprimer, à droite pour mettre en favori. Appui long pour sélectionner.
+exported_n|%1$d notifications exportées.
+file_failed|Impossible d'enregistrer le fichier.
+backup|Sauvegarde
+backup_make|Sauvegarder règles et réglages
+backup_make_hint|Enregistre vos alertes, filtres, réglages et style dans un fichier. Le journal n'est pas inclus.
+backup_restore|Restaurer une sauvegarde
+backup_restore_hint|Remplace vos alertes, filtres et réglages actuels.
+backup_saved|Sauvegarde enregistrée.
+restore_done|Sauvegarde restaurée.
+restore_failed|Ce fichier n'est pas une sauvegarde Bleepp.
+log_clear_confirm|Supprimer toutes les entrées sauf les favoris ? Cette action est définitive.

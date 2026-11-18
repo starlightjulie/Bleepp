@@ -93,7 +93,6 @@ keep_days|%1$d dias
 keep_forever|Para sempre
 log_noise|Registrar notificações contínuas e de mídia
 log_clear|Limpar o registro
-log_clear_confirm|Excluir todas as entradas? Isso não pode ser desfeito.
 set_language|Idioma
 lang_system|Igual ao celular
 set_updates|Atualizações
@@ -175,3 +174,83 @@ icon_harbour|Porto
 icon_coral|Coral
 icon_mint|Menta
 icon_paper|Papel
+alert_calling|%1$s está ligando
+pause_hour_action|Pausar 1 hora
+tile_label|Alertas do Bleepp
+tile_on|Ligados
+tile_off|Desligados
+tile_paused|Pausados
+paused_until|Pausados até %1$s
+paused_until_resume|Pausados até você retomar
+status_paused|Os alertas estão pausados.
+pause_title|Pausar alertas
+pause_hour|1 hora
+pause_morning|Até %1$s
+pause_forever|Até eu retomar
+resume|Retomar
+snd_ring|Toque
+rule_calls|Chamadas
+rule_ring_calls|Tocar em chamadas
+rule_ring_calls_hint|Quando este app estiver recebendo uma chamada, continua tocando até você atender, recusar ou perder, por até um minuto.
+rule_call_sound|Som da chamada
+phone_ringtone|Toque do celular
+rule_test_ring|Testar toque
+stamp_call|Tocou como chamada
+tab_filters|Filtros
+filters_subtitle|Escolha o que o registro guarda.
+keep_latest|Manter só a atualização mais recente
+keep_latest_hint|Carregamento, downloads e timers atualizam a mesma notificação várias vezes. Mostre só a mais nova.
+blocked_features|Recursos bloqueados
+blocked_features_hint|Pare de registrar um tipo de notificação de um app, como Carregando, sem bloquear o app inteiro.
+block_a_feature|Bloquear um recurso
+blocked_apps|Apps bloqueados
+block_an_app|Bloquear um app
+bookmarked_apps|Apps favoritos
+bookmarked_apps_hint|Apps favoritos aparecem primeiro nos filtros do registro.
+bookmark_an_app|Favoritar um app
+hidden_words|Palavras ocultas
+hidden_words_example|código de verificação, carregando
+hidden_words_hint|Notificações com alguma dessas palavras não são registradas. Separe com vírgulas.
+bookmarks_kept|Notificações favoritas são sempre mantidas.
+export_csv|Exportar o registro
+export_csv_hint|Salve como planilha.
+privacy|Privacidade
+lock_log|Bloquear o registro
+lock_log_hint|Pedir sua digital ou o bloqueio de tela antes de mostrar as notificações.
+lock_unavailable|Configure primeiro um bloqueio de tela ou uma digital no celular.
+lock_title|O registro está bloqueado
+lock_body|Desbloqueie para ver suas notificações.
+lock_unlock|Desbloquear
+lock_prompt|Desbloqueie seu registro do Bleepp
+feature_search|Encontrar um app ou recurso
+features_empty|Os recursos aparecem aqui depois que suas notificações são registradas.
+feature_count|%1$s · %2$d registradas
+feature_blocked|%1$s não será mais registrado.
+block_feature|Parar de registrar "%1$s" do %2$s
+remove|Remover
+done|Concluído
+undo|Desfazer
+deleted_n|Excluídas: %1$d
+bookmarked_n|Favoritadas: %1$d
+unbookmarked_n|Favoritos removidos: %1$d
+selected_n|Selecionadas: %1$d
+details|Detalhes
+bookmark|Favoritar
+unbookmark|Remover favorito
+bookmarked|Favoritada
+log_saved|Salvas (%1$d)
+open_it|Abrir
+copy_text|Copiar texto
+copied|Copiado
+log_swipe_hint|Deslize para a esquerda para excluir e para a direita para favoritar. Toque e segure para selecionar.
+exported_n|%1$d notificações exportadas.
+file_failed|Não foi possível salvar o arquivo.
+backup|Backup
+backup_make|Fazer backup de regras e configurações
+backup_make_hint|Salva seus alertas, filtros, configurações e visual em um arquivo. O registro não é incluído.
+backup_restore|Restaurar um backup
+backup_restore_hint|Substitui seus alertas, filtros e configurações atuais.
+backup_saved|Backup salvo.
+restore_done|Backup restaurado.
+restore_failed|Esse arquivo não é um backup do Bleepp.
+log_clear_confirm|Excluir todas as entradas, menos as favoritas? Isso não pode ser desfeito.

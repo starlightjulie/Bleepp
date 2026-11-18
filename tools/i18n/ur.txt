@@ -93,7 +93,6 @@ keep_days|%1$d دن
 keep_forever|ہمیشہ
 log_noise|جاری اور میڈیا اطلاعات بھی درج کریں
 log_clear|لاگ صاف کریں
-log_clear_confirm|تمام اندراجات حذف کریں؟ یہ واپس نہیں ہو سکتا۔
 set_language|زبان
 lang_system|فون کے مطابق
 set_updates|اپ ڈیٹس
@@ -175,3 +174,83 @@ icon_harbour|بندرگاہ
 icon_coral|مرجان
 icon_mint|پودینہ
 icon_paper|کاغذ
+alert_calling|%1$s کال کر رہا ہے
+pause_hour_action|1 گھنٹہ روکیں
+tile_label|Bleepp الرٹس
+tile_on|آن
+tile_off|آف
+tile_paused|رکا ہوا
+paused_until|%1$s تک رکا ہوا
+paused_until_resume|دوبارہ شروع کرنے تک رکا ہوا
+status_paused|الرٹس رکے ہوئے ہیں۔
+pause_title|الرٹس روکیں
+pause_hour|1 گھنٹہ
+pause_morning|%1$s تک
+pause_forever|جب تک میں دوبارہ شروع نہ کروں
+resume|دوبارہ شروع کریں
+snd_ring|گھنٹی
+rule_calls|کالز
+rule_ring_calls|کال پر گھنٹی بجائیں
+rule_ring_calls_hint|جب اس ایپ پر کال آئے تو اٹھانے، مسترد کرنے یا چھوٹ جانے تک، زیادہ سے زیادہ ایک منٹ گھنٹی بجتی رہے گی۔
+rule_call_sound|کال کی آواز
+phone_ringtone|فون کی رنگ ٹون
+rule_test_ring|گھنٹی آزمائیں
+stamp_call|کال کی طرح بجا
+tab_filters|فلٹرز
+filters_subtitle|منتخب کریں کہ لاگ کیا رکھے۔
+keep_latest|صرف تازہ ترین اپ ڈیٹ رکھیں
+keep_latest_hint|چارجنگ، ڈاؤن لوڈز اور ٹائمر ایک ہی اطلاع بار بار اپ ڈیٹ کرتے ہیں۔ صرف نئی والی دکھائیں۔
+blocked_features|بلاک کی گئی خصوصیات
+blocked_features_hint|پوری ایپ بلاک کیے بغیر ایپ کی ایک قسم کی اطلاع، جیسے چارجنگ، درج کرنا بند کریں۔
+block_a_feature|خصوصیت بلاک کریں
+blocked_apps|بلاک کی گئی ایپس
+block_an_app|ایپ بلاک کریں
+bookmarked_apps|بک مارک کی گئی ایپس
+bookmarked_apps_hint|ستارے والی ایپس لاگ کے فلٹرز میں پہلے آتی ہیں۔
+bookmark_an_app|ایپ بک مارک کریں
+hidden_words|چھپے الفاظ
+hidden_words_example|تصدیقی کوڈ، چارجنگ
+hidden_words_hint|ان میں سے کوئی بھی لفظ والی اطلاعات درج نہیں ہوں گی۔ کوما سے الگ کریں۔
+bookmarks_kept|بک مارک کی گئی اطلاعات ہمیشہ رکھی جاتی ہیں۔
+export_csv|لاگ برآمد کریں
+export_csv_hint|اسپریڈشیٹ فائل کے طور پر محفوظ کریں۔
+privacy|رازداری
+lock_log|لاگ لاک کریں
+lock_log_hint|اطلاعات دکھانے سے پہلے فنگر پرنٹ یا اسکرین لاک مانگیں۔
+lock_unavailable|پہلے فون پر اسکرین لاک یا فنگر پرنٹ سیٹ کریں۔
+lock_title|لاگ لاک ہے
+lock_body|اپنی اطلاعات دیکھنے کے لیے انلاک کریں۔
+lock_unlock|انلاک کریں
+lock_prompt|اپنا Bleepp لاگ انلاک کریں
+feature_search|ایپ یا خصوصیت تلاش کریں
+features_empty|اطلاعات درج ہونے کے بعد خصوصیات یہاں نظر آئیں گی۔
+feature_count|%1$s · %2$d درج
+feature_blocked|%1$s اب درج نہیں ہوگا۔
+block_feature|%2$s کا "%1$s" درج کرنا بند کریں
+remove|ہٹائیں
+done|ہو گیا
+undo|واپس کریں
+deleted_n|حذف شدہ: %1$d
+bookmarked_n|بک مارک شدہ: %1$d
+unbookmarked_n|بک مارک ہٹائے گئے: %1$d
+selected_n|منتخب: %1$d
+details|تفصیلات
+bookmark|بک مارک کریں
+unbookmark|بک مارک ہٹائیں
+bookmarked|بک مارک شدہ
+log_saved|محفوظ (%1$d)
+open_it|کھولیں
+copy_text|متن کاپی کریں
+copied|کاپی ہو گیا
+log_swipe_hint|حذف کرنے کے لیے بائیں، بک مارک کے لیے دائیں سوائپ کریں۔ منتخب کرنے کے لیے دبا کر رکھیں۔
+exported_n|%1$d اطلاعات برآمد کی گئیں۔
+file_failed|فائل محفوظ نہیں ہو سکی۔
+backup|بیک اپ
+backup_make|قواعد اور ترتیبات کا بیک اپ لیں
+backup_make_hint|آپ کے الرٹس، فلٹرز، ترتیبات اور انداز ایک فائل میں محفوظ کرتا ہے۔ لاگ شامل نہیں۔
+backup_restore|بیک اپ سے بحال کریں
+backup_restore_hint|آپ کے موجودہ الرٹس، فلٹرز اور ترتیبات بدل دیتا ہے۔
+backup_saved|بیک اپ محفوظ ہو گیا۔
+restore_done|بیک اپ بحال ہو گیا۔
+restore_failed|یہ فائل Bleepp بیک اپ نہیں ہے۔
+log_clear_confirm|بک مارک کے علاوہ تمام اندراجات حذف کریں؟ یہ واپس نہیں ہو سکتا۔

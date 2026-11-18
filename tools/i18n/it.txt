@@ -93,7 +93,6 @@ keep_days|%1$d giorni
 keep_forever|Per sempre
 log_noise|Registra notifiche continue e multimediali
 log_clear|Svuota il registro
-log_clear_confirm|Eliminare tutte le voci? L'azione è definitiva.
 set_language|Lingua
 lang_system|Come il telefono
 set_updates|Aggiornamenti
@@ -175,3 +174,83 @@ icon_harbour|Porto
 icon_coral|Corallo
 icon_mint|Menta
 icon_paper|Carta
+alert_calling|%1$s ti sta chiamando
+pause_hour_action|Pausa 1 ora
+tile_label|Avvisi Bleepp
+tile_on|Attivi
+tile_off|Disattivati
+tile_paused|In pausa
+paused_until|In pausa fino alle %1$s
+paused_until_resume|In pausa finché non riprendi
+status_paused|Gli avvisi sono in pausa.
+pause_title|Metti in pausa gli avvisi
+pause_hour|1 ora
+pause_morning|Fino alle %1$s
+pause_forever|Finché non riprendo
+resume|Riprendi
+snd_ring|Squillo
+rule_calls|Chiamate
+rule_ring_calls|Squilla per le chiamate
+rule_ring_calls_hint|Quando questa app riceve una chiamata, continua a squillare finché rispondi, rifiuti o la perdi, per al massimo un minuto.
+rule_call_sound|Suono chiamata
+phone_ringtone|Suoneria del telefono
+rule_test_ring|Prova lo squillo
+stamp_call|Ha squillato come una chiamata
+tab_filters|Filtri
+filters_subtitle|Scegli cosa tiene il registro.
+keep_latest|Tieni solo l'ultimo aggiornamento
+keep_latest_hint|Ricarica, download e timer aggiornano di continuo la stessa notifica. Mostra solo la più recente.
+blocked_features|Funzioni bloccate
+blocked_features_hint|Smetti di registrare un tipo di notifica di un'app, come Ricarica, senza bloccare tutta l'app.
+block_a_feature|Blocca una funzione
+blocked_apps|App bloccate
+block_an_app|Blocca un'app
+bookmarked_apps|App nei preferiti
+bookmarked_apps_hint|Le app preferite vengono prima nei filtri del registro.
+bookmark_an_app|Aggiungi un'app ai preferiti
+hidden_words|Parole nascoste
+hidden_words_example|codice di verifica, ricarica
+hidden_words_hint|Le notifiche con una di queste parole non vengono registrate. Separale con virgole.
+bookmarks_kept|Le notifiche nei preferiti vengono sempre conservate.
+export_csv|Esporta il registro
+export_csv_hint|Salvalo come foglio di calcolo.
+privacy|Privacy
+lock_log|Blocca il registro
+lock_log_hint|Chiedi l'impronta o il blocco schermo prima di mostrare le notifiche.
+lock_unavailable|Prima imposta un blocco schermo o un'impronta sul telefono.
+lock_title|Il registro è bloccato
+lock_body|Sbloccalo per vedere le notifiche.
+lock_unlock|Sblocca
+lock_prompt|Sblocca il registro di Bleepp
+feature_search|Trova un'app o una funzione
+features_empty|Le funzioni compaiono qui dopo che le loro notifiche sono state registrate.
+feature_count|%1$s · %2$d registrate
+feature_blocked|%1$s non verrà più registrato.
+block_feature|Non registrare più "%1$s" di %2$s
+remove|Rimuovi
+done|Fatto
+undo|Annulla
+deleted_n|Eliminate: %1$d
+bookmarked_n|Nei preferiti: %1$d
+unbookmarked_n|Tolte dai preferiti: %1$d
+selected_n|Selezionate: %1$d
+details|Dettagli
+bookmark|Aggiungi ai preferiti
+unbookmark|Togli dai preferiti
+bookmarked|Nei preferiti
+log_saved|Preferiti (%1$d)
+open_it|Apri
+copy_text|Copia testo
+copied|Copiato
+log_swipe_hint|Scorri a sinistra per eliminare, a destra per i preferiti. Tieni premuto per selezionare.
+exported_n|Esportate %1$d notifiche.
+file_failed|Impossibile salvare il file.
+backup|Backup
+backup_make|Backup di regole e impostazioni
+backup_make_hint|Salva avvisi, filtri, impostazioni e stile in un file. Il registro non è incluso.
+backup_restore|Ripristina un backup
+backup_restore_hint|Sostituisce avvisi, filtri e impostazioni attuali.
+backup_saved|Backup salvato.
+restore_done|Backup ripristinato.
+restore_failed|Questo file non è un backup di Bleepp.
+log_clear_confirm|Eliminare tutte le voci tranne quelle nei preferiti? L'azione è definitiva.

@@ -93,7 +93,6 @@ keep_days|%1$d 日
 keep_forever|無期限
 log_noise|常駐通知とメディア通知も記録する
 log_clear|ログを消去
-log_clear_confirm|すべてのログを削除しますか？元に戻せません。
 set_language|言語
 lang_system|スマホに合わせる
 set_updates|アップデート
@@ -175,3 +174,83 @@ icon_harbour|港
 icon_coral|珊瑚
 icon_mint|ミント
 icon_paper|紙
+alert_calling|%1$s から着信
+pause_hour_action|1 時間停止
+tile_label|Bleepp アラート
+tile_on|オン
+tile_off|オフ
+tile_paused|一時停止中
+paused_until|%1$s まで一時停止
+paused_until_resume|再開するまで一時停止
+status_paused|アラートは一時停止中です。
+pause_title|アラートを一時停止
+pause_hour|1 時間
+pause_morning|%1$s まで
+pause_forever|再開するまで
+resume|再開
+snd_ring|着信音
+rule_calls|通話
+rule_ring_calls|着信時に鳴らす
+rule_ring_calls_hint|このアプリに着信があると、応答、拒否、不在着信になるまで最大 1 分間鳴り続けます。
+rule_call_sound|着信の音
+phone_ringtone|スマホの着信音
+rule_test_ring|着信音をテスト
+stamp_call|着信として鳴りました
+tab_filters|フィルタ
+filters_subtitle|ログに残すものを選びます。
+keep_latest|最新の更新だけを残す
+keep_latest_hint|充電、ダウンロード、タイマーは同じ通知を何度も更新します。最新のものだけを表示します。
+blocked_features|ブロックした機能
+blocked_features_hint|アプリ全体はブロックせずに、「充電」など一部の種類の通知だけ記録しないようにします。
+block_a_feature|機能をブロック
+blocked_apps|ブロックしたアプリ
+block_an_app|アプリをブロック
+bookmarked_apps|ブックマークしたアプリ
+bookmarked_apps_hint|星付きのアプリはログのフィルタで先頭に表示されます。
+bookmark_an_app|アプリをブックマーク
+hidden_words|非表示の言葉
+hidden_words_example|確認コード, 充電
+hidden_words_hint|これらの言葉を含む通知は記録しません。カンマで区切ります。
+bookmarks_kept|ブックマークした通知は常に残ります。
+export_csv|ログを書き出す
+export_csv_hint|表計算ファイルとして保存します。
+privacy|プライバシー
+lock_log|ログをロック
+lock_log_hint|通知を表示する前に指紋または画面ロックを求めます。
+lock_unavailable|先にスマホで画面ロックか指紋を設定してください。
+lock_title|ログはロック中です
+lock_body|ロックを解除すると通知を表示します。
+lock_unlock|ロック解除
+lock_prompt|Bleepp のログのロックを解除
+feature_search|アプリや機能を検索
+features_empty|通知が記録されると、その機能がここに表示されます。
+feature_count|%1$s · %2$d 件記録
+feature_blocked|「%1$s」は今後記録されません。
+block_feature|%2$s の「%1$s」を記録しない
+remove|削除
+done|完了
+undo|元に戻す
+deleted_n|削除：%1$d 件
+bookmarked_n|ブックマーク：%1$d 件
+unbookmarked_n|ブックマーク解除：%1$d 件
+selected_n|選択中：%1$d 件
+details|詳細
+bookmark|ブックマーク
+unbookmark|ブックマークを解除
+bookmarked|ブックマーク済み
+log_saved|保存済み (%1$d)
+open_it|開く
+copy_text|テキストをコピー
+copied|コピーしました
+log_swipe_hint|左にスワイプで削除、右にスワイプでブックマーク。長押しで選択できます。
+exported_n|%1$d 件の通知を書き出しました。
+file_failed|ファイルを保存できませんでした。
+backup|バックアップ
+backup_make|ルールと設定をバックアップ
+backup_make_hint|アラート、フィルタ、設定、見た目をファイルに保存します。ログは含まれません。
+backup_restore|バックアップから復元
+backup_restore_hint|今のアラート、フィルタ、設定を置き換えます。
+backup_saved|バックアップを保存しました。
+restore_done|バックアップを復元しました。
+restore_failed|このファイルは Bleepp のバックアップではありません。
+log_clear_confirm|ブックマーク以外のすべてのログを削除しますか？元に戻せません。

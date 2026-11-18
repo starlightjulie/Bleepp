@@ -93,7 +93,6 @@ keep_days|%1$d ngày
 keep_forever|Mãi mãi
 log_noise|Ghi thông báo liên tục và phương tiện
 log_clear|Xóa nhật ký
-log_clear_confirm|Xóa mọi mục trong nhật ký? Không thể hoàn tác.
 set_language|Ngôn ngữ
 lang_system|Theo điện thoại
 set_updates|Cập nhật
@@ -175,3 +174,83 @@ icon_harbour|Bến cảng
 icon_coral|San hô
 icon_mint|Bạc hà
 icon_paper|Giấy
+alert_calling|%1$s đang gọi
+pause_hour_action|Tạm dừng 1 giờ
+tile_label|Cảnh báo Bleepp
+tile_on|Bật
+tile_off|Tắt
+tile_paused|Tạm dừng
+paused_until|Tạm dừng đến %1$s
+paused_until_resume|Tạm dừng đến khi bạn tiếp tục
+status_paused|Cảnh báo đang tạm dừng.
+pause_title|Tạm dừng cảnh báo
+pause_hour|1 giờ
+pause_morning|Đến %1$s
+pause_forever|Đến khi tôi tiếp tục
+resume|Tiếp tục
+snd_ring|Chuông
+rule_calls|Cuộc gọi
+rule_ring_calls|Đổ chuông khi có cuộc gọi
+rule_ring_calls_hint|Khi ứng dụng này có cuộc gọi đến, tiếp tục đổ chuông đến khi bạn nghe, từ chối hoặc bỏ lỡ, tối đa một phút.
+rule_call_sound|Âm cuộc gọi
+phone_ringtone|Nhạc chuông điện thoại
+rule_test_ring|Thử chuông
+stamp_call|Đã đổ chuông như cuộc gọi
+tab_filters|Bộ lọc
+filters_subtitle|Chọn những gì nhật ký giữ lại.
+keep_latest|Chỉ giữ bản cập nhật mới nhất
+keep_latest_hint|Sạc pin, tải xuống và hẹn giờ cập nhật cùng một thông báo liên tục. Chỉ hiện bản mới nhất.
+blocked_features|Tính năng bị chặn
+blocked_features_hint|Ngừng ghi một loại thông báo của ứng dụng, như Đang sạc, mà không chặn cả ứng dụng.
+block_a_feature|Chặn một tính năng
+blocked_apps|Ứng dụng bị chặn
+block_an_app|Chặn một ứng dụng
+bookmarked_apps|Ứng dụng đã đánh dấu
+bookmarked_apps_hint|Ứng dụng gắn sao xuất hiện trước trong bộ lọc nhật ký.
+bookmark_an_app|Đánh dấu một ứng dụng
+hidden_words|Từ bị ẩn
+hidden_words_example|mã xác minh, đang sạc
+hidden_words_hint|Thông báo chứa bất kỳ từ nào trong số này sẽ không được ghi. Phân tách bằng dấu phẩy.
+bookmarks_kept|Thông báo đã đánh dấu luôn được giữ lại.
+export_csv|Xuất nhật ký
+export_csv_hint|Lưu dưới dạng tệp bảng tính.
+privacy|Quyền riêng tư
+lock_log|Khóa nhật ký
+lock_log_hint|Yêu cầu vân tay hoặc khóa màn hình trước khi hiện thông báo.
+lock_unavailable|Hãy thiết lập khóa màn hình hoặc vân tay trên điện thoại trước.
+lock_title|Nhật ký đang bị khóa
+lock_body|Mở khóa để xem thông báo của bạn.
+lock_unlock|Mở khóa
+lock_prompt|Mở khóa nhật ký Bleepp
+feature_search|Tìm ứng dụng hoặc tính năng
+features_empty|Các tính năng sẽ hiện ở đây khi thông báo của chúng đã được ghi.
+feature_count|%1$s · đã ghi %2$d
+feature_blocked|%1$s sẽ không được ghi nữa.
+block_feature|Ngừng ghi "%1$s" của %2$s
+remove|Gỡ
+done|Xong
+undo|Hoàn tác
+deleted_n|Đã xóa: %1$d
+bookmarked_n|Đã đánh dấu: %1$d
+unbookmarked_n|Đã bỏ đánh dấu: %1$d
+selected_n|Đã chọn: %1$d
+details|Chi tiết
+bookmark|Đánh dấu
+unbookmark|Bỏ đánh dấu
+bookmarked|Đã đánh dấu
+log_saved|Đã lưu (%1$d)
+open_it|Mở
+copy_text|Sao chép văn bản
+copied|Đã sao chép
+log_swipe_hint|Vuốt sang trái để xóa, sang phải để đánh dấu. Nhấn giữ để chọn.
+exported_n|Đã xuất %1$d thông báo.
+file_failed|Không lưu được tệp.
+backup|Sao lưu
+backup_make|Sao lưu quy tắc và cài đặt
+backup_make_hint|Lưu cảnh báo, bộ lọc, cài đặt và giao diện vào một tệp. Không bao gồm nhật ký.
+backup_restore|Khôi phục từ bản sao lưu
+backup_restore_hint|Thay thế cảnh báo, bộ lọc và cài đặt hiện tại.
+backup_saved|Đã lưu bản sao lưu.
+restore_done|Đã khôi phục bản sao lưu.
+restore_failed|Tệp đó không phải bản sao lưu Bleepp.
+log_clear_confirm|Xóa mọi mục trừ những mục đã đánh dấu? Không thể hoàn tác.

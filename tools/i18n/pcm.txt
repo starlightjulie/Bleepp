@@ -93,7 +93,6 @@ keep_days|%1$d days
 keep_forever|Forever
 log_noise|Log ongoing and media notifications
 log_clear|Clear di log
-log_clear_confirm|You wan delete every log entry? You no fit undo am.
 set_language|Language
 lang_system|Follow di phone
 set_updates|Updates
@@ -175,3 +174,83 @@ icon_harbour|Harbour
 icon_coral|Coral
 icon_mint|Mint
 icon_paper|Paper
+alert_calling|%1$s dey call
+pause_hour_action|Pause 1 hour
+tile_label|Bleepp alerts
+tile_on|On
+tile_off|Off
+tile_paused|E don pause
+paused_until|E don pause reach %1$s
+paused_until_resume|E don pause till you start am again
+status_paused|Alert dem don pause.
+pause_title|Pause alerts
+pause_hour|1 hour
+pause_morning|Reach %1$s
+pause_forever|Till I start am again
+resume|Start am again
+snd_ring|Ring
+rule_calls|Calls
+rule_ring_calls|Ring for calls
+rule_ring_calls_hint|When dis app dey ring for call, e go dey ring till you pick, decline or miss am, for up to one minute.
+rule_call_sound|Call sound
+phone_ringtone|Phone ringtone
+rule_test_ring|Test ring
+stamp_call|E ring like call
+tab_filters|Filters
+filters_subtitle|Choose wetin di log go keep.
+keep_latest|Keep only di latest update
+keep_latest_hint|Charging, downloads and timers dey update di same notification again and again. Show only di newest one.
+blocked_features|Blocked features
+blocked_features_hint|Stop to log one kind notification from one app, like Charging, without blocking di whole app.
+block_a_feature|Block one feature
+blocked_apps|Blocked apps
+block_an_app|Block one app
+bookmarked_apps|Bookmarked apps
+bookmarked_apps_hint|Starred apps go first for di log filters.
+bookmark_an_app|Bookmark one app
+hidden_words|Hidden words
+hidden_words_example|verification code, charging
+hidden_words_hint|Notifications wey get any of dis words no go enter di log. Use comma separate dem.
+bookmarks_kept|Bookmarked notifications dey always stay.
+export_csv|Export di log
+export_csv_hint|Save am as spreadsheet file.
+privacy|Privacy
+lock_log|Lock di log
+lock_log_hint|Ask for your fingerprint or screen lock before e show notifications.
+lock_unavailable|Set up screen lock or fingerprint for your phone first.
+lock_title|Di log don lock
+lock_body|Unlock am make you see your notifications.
+lock_unlock|Unlock
+lock_prompt|Unlock your Bleepp log
+feature_search|Find app or feature
+features_empty|Features go show here once dia notifications don enter di log.
+feature_count|%1$s · %2$d don log
+feature_blocked|%1$s no go dey log again.
+block_feature|Stop to log "%1$s" from %2$s
+remove|Remove
+done|Done
+undo|Undo
+deleted_n|Deleted: %1$d
+bookmarked_n|Bookmarked: %1$d
+unbookmarked_n|Bookmark removed: %1$d
+selected_n|Selected: %1$d
+details|Details
+bookmark|Bookmark
+unbookmark|Remove bookmark
+bookmarked|Bookmarked
+log_saved|Saved (%1$d)
+open_it|Open
+copy_text|Copy text
+copied|E don copy
+log_swipe_hint|Swipe left to delete, right to bookmark. Hold am down to select.
+exported_n|%1$d notifications don export.
+file_failed|We no fit save di file.
+backup|Backup
+backup_make|Back up rules and settings
+backup_make_hint|E go save your alerts, filters, settings and look for one file. Di log no dey inside.
+backup_restore|Restore from backup
+backup_restore_hint|E go replace your current alerts, filters and settings.
+backup_saved|Backup don save.
+restore_done|Backup don restore.
+restore_failed|Dat file no be Bleepp backup.
+log_clear_confirm|You wan delete every log entry except di bookmarked ones? You no fit undo am.
