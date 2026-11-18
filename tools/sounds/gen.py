@@ -93,6 +93,20 @@ def morse():
     return dash + gap + dot + gap + dot + gap + dot
 
 
+def ring():
+    """A classic double ring: two short bursts of a warbling bell, then a pause, so it loops like a phone."""
+    def burst():
+        n = int(RATE * 0.4)
+        out = []
+        for i in range(n):
+            t = i / RATE
+            warble = 1 if int(t * 20) % 2 == 0 else 0.55
+            env = min(1.0, t / 0.01) * min(1.0, (0.4 - t) / 0.02)
+            out.append(0.8 * env * warble * (0.6 * math.sin(2 * math.pi * 440 * t) + 0.4 * math.sin(2 * math.pi * 480 * t)))
+        return out
+    return burst() + rest(0.2) + burst() + rest(1.6)
+
+
 SOUNDS = {
     "bleep": bleep,
     "pager": pager,
@@ -102,6 +116,7 @@ SOUNDS = {
     "foghorn": foghorn,
     "drops": drops,
     "morse": morse,
+    "ring": ring,
 }
 
 os.makedirs(OUT, exist_ok=True)

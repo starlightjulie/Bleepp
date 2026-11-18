@@ -20,6 +20,12 @@ Bleepp uses alarm audio by default. Accessibility audio is only used when you tu
 - **"Playing" doesn't mean audible.** Android reports a player as started even while it's muted. The field that matters is `mutedState` in `dumpsys audio`.
 - **Apps can't turn Do Not Disturb off any more.** Since Android 15, an app calling `setInterruptionFilter` only changes its own rule, which is why the accessibility route exists.
 
+## Calls
+
+A ringing call loops its sound for up to a minute and stops as soon as the call's notification is removed or changes into an ongoing call. Spotting a ringing call had a surprise of its own:
+
+- **Android hides the ringtone usage from listeners.** Google Voice's Incoming call channel is stored with ringtone audio, but Android 16 shows listeners plain notification audio instead, unless the notification uses the call style. The channel's sound still points at the ringtone, so that's what Bleepp checks, along with the call style when an app uses it.
+
 ## Android 17
 
 Android 17 silences audio from background apps with no error at all, unless the app has a foreground service. So every alert plays inside a media foreground service that lasts exactly as long as the sound. The app also holds the exact alarm permission, which Android 17 uses to waive its stricter rule for alarm audio.

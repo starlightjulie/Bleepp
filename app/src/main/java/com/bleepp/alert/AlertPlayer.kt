@@ -24,16 +24,22 @@ data class AlertRequest(
     val repeatEverySeconds: Int = 30,
     val repeatMax: Int = 1,
     val vibrate: Boolean = false,
-)
+    /** Loop the sound for up to this long, as a ringing call does. 0 plays it once. */
+    val ringMillis: Long = 0,
+) {
+    val isCall get() = ringMillis > 0
+}
 
 /**
- * Plays alerts on the main thread, one at a time; a new alert replaces the current one.
+ * Plays alerts on the main thread, one at a time; a new alert replaces the current one, except that
+ * an ordinary alert never interrupts a ringing call.
  *
  * The stream volume is raised only while a sound plays and put back after each play, because
  * the alarm stream can sit at a level that's truly silent (index 1 of 7 on a Moto G is -inf dB).
  */
 object AlertPlayer {
     private const val MAX_PLAY_MILLIS = 30_000L
+    const val CALL_RING_MILLIS = 60_000L
     private val main = Handler(Looper.getMainLooper())
 
     private var player: MediaPlayer? = null
@@ -43,12 +49,20 @@ object AlertPlayer {
     private var restore: Pair<Int, Int>? = null
     private var onIdle: (() -> Unit)? = null
     private var appContext: Context? = null
+    private var vibrating = false
 
     val isPlaying get() = current != null
 
     fun start(context: Context, request: AlertRequest, idle: () -> Unit) {
         val app = context.applicationContext
         main.post {
+            val playing = current
+            if (playing != null && playing.isCall && !request.isCall) {
+                // Let the call keep ringing; this alert's service has nothing left to do
+                if (idle !== onIdle) idle()
+                return@post
+            }
+            if (playing != null && playing.isCall && playing.key == request.key) return@post
             halt(app)
             // The alert being replaced has no sound of its own now, so its service can stop
             val replaced = onIdle
@@ -71,6 +85,14 @@ object AlertPlayer {
         val app = context.applicationContext
         main.post { if (current?.key == key) finish(app) }
     }
+
+    /** A call stopped ringing: answered, declined, missed or cancelled by its app. */
+    fun stopCall(context: Context, key: String) {
+        val app = context.applicationContext
+        main.post { if (current?.key == key && current?.isCall == true) finish(app) }
+    }
+
+    fun isRingingFor(key: String): Boolean = current?.let { it.isCall && it.key == key } == true
 
     /** Puts back a volume left raised by a process that died mid-alert. */
     fun recoverVolume(context: Context) {
@@ -100,7 +122,7 @@ object AlertPlayer {
         requestFocus(context, request)
         if (request.vibrate) vibrate(context, request)
         val started = open(context, request, Sounds.uri(context, request.sound)) ||
-            open(context, request, Sounds.fallback(context))
+            open(context, request, Sounds.fallback(context, request.isCall))
         if (!started) finish(context)
     }
 
@@ -110,6 +132,7 @@ object AlertPlayer {
         player = mp
         mp.setAudioAttributes(attributes(request.route))
         mp.setDataSource(context, uri)
+        mp.isLooping = request.isCall
         mp.setOnCompletionListener { afterPlay(context, request) }
         mp.setOnErrorListener { _, _, _ ->
             afterPlay(context, request)
@@ -117,7 +140,7 @@ object AlertPlayer {
         }
         mp.prepare()
         mp.start()
-        main.postDelayed(cutOff, MAX_PLAY_MILLIS)
+        main.postDelayed(cutOff, if (request.isCall) request.ringMillis else MAX_PLAY_MILLIS)
         true
     }.getOrElse {
         releasePlayer()
@@ -127,7 +150,9 @@ object AlertPlayer {
     private val cutOff = Runnable {
         val context = appContext
         val request = current
-        if (context != null && request != null) afterPlay(context, request)
+        if (context != null && request != null) {
+            if (request.isCall) finish(context) else afterPlay(context, request)
+        }
     }
 
     private fun afterPlay(context: Context, request: AlertRequest) {
@@ -135,7 +160,7 @@ object AlertPlayer {
         restoreVolume(context)
         abandonFocus(context)
         if (current !== request) return
-        if (request.repeat && plays < request.repeatMax) {
+        if (request.repeat && !request.isCall && plays < request.repeatMax) {
             main.postDelayed(next, request.repeatEverySeconds * 1000L)
         } else {
             finish(context)
@@ -184,9 +209,21 @@ object AlertPlayer {
 
     private fun vibrate(context: Context, request: AlertRequest) {
         val vibrator = context.getSystemService(Vibrator::class.java) ?: return
-        val effect = VibrationEffect.createWaveform(longArrayOf(0, 180, 120, 180), -1)
+        // A call buzzes like a phone ringing, over and over until it stops
+        val effect = if (request.isCall) {
+            VibrationEffect.createWaveform(longArrayOf(0, 800, 600, 800, 1400), 0)
+        } else {
+            VibrationEffect.createWaveform(longArrayOf(0, 180, 120, 180), -1)
+        }
+        vibrating = true
         @Suppress("DEPRECATION")
         vibrator.vibrate(effect, attributes(request.route))
+    }
+
+    private fun stopVibrating(context: Context) {
+        if (!vibrating) return
+        vibrating = false
+        context.getSystemService(Vibrator::class.java)?.cancel()
     }
 
     private fun releasePlayer() {
@@ -199,6 +236,7 @@ object AlertPlayer {
     private fun halt(context: Context) {
         main.removeCallbacks(next)
         releasePlayer()
+        stopVibrating(context)
         restoreVolume(context)
         abandonFocus(context)
     }

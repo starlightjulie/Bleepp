@@ -15,6 +15,7 @@ enum class AlertRoute {
 enum class QuietReason {
     NO_RULE,
     ALERTS_OFF,
+    PAUSED,
     KEYWORD_MISS,
     PHONE_CAN_RING,
     QUIET_HOURS,
@@ -24,7 +25,7 @@ enum class QuietReason {
 }
 
 sealed interface AlertDecision {
-    data class Play(val route: AlertRoute) : AlertDecision
+    data class Play(val route: AlertRoute, val call: Boolean = false) : AlertDecision
     data class Quiet(val reason: QuietReason) : AlertDecision
 }
 
@@ -57,16 +58,21 @@ object AlertDecider {
         minuteOfDay: Int,
         millisSinceLastAlert: Long,
         cooldownMillis: Long,
+        paused: Boolean = false,
+        ringingCall: Boolean = false,
     ): AlertDecision {
         if (rule == null || !rule.enabled) return AlertDecision.Quiet(QuietReason.NO_RULE)
         if (!masterOn) return AlertDecision.Quiet(QuietReason.ALERTS_OFF)
-        if (!matchesKeywords(rule.keywords, text)) return AlertDecision.Quiet(QuietReason.KEYWORD_MISS)
+        if (paused) return AlertDecision.Quiet(QuietReason.PAUSED)
+        // A ringing call always matters, so keywords and the cooldown don't apply to it
+        val call = ringingCall && rule.ringForCalls
+        if (!call && !matchesKeywords(rule.keywords, text)) return AlertDecision.Quiet(QuietReason.KEYWORD_MISS)
         if (sound.canRing) return AlertDecision.Quiet(QuietReason.PHONE_CAN_RING)
         if (sound.inCall) return AlertDecision.Quiet(QuietReason.IN_CALL)
         if (quietHours.contains(minuteOfDay)) return AlertDecision.Quiet(QuietReason.QUIET_HOURS)
-        if (millisSinceLastAlert < cooldownMillis) return AlertDecision.Quiet(QuietReason.COOLDOWN)
-        if (!sound.alarmMuted) return AlertDecision.Play(AlertRoute.ALARM)
-        return if (rule.breakthrough) AlertDecision.Play(AlertRoute.BREAKTHROUGH)
+        if (!call && millisSinceLastAlert < cooldownMillis) return AlertDecision.Quiet(QuietReason.COOLDOWN)
+        if (!sound.alarmMuted) return AlertDecision.Play(AlertRoute.ALARM, call)
+        return if (rule.breakthrough) AlertDecision.Play(AlertRoute.BREAKTHROUGH, call)
         else AlertDecision.Quiet(QuietReason.TOTAL_SILENCE)
     }
 
